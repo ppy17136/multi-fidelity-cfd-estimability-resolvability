@@ -1,5 +1,7 @@
 # Ordered two-gate estimability-resolvability rule in multi-fidelity CFD
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21670992.svg)](https://doi.org/10.5281/zenodo.21670992)
+
 This repository contains the reproducibility materials for:
 
 > *Estimable but unresolved: completing the fidelity lattice is not enough for
@@ -80,8 +82,11 @@ https://doi.org/10.1016/j.compfluid.2020.104431.
 
 Repository: https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability
 
-The archived release DOI will be added to `CITATION.cff` when the versioned
-release is deposited.
+- Version v1.0.0 DOI: https://doi.org/10.5281/zenodo.21670993
+- Concept DOI for all versions: https://doi.org/10.5281/zenodo.21670992
+
+The version DOI identifies the immutable v1.0.0 archive. The concept DOI
+always resolves to the latest archived version.
 
 ## Licences
 

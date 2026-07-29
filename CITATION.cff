@@ -1,9 +1,10 @@
 cff-version: 1.2.0
 message: "If you use this reproducibility package, please cite the archived release and the associated article."
-type: dataset
+type: software
 title: "Reproducibility package for an ordered two-gate estimability-resolvability rule in multi-fidelity CFD"
 version: 1.0.0
-date-released: "2026-07-28"
+date-released: "2026-07-29"
+doi: "10.5281/zenodo.21670993"
 repository-code: "https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability"
 url: "https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability"
 authors:
