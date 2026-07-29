@@ -1,0 +1,15 @@
+{
+  "base_labels": 24,
+  "new_labels": 8,
+  "combined_labels": 32,
+  "all_new_reattached": true,
+  "test_labels_opened": false,
+  "validation_responses_read": false,
+  "protocol_sha256": "78807946e5539194fc4a78d785a88234abacbf81c2ee9cfccf2e7fe119082bf0",
+  "outputs_sha256": {
+    "185_protocol179_new_cfd_source_cache_index.csv": "ec8ce19a89ede70a8c4a96dbe6964c1a4bfb9a7062a1aa81af2940975e053d11",
+    "185_protocol179_cfd_source_cache_index.csv": "231716ae1bb3095ebdc109bae10395c872600c12bf27d38aa5400ad64a1a95d9",
+    "185_protocol179_new_resolved_lower_wall_qoi.csv": "b7355c5cb39e5162ed0cc336ce5cb0b3514f054b4b24f52815fc3de58cf9f18b",
+    "185_protocol179_resolved_lower_wall_qoi.csv": "f87fbc61da501ba99aa55dc2cd737485504d3cf1a0df92acbc13d93e996210f9"
+  }
+}

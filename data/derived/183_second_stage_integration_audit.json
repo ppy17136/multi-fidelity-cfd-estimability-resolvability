@@ -1,0 +1,18 @@
+{
+  "new_rows": 3,
+  "new_rows_passing_unchanged_platform": 3,
+  "all_three_pass": true,
+  "strict_complete_lattices": [
+    "alph05-10071-2024",
+    "alph15-10929-3036",
+    "alph15-13929-2024",
+    "alph15-7929-2024"
+  ],
+  "strict_complete_lattice_count": 4,
+  "strict_geometry_affine_rank": 3,
+  "protocol_179_sha256": "683dc7287bd7457c3548bf9e740986008a64c0d5c10c6388ac4c1316ce874536",
+  "base_index_sha256": "22544123c63ecfb80f441df700f7f2e54ae8da8ee44d7e2f0b0f5d50d15c1c8a",
+  "validation_or_test_response_read": false,
+  "protocol_179_refit_admissible": true,
+  "decision": "permit_one_unchanged_protocol_179_refit"
+}

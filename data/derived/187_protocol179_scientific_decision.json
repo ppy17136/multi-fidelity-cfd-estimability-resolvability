@@ -1,0 +1,46 @@
+{
+    "date":  "2026-07-28",
+    "branch":  "Protocol 179 sequential real-CFD confirmation",
+    "execution_result":  {
+                             "second_stage_labels_completed":  3,
+                             "second_stage_labels_platform_accepted":  3,
+                             "combined_new_platform_accepted_labels":  8,
+                             "design_A_CFD_labels":  24,
+                             "design_C_CFD_labels_prepared":  32,
+                             "strict_complete_lattice_count":  4,
+                             "strict_geometry_affine_rank":  3
+                         },
+    "primary_gate_result":  {
+                                "pooled_exact_interaction_rms":  0.007295070042157335,
+                                "pooled_mapping_floor_rms":  0.0026978387947713717,
+                                "signal_to_floor_ratio":  2.70404223421198,
+                                "required_ratio":  3.0,
+                                "passed":  false
+                            },
+    "formal_decision":  "interaction_not_resolvable_above_numerical_floor_no_refit",
+    "model_refit_executed":  false,
+    "validation_response_read":  false,
+    "sealed_test_response_read":  false,
+    "scientific_interpretation":  [
+                                      "The acquisition succeeded algebraically: four complete fidelity lattices span affine geometry rank 3.",
+                                      "The primary physical interaction did not clear the predeclared numerical materiality floor on either primary geometry or after pooling.",
+                                      "Therefore contrast identifiability is necessary but not sufficient for physically resolvable attribution in this CFD family.",
+                                      "This is a prospectively obtained negative result, not evidence that a different neural architecture would solve the problem."
+                                  ],
+    "claim_scope":  {
+                        "unsupported_claim":  "a physically resolved prediction-attribution gap",
+                        "supported_interpretation":  "algebraic identifiability must be followed by a numerical resolvability gate before interaction attribution"
+                    },
+    "next_research_priority":  [
+                                   "Do not spend effort changing the neural model while the target contrast remains below the numerical evidence floor.",
+                                   "First test the identifiability-resolvability hierarchy on additional already-computed complete lattices and one independent public CFD family.",
+                                   "Only if at least one interaction clears a prospectively frozen materiality gate should a new model-attribution comparison be run."
+                               ],
+    "input_sha256":  {
+                         "183_second_stage_integration_audit.json":  "ab634664a0e8457c3ea5c466fe91dbc8e636731e29df1ee130fa52bb42b563df",
+                         "184_frozen_protocol179_model_comparison.json":  "78807946e5539194fc4a78d785a88234abacbf81c2ee9cfccf2e7fe119082bf0",
+                         "184a_frozen_interaction_evaluation_implementation.json":  "b928adc47174e5f4406ab0b8099bc83cda401920a04030a9bd3e0f55a3a82122",
+                         "185_protocol179_model_input_summary.json":  "6e237e2034484599e63fa737ad0c8f00f6836b8824beb5e0e9e032417883855d",
+                         "186_protocol179_prefit_materiality_audit.json":  "6176526eb0754cd98bb443e0549877704475ea0417747f250c098623d08fad19"
+                     }
+}

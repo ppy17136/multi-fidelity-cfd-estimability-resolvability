@@ -1,0 +1,175 @@
+{
+  "seed": 20260728,
+  "monte_carlo_repeats": 200000,
+  "cell_error_bound": 0.25,
+  "contrast_numerical_floor": 1.0,
+  "materiality_threshold": 3.0,
+  "rank_tolerance": 1e-10,
+  "cell_order": [
+    "00",
+    "10",
+    "01",
+    "11"
+  ],
+  "coefficient_contrast": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "cell_contrast": [
+    1.0,
+    -1.0,
+    -1.0,
+    1.0
+  ],
+  "scenarios": [
+    {
+      "scenario": "missing_corner_high_signal",
+      "support": "missing_11",
+      "rank": 3,
+      "row_space_relative_residual": 1.0,
+      "estimable": false,
+      "estimator_weights": null,
+      "estimator_weight_residual": null,
+      "true_interaction": 5.0,
+      "true_ratio": 5.0,
+      "expected_decision": "gate1_fail_gate2_not_evaluated",
+      "numerical_floor": 1.0,
+      "cell_error_bound": 0.25,
+      "threshold": 3.0,
+      "monte_carlo_repeats": 0,
+      "maximum_observed_abs_contrast_error": null,
+      "mean_observed_ratio": null,
+      "pass_rate": null,
+      "nonpass_rate": null,
+      "ratio_quantiles": null
+    },
+    {
+      "scenario": "complete_below_floor",
+      "support": "complete_2x2",
+      "rank": 4,
+      "row_space_relative_residual": 3.3603944501941405e-16,
+      "estimable": true,
+      "estimator_weights": [
+        1.0,
+        -0.9999999999999999,
+        -1.0,
+        1.0000000000000002
+      ],
+      "estimator_weight_residual": 5.661048867003676e-16,
+      "true_interaction": 2.0,
+      "true_ratio": 2.0,
+      "expected_decision": "gate1_pass_gate2_fail",
+      "numerical_floor": 1.0,
+      "cell_error_bound": 0.25,
+      "threshold": 3.0,
+      "monte_carlo_repeats": 200000,
+      "maximum_observed_abs_contrast_error": 0.9411779513746296,
+      "mean_observed_ratio": 2.0002974453029823,
+      "pass_rate": 0.0,
+      "nonpass_rate": 1.0,
+      "ratio_quantiles": {
+        "q00": 1.0637173724376054,
+        "q01": 1.3521723206212026,
+        "q05": 1.523743560816969,
+        "q25": 1.798133316518717,
+        "q50": 2.000702737626551,
+        "q75": 2.201468345926716,
+        "q95": 2.477076769972344,
+        "q99": 2.6491617333038358,
+        "q100": 2.9411779513746295
+      },
+      "true_cell_response": {
+        "00": 10.0,
+        "10": 11.5,
+        "01": 9.5,
+        "11": 13.0
+      }
+    },
+    {
+      "scenario": "complete_at_threshold",
+      "support": "complete_2x2",
+      "rank": 4,
+      "row_space_relative_residual": 3.3603944501941405e-16,
+      "estimable": true,
+      "estimator_weights": [
+        1.0,
+        -0.9999999999999999,
+        -1.0,
+        1.0000000000000002
+      ],
+      "estimator_weight_residual": 5.661048867003676e-16,
+      "true_interaction": 3.0,
+      "true_ratio": 3.0,
+      "expected_decision": "transition_region",
+      "numerical_floor": 1.0,
+      "cell_error_bound": 0.25,
+      "threshold": 3.0,
+      "monte_carlo_repeats": 200000,
+      "maximum_observed_abs_contrast_error": 0.9556332805796599,
+      "mean_observed_ratio": 3.0005708931019717,
+      "pass_rate": 0.501505,
+      "nonpass_rate": 0.498495,
+      "ratio_quantiles": {
+        "q00": 2.0527609878454047,
+        "q01": 2.3501554728969065,
+        "q05": 2.5223923088416758,
+        "q25": 2.7977046878629035,
+        "q50": 3.0011606790457668,
+        "q75": 3.203468096205538,
+        "q95": 3.480435632086089,
+        "q99": 3.6514254142913654,
+        "q100": 3.9556332805796597
+      },
+      "true_cell_response": {
+        "00": 10.0,
+        "10": 11.5,
+        "01": 9.5,
+        "11": 14.0
+      }
+    },
+    {
+      "scenario": "complete_above_floor",
+      "support": "complete_2x2",
+      "rank": 4,
+      "row_space_relative_residual": 3.3603944501941405e-16,
+      "estimable": true,
+      "estimator_weights": [
+        1.0,
+        -0.9999999999999999,
+        -1.0,
+        1.0000000000000002
+      ],
+      "estimator_weight_residual": 5.661048867003676e-16,
+      "true_interaction": 5.0,
+      "true_ratio": 5.0,
+      "expected_decision": "gate1_pass_gate2_pass",
+      "numerical_floor": 1.0,
+      "cell_error_bound": 0.25,
+      "threshold": 3.0,
+      "monte_carlo_repeats": 200000,
+      "maximum_observed_abs_contrast_error": 0.9667652358883206,
+      "mean_observed_ratio": 5.000711373907812,
+      "pass_rate": 1.0,
+      "nonpass_rate": 0.0,
+      "ratio_quantiles": {
+        "q00": 4.033234764111679,
+        "q01": 4.353596674339146,
+        "q05": 4.524054908522371,
+        "q25": 4.799084054548424,
+        "q50": 5.0006417600592385,
+        "q75": 5.2031715967099235,
+        "q95": 5.4754250636701824,
+        "q99": 5.646331879277629,
+        "q100": 5.963789777353377
+      },
+      "true_cell_response": {
+        "00": 10.0,
+        "10": 11.5,
+        "01": 9.5,
+        "11": 16.0
+      }
+    }
+  ]
+}

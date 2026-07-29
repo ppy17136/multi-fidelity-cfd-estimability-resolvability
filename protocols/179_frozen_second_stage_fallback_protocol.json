@@ -1,0 +1,47 @@
+{
+  "protocol_id": "179-v1-20260728",
+  "status": "frozen_before_second_stage_fallback_CFD_results",
+  "study_type": "sequentially_preregistered_training-support continuation",
+  "activation_evidence": {
+    "protocol_138_fallback_order_preexisted": true,
+    "protocol_138_sha256": "ed3143bbc091f2174f21f9833b2b22f83bb9b2422d90bd8d8a059292e836156b",
+    "fullnode_v7_audit": "178_downloaded_fullnode_v7_scientific_audit.json",
+    "fullnode_v7_result": "five_of_six_labels_passed",
+    "failed_label": "alph10-6-3036/F010",
+    "protocol_160_refit_permitted": false
+  },
+  "selection_rule": "take the next unused geometry in the fallback order frozen by protocol 138",
+  "selected_geometry": "alph15-10929-3036",
+  "selected_geometry_position_in_original_fallback_order": 3,
+  "required_new_fidelities": [
+    "F010",
+    "F100",
+    "F110"
+  ],
+  "new_case_count": 3,
+  "existing_accepted_complete_lattices": [
+    "alph05-10071-2024",
+    "alph15-13929-2024",
+    "alph15-7929-2024"
+  ],
+  "projected_complete_lattice_count_if_all_three_pass": 4,
+  "projected_geometry_affine_rank_if_all_three_pass": 3,
+  "acceptance_rule": "unchanged frozen steady-response criteria over iterations 9001-10000; solver completion is insufficient",
+  "model_rule": {
+    "protocol_160_is_not_reopened": true,
+    "no_refit_before_all_three_platform_decisions": true,
+    "if_all_three_pass": "permit one new protocol-179 refit using the unchanged model, seeds, loss and prediction-attribution gates copied from protocol 160",
+    "if_any_label_fails": "no prediction-attribution refit and terminate this confirmation branch"
+  },
+  "interpretation_rule": "a successful protocol-179 result is sequential prospective confirmation, not independent confirmation of protocol 160",
+  "validation_labels_read": false,
+  "test_labels_read": false,
+  "test_labels_remain_sealed": true,
+  "prohibited_actions": [
+    "change the steady-response thresholds",
+    "delete a failed new label",
+    "replace the selected geometry after seeing its result",
+    "change the model architecture or hyperparameters",
+    "read validation or sealed-test responses before the platform decision"
+  ]
+}

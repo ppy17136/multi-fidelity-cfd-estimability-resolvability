@@ -1,0 +1,9 @@
+{
+  "freeze_time_local": "2026-07-28",
+  "validation_or_test_response_read": false,
+  "files": {
+    "178_downloaded_fullnode_v7_scientific_audit.json": "84a5094a62cc7d52227dde6c1f8a63417c203a43253a2080958a36537ce96c8c",
+    "179_frozen_second_stage_fallback_protocol.json": "683dc7287bd7457c3548bf9e740986008a64c0d5c10c6388ac4c1316ce874536",
+    "179_frozen_second_stage_fallback_protocol.md": "af653ff8f72d451d957469c96e67b69c02021a52eaeed4358a6f81c979aabb47"
+  }
+}

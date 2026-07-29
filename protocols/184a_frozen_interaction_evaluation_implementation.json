@@ -1,0 +1,49 @@
+{
+  "protocol_id": "184a-v1-20260728",
+  "status": "frozen_before_model_refit_or_validation_response_access",
+  "parent_protocol_sha256": "78807946e5539194fc4a78d785a88234abacbf81c2ee9cfccf2e7fe119082bf0",
+  "primary_geometries": [
+    "alph15-7929-2024",
+    "alph15-13929-2024"
+  ],
+  "common_support": {
+    "source_fidelity": "the source_fidelity_id already frozen per geometry in 114_geometry_level_mapping_operators.csv; F100 for both primary geometries",
+    "eligible_nodes": "reuse the frozen DNS-to-CFD validity mask from 53_validate_field_metric_pipeline.py",
+    "weights": "physical cell volumes of the source support",
+    "mapping": "SciPy LinearNDInterpolator in physical x-y coordinates, with the same periodic left/right copies used by mapping_round_trip; intersect finite support across all four fidelities"
+  },
+  "exact_contrast": {
+    "velocity": "F110 - F100 - F010 + F000 on common support",
+    "pressure": "volume-gauge each mapped pressure field on the common finite support, then F110 - F100 - F010 + F000",
+    "reattachment": "x_r(F110)-x_r(F100)-x_r(F010)+x_r(F000)"
+  },
+  "model_interaction": {
+    "field": "the interaction head evaluated directly on the frozen common support and transformed back with training target scale; no base mean is added",
+    "reattachment": "the interaction logit head is descriptive only because the sigmoid aggregate is nonlinear"
+  },
+  "metrics": {
+    "velocity_interaction_nrmse": "sqrt(sum(V*|pred-exact|^2)/sum(V*|exact|^2)), pooled over the two primary geometries",
+    "amplitude_ratio": "pooled volume-weighted RMS(pred)/RMS(exact)",
+    "spatial_correlation": "pooled volume-weighted centered vector correlation",
+    "pressure_interaction_nrmse": "secondary pooled volume-weighted gauge-free NRMSE"
+  },
+  "materiality_floor": {
+    "archived_field_floor_per_geometry": "archived mapping_round_trip_velocity_relative_L2 multiplied by the volume-weighted RMS magnitude of the F100 support velocity",
+    "pooled_floor": "root-volume-weighted pooling of the two per-geometry floors",
+    "gate": "pooled exact-interaction RMS >= 3*pooled mapping floor",
+    "repeatability_note": "no independent full-field repeatability pair was archived; no unregistered repeatability estimate is introduced"
+  },
+  "prediction_evaluation": {
+    "validation": "unchanged four development DNS cases",
+    "checkpoint": "lowest frozen primary validation score",
+    "matched_pairing": "same seed and same K_DNS=12 reveal order",
+    "test_access": "prohibited"
+  },
+  "input_sha256": {
+    "184_frozen_protocol179_model_comparison.json": "78807946e5539194fc4a78d785a88234abacbf81c2ee9cfccf2e7fe119082bf0",
+    "114_geometry_level_mapping_operators.csv": "962dca851904ed2514037c53705d8b23e10ac252eae5ddd500ae106b8f31e963",
+    "53_validate_field_metric_pipeline.py": "16f82a68d219574d82f115cef3c03607f37c2bfe8ca00da12eacd8cacb4552aa"
+  },
+  "validation_response_read": false,
+  "test_response_read": false
+}

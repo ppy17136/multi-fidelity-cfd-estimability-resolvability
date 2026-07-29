@@ -1,0 +1,133 @@
+{
+  "protocol_id": "184-v1-20260728",
+  "parent_protocol": "179-v1-20260728",
+  "status": "frozen_before_validation_response_access_or_model_refit",
+  "comparison": {
+    "design_A": {
+      "name": "original_24_CFD_labels",
+      "CFD_label_count": 24,
+      "index": "127_steady_cfd_source_cache_index.csv"
+    },
+    "design_C": {
+      "name": "original_24_plus_8_platform_accepted_labels",
+      "CFD_label_count": 32,
+      "accepted_new_labels": [
+        "alph05-10071-2024/F010",
+        "alph05-10071-2024/F100",
+        "alph05-10071-2024/F110",
+        "alph10-6-3036/F100",
+        "alph10-6-3036/F110",
+        "alph15-10929-3036/F010",
+        "alph15-10929-3036/F100",
+        "alph15-10929-3036/F110"
+      ],
+      "rejected_new_labels": {
+        "alph10-6-3036/F010": "excluded before model execution because the unchanged steady-response platform failed; exclusion is not based on model performance"
+      },
+      "index_to_build": "185_protocol179_cfd_source_cache_index.csv"
+    },
+    "matched_DNS_reveal_budget": 12,
+    "matched_seeds": [
+      137,
+      271,
+      811,
+      1459,
+      2027
+    ],
+    "validation_set": "the same four already-unsealed development DNS cases used by protocol 160",
+    "sealed_test_access": "prohibited"
+  },
+  "fixed_model": {
+    "family": "source-attributed masked multi-index neural field",
+    "field_heads": [
+      "base",
+      "mesh",
+      "closure",
+      "interaction",
+      "dns"
+    ],
+    "width": 192,
+    "layers": 4,
+    "fourier_bands": 8,
+    "dropout": 0.0,
+    "attribution_penalty": 0.001,
+    "optimizer": "AdamW",
+    "initial_learning_rate": 0.001,
+    "minimum_learning_rate": 1e-05,
+    "weight_decay": 1e-06,
+    "maximum_epochs": 400,
+    "early_stopping_patience": 50,
+    "points_per_complete_label_per_epoch": 8192,
+    "hyperparameter_reselection_permitted": false,
+    "architecture_change_permitted": false,
+    "loss_change_permitted": false
+  },
+  "primary_endpoint": {
+    "name": "real-CFD prediction-attribution divergence",
+    "aggregate_prediction_metric": "median frozen primary DNS validation score over five matched seeds",
+    "aggregate_equivalence_gate": "absolute median paired relative change from A to B <= 5%, and no B seed is more than 10% worse than matched A",
+    "attribution_metric": "pooled physical-volume-weighted velocity interaction NRMSE against the exact C_hm contrast on the two common pre-existing complete lattices",
+    "attribution_gate": "median paired NRMSE reduction from A to B >= 15%, with B better in at least 4 of 5 matched seeds",
+    "compound_pass_rule": "admissibility and materiality pass, aggregate equivalence passes, and attribution gate passes"
+  },
+  "exact_interaction_definition": {
+    "formula": "C_hm = F110 - F100 - F010 + F000",
+    "primary_common_support_geometries": [
+      "alph15-7929-2024",
+      "alph15-13929-2024"
+    ],
+    "support_rule": "reuse the frozen geometry-level comparison operator; all four fields of a geometry are evaluated on one common support",
+    "primary_field": "two-component mean velocity",
+    "pressure": "secondary gauge-free contrast",
+    "qoi": "secondary reattachment-location contrast",
+    "materiality_gate": "pooled exact-interaction RMS must be at least three times the archived mapping/repeatability noise floor",
+    "if_materiality_fails": "do not make a physical interaction-attribution claim; report the interaction as unresolved below numerical evidence"
+  },
+  "secondary_endpoints": [
+    "cross-seed interaction-head dispersion on the four frozen validation geometries, normalized by total predicted-field RMS",
+    "exact interaction amplitude ratio and spatial correlation",
+    "gauge-free pressure-interaction NRMSE",
+    "reattachment-location mixed-contrast error",
+    "per-geometry and separated-region velocity interaction error",
+    "training-label fit and conservation diagnostics"
+  ],
+  "secondary_stability_target": "at least 20% median reduction in normalized interaction-head dispersion; descriptive only and not required for the primary pass",
+  "decision_tree": {
+    "compound_pass": "prediction_attribution_gap_confirmed_in_this_CFD_family",
+    "prediction_improves_more_than_5pct_and_attribution_improves": "contrast_complete_acquisition_benefit_not_gap",
+    "prediction_equivalent_but_attribution_not_improved": "real_CFD_gap_not_supported",
+    "interaction_below_materiality": "interaction_not_resolvable_above_numerical_floor",
+    "admissibility_failure": "no_refit_no_physical_claim"
+  },
+  "reporting_rules": {
+    "retain_all_failed_frozen_endpoints": true,
+    "report_all_five_seeds": true,
+    "report_per_geometry_results": true,
+    "no_case_deletion_after_fit": true,
+    "no_threshold_change": true,
+    "no_test_unsealing": true,
+    "descriptive_bootstrap": "paired hierarchical bootstrap over seed and geometry may be reported but cannot override the deterministic primary gates"
+  },
+  "execution_constraints": {
+    "exactly_one_matched_A_C_refit": true,
+    "no_hyperparameter_or_seed_selection": true,
+    "all_five_matched_seeds_reported": true,
+    "failed_alph10_F010_remains_excluded": true,
+    "no_post_fit_case_deletion": true,
+    "no_threshold_change": true
+  },
+  "pre_execution_evidence": {
+    "all_three_second_stage_labels_passed": true,
+    "strict_complete_lattice_count": 4,
+    "strict_geometry_affine_rank": 3,
+    "validation_response_read": false,
+    "test_response_read": false
+  },
+  "frozen_input_sha256": {
+    "160_frozen_real_cfd_prediction_attribution_protocol.json": "eb31375cdbf58ca773fd2fce5dd428e95c9fbe370650a469057359add26afce6",
+    "179_frozen_second_stage_fallback_protocol.json": "683dc7287bd7457c3548bf9e740986008a64c0d5c10c6388ac4c1316ce874536",
+    "183_second_stage_integration_audit.json": "ab634664a0e8457c3ea5c466fe91dbc8e636731e29df1ee130fa52bb42b563df",
+    "127_steady_cfd_source_cache_index.csv": "dee6a294857ab8c40cff778c4fe90d1999f5b411bedc5e56f9dcfc8e78b8618d",
+    "183_second_stage_augmented_scientific_case_index.csv": "a5ad58b1ded9a0a370281b89a1e496c96dd721c0b80d91273fd579eaa074b8cf"
+  }
+}

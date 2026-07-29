@@ -1,0 +1,5 @@
+﻿scenario,support,rank,row_space_relative_residual,estimable,true_interaction,true_ratio,expected_decision,numerical_floor,cell_error_bound,threshold,monte_carlo_repeats,maximum_observed_abs_contrast_error,mean_observed_ratio,pass_rate,nonpass_rate
+missing_corner_high_signal,missing_11,3,1.0,False,5.0,5.0,gate1_fail_gate2_not_evaluated,1.0,0.25,3.0,0,,,,
+complete_below_floor,complete_2x2,4,3.3603944501941405e-16,True,2.0,2.0,gate1_pass_gate2_fail,1.0,0.25,3.0,200000,0.9411779513746296,2.0002974453029823,0.0,1.0
+complete_at_threshold,complete_2x2,4,3.3603944501941405e-16,True,3.0,3.0,transition_region,1.0,0.25,3.0,200000,0.9556332805796599,3.0005708931019717,0.501505,0.498495
+complete_above_floor,complete_2x2,4,3.3603944501941405e-16,True,5.0,5.0,gate1_pass_gate2_pass,1.0,0.25,3.0,200000,0.9667652358883206,5.000711373907812,1.0,0.0

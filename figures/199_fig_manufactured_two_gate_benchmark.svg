@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1050" viewBox="0 0 1800 1050">
+<rect width="1800" height="1050" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#1f2430}.title{font-size:40px;font-weight:700}.head{font-size:31px;font-weight:700}.label{font-size:24px}.bold{font-weight:700}</style>
+<text x="60" y="70" class="title">Manufactured validation of the two-gate estimability-resolvability rule</text>
+<text x="60" y="145" class="head">A  Gate 1: support and estimability</text>
+<text x="115" y="205" class="label bold">Missing 11 corner</text>
+<rect x="115" y="245" width="155" height="155" fill="none" stroke="#4c566a" stroke-width="4"/>
+<circle cx="115" cy="400" r="13" fill="#4c78a8" stroke="#1f3b5c" stroke-width="4"/>
+<text x="133" y="407" class="label">00</text>
+<circle cx="270" cy="400" r="13" fill="#4c78a8" stroke="#1f3b5c" stroke-width="4"/>
+<text x="288" y="407" class="label">10</text>
+<circle cx="115" cy="245" r="13" fill="#4c78a8" stroke="#1f3b5c" stroke-width="4"/>
+<text x="133" y="252" class="label">01</text>
+<circle cx="270" cy="245" r="13" fill="white" stroke="#c44e52" stroke-width="4"/>
+<text x="288" y="252" class="label">11</text>
+<path d="M261,236 L279,254 M261,254 L279,236" stroke="#c44e52" stroke-width="4"/>
+<text x="115" y="465" class="label bold" style="fill:#b23a48">Gate 1 FAIL</text>
+<text x="430" y="205" class="label bold">Complete 2 x 2</text>
+<rect x="430" y="245" width="155" height="155" fill="none" stroke="#4c566a" stroke-width="4"/>
+<circle cx="430" cy="400" r="13" fill="#4c78a8" stroke="#1f3b5c" stroke-width="4"/>
+<text x="448" y="407" class="label">00</text>
+<circle cx="585" cy="400" r="13" fill="#4c78a8" stroke="#1f3b5c" stroke-width="4"/>
+<text x="603" y="407" class="label">10</text>
+<circle cx="430" cy="245" r="13" fill="#4c78a8" stroke="#1f3b5c" stroke-width="4"/>
+<text x="448" y="252" class="label">01</text>
+<circle cx="585" cy="245" r="13" fill="#4c78a8" stroke="#1f3b5c" stroke-width="4"/>
+<text x="603" y="252" class="label">11</text>
+<text x="430" y="465" class="label bold" style="fill:#237a57">Gate 1 PASS</text>
+<text x="70" y="545" class="label">Missing support cannot identify the AB interaction;</text>
+<text x="70" y="580" class="label">an emulator prediction at 11 does not repair estimability.</text>
+<text x="730" y="145" class="head">B  Gate 2: numerical resolvability</text>
+<line x1="760.0" y1="700" x2="1660.0" y2="700" stroke="#333" stroke-width="3"/>
+<line x1="760.0" y1="700" x2="760.0" y2="710" stroke="#333" stroke-width="2"/>
+<text x="754.0" y="738" class="label">0</text>
+<line x1="898.4615384615385" y1="700" x2="898.4615384615385" y2="710" stroke="#333" stroke-width="2"/>
+<text x="892.4615384615385" y="738" class="label">1</text>
+<line x1="1036.923076923077" y1="700" x2="1036.923076923077" y2="710" stroke="#333" stroke-width="2"/>
+<text x="1030.923076923077" y="738" class="label">2</text>
+<line x1="1175.3846153846155" y1="700" x2="1175.3846153846155" y2="710" stroke="#333" stroke-width="2"/>
+<text x="1169.3846153846155" y="738" class="label">3</text>
+<line x1="1313.8461538461538" y1="700" x2="1313.8461538461538" y2="710" stroke="#333" stroke-width="2"/>
+<text x="1307.8461538461538" y="738" class="label">4</text>
+<line x1="1452.3076923076924" y1="700" x2="1452.3076923076924" y2="710" stroke="#333" stroke-width="2"/>
+<text x="1446.3076923076924" y="738" class="label">5</text>
+<line x1="1590.769230769231" y1="700" x2="1590.769230769231" y2="710" stroke="#333" stroke-width="2"/>
+<text x="1584.769230769231" y="738" class="label">6</text>
+<text x="1050" y="790" class="label bold">Observed contrast / numerical evidence floor</text>
+<line x1="1175.3846153846155" y1="205" x2="1175.3846153846155" y2="700" stroke="#c44e52" stroke-width="5"/>
+<text x="1185.3846153846155" y="225" class="label bold" style="fill:#c44e52">threshold = 3</text>
+<text x="760.0" y="280" class="label bold">Below-floor control</text>
+<line x1="907.2839438759761" y1="320" x2="1167.2400240364873" y2="320" stroke="#4c78a8" stroke-width="8"/>
+<line x1="970.9798776515803" y1="320" x2="1102.979860457709" y2="320" stroke="#4c78a8" stroke-width="22"/>
+<circle cx="1037.020379055984" cy="320" r="9" fill="white" stroke="#202531" stroke-width="4"/>
+<text x="1181.2400240364873" y="327" class="label">pass rate 0.0%</text>
+<text x="760.0" y="415" class="label bold">Threshold sensitivity</text>
+<line x1="1044.228444470902" y1="455" x2="1307.703069618722" y2="455" stroke="#f2a541" stroke-width="8"/>
+<line x1="1109.2543196857705" y1="455" x2="1241.9064721349969" y2="455" stroke="#f2a541" stroke-width="22"/>
+<circle cx="1175.5453247909522" cy="455" r="9" fill="white" stroke="#202531" stroke-width="4"/>
+<text x="1321.703069618722" y="462" class="label">pass rate 50.2%</text>
+<text x="760.0" y="550" class="label bold">Above-floor control</text>
+<line x1="1318.4478904154632" y1="590" x2="1585.7555076335443" y2="590" stroke="#54a66f" stroke-width="8"/>
+<line x1="1386.4076027184822" y1="590" x2="1518.1357780466406" y2="590" stroke="#54a66f" stroke-width="22"/>
+<circle cx="1452.3965513928176" cy="590" r="9" fill="white" stroke="#202531" stroke-width="4"/>
+<text x="1599.7555076335443" y="597" class="label">pass rate 100.0%</text>
+<text x="60" y="855" class="head">C  Predeclared decision logic</text>
+<rect x="60" y="885" width="1680" height="110" rx="22" fill="#f1f3f7" stroke="#8792a2" stroke-width="3"/>
+<text x="90" y="950" class="label bold">Missing corner: do not estimate.   Complete + 2F: estimable, not resolved.   Complete + 5F: estimable and resolved.</text>
+</svg>

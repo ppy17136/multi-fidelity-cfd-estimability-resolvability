@@ -1,0 +1,43 @@
+{
+  "protocol": "184_frozen_protocol179_model_comparison.json",
+  "protocol_sha256": "78807946e5539194fc4a78d785a88234abacbf81c2ee9cfccf2e7fe119082bf0",
+  "implementation": "184a_frozen_interaction_evaluation_implementation.json",
+  "implementation_sha256": "b928adc47174e5f4406ab0b8099bc83cda401920a04030a9bd3e0f55a3a82122",
+  "stage": "before_model_refit_and_before_validation_response_access",
+  "per_geometry": [
+    {
+      "case_id": "alph15-7929-2024",
+      "support_points": 31296,
+      "finite_support_fraction": 0.9803896998934903,
+      "exact_velocity_interaction_rms": 0.008926264601940908,
+      "mapping_floor_velocity_rms": 0.003361796015414014,
+      "exact_to_mapping_floor_ratio": 2.655207086037793,
+      "three_times_floor_passed": false,
+      "exact_reattachment_contrast_over_H": -0.031423658001365595,
+      "target_sha256": "f565e2ee190fb9a0dd6886656afb27bd0a76b975479d4cbde5e39138e5c6b2ba"
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support_points": 55368,
+      "finite_support_fraction": 0.9799992920103366,
+      "exact_velocity_interaction_rms": 0.006283008384211706,
+      "mapping_floor_velocity_rms": 0.0022779043135705873,
+      "exact_to_mapping_floor_ratio": 2.7582406981631142,
+      "three_times_floor_passed": false,
+      "exact_reattachment_contrast_over_H": -0.2705888048179581,
+      "target_sha256": "bb1405013a4fc3afcc2141b5ca64b1244b039c09dc5ac9938b6b9fc1bf503834"
+    }
+  ],
+  "pooled": {
+    "exact_velocity_interaction_rms": 0.007295070042157335,
+    "mapping_floor_velocity_rms": 0.0026978387947713717,
+    "exact_to_mapping_floor_ratio": 2.70404223421198,
+    "required_ratio": 3.0,
+    "materiality_gate_passed": false
+  },
+  "model_refit_executed": false,
+  "validation_response_read": false,
+  "test_response_read": false,
+  "decision": "interaction_not_resolvable_above_numerical_floor_no_refit",
+  "interpretation": "The exact mesh-closure interaction contrast is too close to the predeclared numerical mapping floor for a physical attribution claim. The allowed refit is therefore not executed, because no model outcome can rescue the failed compound primary endpoint."
+}
