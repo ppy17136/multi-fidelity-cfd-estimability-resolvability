@@ -1,0 +1,192 @@
+{
+  "protocol": "V9-20260730",
+  "seed": 20260730,
+  "replicates_per_policy_scenario": 5000,
+  "minimum_effect": 3.0,
+  "budget": 30.0,
+  "rows": [
+    {
+      "true_delta": 2.0,
+      "policy": "proposed_state_switch",
+      "resolved_fraction": 0.0,
+      "valid_decision_fraction": 1.0,
+      "false_resolved_fraction": 0.0,
+      "false_unresolved_fraction": 0.0,
+      "median_cost_to_resolved": null,
+      "median_cost_to_resolved_bootstrap_95": null,
+      "most_common_action_path": "acquire_11_base;independent_mapping_audit;strict_00;strict_01;strict_10;strict_11"
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "c_optimal_then_resolution",
+      "resolved_fraction": 0.0,
+      "valid_decision_fraction": 1.0,
+      "false_resolved_fraction": 0.0,
+      "false_unresolved_fraction": 0.0,
+      "median_cost_to_resolved": null,
+      "median_cost_to_resolved_bootstrap_95": null,
+      "most_common_action_path": "acquire_11_base;independent_mapping_audit;strict_00;strict_01;strict_10;strict_11"
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "c_optimal",
+      "resolved_fraction": 0.0,
+      "valid_decision_fraction": 1.0,
+      "false_resolved_fraction": 0.0,
+      "false_unresolved_fraction": 0.0,
+      "median_cost_to_resolved": null,
+      "median_cost_to_resolved_bootstrap_95": null,
+      "most_common_action_path": "acquire_11_base;independent_mapping_audit;strict_00;strict_01;strict_10;strict_11"
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "D_optimal",
+      "resolved_fraction": 0.0,
+      "valid_decision_fraction": 1.0,
+      "false_resolved_fraction": 0.0,
+      "false_unresolved_fraction": 0.0,
+      "median_cost_to_resolved": null,
+      "median_cost_to_resolved_bootstrap_95": null,
+      "most_common_action_path": "acquire_11_base;independent_mapping_audit;strict_00;strict_01;strict_10;strict_11"
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "prediction_variance",
+      "resolved_fraction": 0.0,
+      "valid_decision_fraction": 1.0,
+      "false_resolved_fraction": 0.0,
+      "false_unresolved_fraction": 0.0,
+      "median_cost_to_resolved": null,
+      "median_cost_to_resolved_bootstrap_95": null,
+      "most_common_action_path": "acquire_11_base;independent_mapping_audit;strict_00;strict_01;strict_10;strict_11"
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "high_fidelity_heavy",
+      "resolved_fraction": 0.0,
+      "valid_decision_fraction": 1.0,
+      "false_resolved_fraction": 0.0,
+      "false_unresolved_fraction": 0.0,
+      "median_cost_to_resolved": null,
+      "median_cost_to_resolved_bootstrap_95": null,
+      "most_common_action_path": "acquire_11_refined;strict_10;strict_01;strict_00;independent_mapping_audit;strict_11"
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "random",
+      "resolved_fraction": 0.0,
+      "valid_decision_fraction": 1.0,
+      "false_resolved_fraction": 0.0,
+      "false_unresolved_fraction": 0.0,
+      "median_cost_to_resolved": null,
+      "median_cost_to_resolved_bootstrap_95": null,
+      "most_common_action_path": "strict_00;strict_10;strict_01;acquire_11_refined;independent_mapping_audit;strict_11"
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "proposed_state_switch",
+      "resolved_fraction": 1.0,
+      "valid_decision_fraction": 1.0,
+      "false_resolved_fraction": 0.0,
+      "false_unresolved_fraction": 0.0,
+      "median_cost_to_resolved": 4.0,
+      "median_cost_to_resolved_bootstrap_95": [
+        4.0,
+        4.0,
+        4.0
+      ],
+      "most_common_action_path": "acquire_11_base"
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "c_optimal_then_resolution",
+      "resolved_fraction": 1.0,
+      "valid_decision_fraction": 1.0,
+      "false_resolved_fraction": 0.0,
+      "false_unresolved_fraction": 0.0,
+      "median_cost_to_resolved": 4.0,
+      "median_cost_to_resolved_bootstrap_95": [
+        4.0,
+        4.0,
+        4.0
+      ],
+      "most_common_action_path": "acquire_11_base"
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "c_optimal",
+      "resolved_fraction": 1.0,
+      "valid_decision_fraction": 1.0,
+      "false_resolved_fraction": 0.0,
+      "false_unresolved_fraction": 0.0,
+      "median_cost_to_resolved": 4.0,
+      "median_cost_to_resolved_bootstrap_95": [
+        4.0,
+        4.0,
+        4.0
+      ],
+      "most_common_action_path": "acquire_11_base"
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "D_optimal",
+      "resolved_fraction": 1.0,
+      "valid_decision_fraction": 1.0,
+      "false_resolved_fraction": 0.0,
+      "false_unresolved_fraction": 0.0,
+      "median_cost_to_resolved": 4.0,
+      "median_cost_to_resolved_bootstrap_95": [
+        4.0,
+        4.0,
+        4.0
+      ],
+      "most_common_action_path": "acquire_11_base"
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "prediction_variance",
+      "resolved_fraction": 1.0,
+      "valid_decision_fraction": 1.0,
+      "false_resolved_fraction": 0.0,
+      "false_unresolved_fraction": 0.0,
+      "median_cost_to_resolved": 4.0,
+      "median_cost_to_resolved_bootstrap_95": [
+        4.0,
+        4.0,
+        4.0
+      ],
+      "most_common_action_path": "acquire_11_base"
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "high_fidelity_heavy",
+      "resolved_fraction": 1.0,
+      "valid_decision_fraction": 1.0,
+      "false_resolved_fraction": 0.0,
+      "false_unresolved_fraction": 0.0,
+      "median_cost_to_resolved": 10.0,
+      "median_cost_to_resolved_bootstrap_95": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "most_common_action_path": "acquire_11_refined"
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "random",
+      "resolved_fraction": 1.0,
+      "valid_decision_fraction": 1.0,
+      "false_resolved_fraction": 0.0,
+      "false_unresolved_fraction": 0.0,
+      "median_cost_to_resolved": 10.0,
+      "median_cost_to_resolved_bootstrap_95": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "most_common_action_path": "acquire_11_refined"
+    }
+  ],
+  "claim_boundary": "This is a constructed decision benchmark.  It tests acquisition logic and error-control behaviour, not external CFD validity."
+}

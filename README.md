@@ -1,103 +1,85 @@
-# Ordered two-gate estimability-resolvability rule in multi-fidelity CFD
+# Claim-adaptive multi-fidelity design for CFD
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21670992.svg)](https://doi.org/10.5281/zenodo.21670992)
 
 This repository contains the reproducibility materials for:
 
-> *Estimable but unresolved: completing the fidelity lattice is not enough for
-> interaction attribution in multi-fidelity CFD*
+> *Claim-adaptive multi-fidelity design: Minimum-cost support repair and
+> uncertainty-set-aware resolution control for CFD*
 
-## Central result
+## Central contribution
 
-Completing a multi-fidelity factorial lattice can make an interaction contrast
-algebraically estimable without making it numerically resolvable. The study
-therefore applies an ordered rule:
+The method treats scientific attribution as a sequential support-and-resolution
+problem rather than as predictive validation alone:
 
-1. **Gate 1 — contrast estimability:** verify that the target contrast lies in
-   the row space of the acquired design.
-2. **Gate 2 — numerical resolvability:** require the observed contrast to
-   exceed a prospectively frozen, response-aligned numerical evidence floor.
+1. verify that each declared contrast is estimable from the acquired design;
+2. repair missing support at minimum acquisition cost;
+3. propagate contrast-aligned numerical uncertainty under an explicitly
+   declared dependence model; and
+4. acquire the next computation until the claim is effect present, effect
+   absent, or indeterminate.
 
-The manufactured benchmark contains known negative, transition, and positive
-controls. In the real-CFD demonstration, all four complete lattices pass Gate
-1, while all four interaction-to-floor ratios remain below the frozen Gate-2
-threshold of 3.
+The V9 evidence includes six support-repair benchmarks, bounded and
+covariance-based Gate-2 calibration, a 3x2 closed-loop acquisition comparison,
+a real-CFD joint-versus-independent mapping audit, and a pressure-loss transfer
+audit. The real-CFD finding is deliberately scoped: the same four complete
+mapping outputs pass under a coherent joint ensemble and fail under an
+independent-cell envelope. This demonstrates dependence-model sensitivity of
+the attribution decision; it is not a claim about total CFD uncertainty.
 
 ## Repository map
 
-- `theory/`: row-space derivation and interpretation.
-- `protocols/`: prospectively frozen decision and implementation records.
-- `code/`: manufactured benchmark, audit, verification, and figure scripts.
-- `data/manufactured/`: deterministic seeded benchmark outputs.
-- `data/derived/`: compact real-CFD audit results and scientific decisions.
-- `data/derived_arrays/`: compact authored CFD-derived arrays.
-- `data/manifests/`: portable case and cache manifests without local paths.
-- `figures/`: publication figures in PNG and SVG formats.
-- `provenance/`: completion markers and SHA-256 inventory.
+- `v9_method_upgrade/`: frozen protocols, algorithms, tests, result tables, and
+  the evidence summary for the current method upgrade.
+- `figures/v9_method_upgrade/`: current principal figures in PNG and PDF.
+- `theory/`, `protocols/`, `code/`, `data/`, `figures/`, and `provenance/`:
+  the preceding ordered two-gate release and its compact CFD-derived evidence.
+- `THIRD_PARTY_DATA_NOTICE.md`: data ownership and redistribution boundaries.
 
 ## Quick verification
 
-From the repository root:
-
 ```bash
-python code/verify_two_gate_results.py
+python -m pip install -r requirements.txt
+cd v9_method_upgrade
+python -m pytest -q
+python 01_run_support_repair_benchmarks.py
+python 02_run_gate2_calibration.py
+python 04b_run_multilevel_closed_loop_acquisition.py
+python 08_build_method_upgrade_evidence_summary.py
+python build_v9_main_figures.py
 ```
 
-To regenerate the manufactured benchmark and Figure 1:
-
-```bash
-python code/199_run_manufactured_two_gate_benchmark.py
-```
-
-To regenerate the real-CFD summary Figure 2:
-
-```bash
-python code/204_build_real_cfd_two_gate_figure.py
-```
-
-The two figure scripts are self-contained apart from the Python dependencies
-listed in `requirements.txt`. They write outputs beside the scripts; compare
-the regenerated files or values with the archived copies in `figures/`.
+The current frozen test suite passes 12/12 tests. See
+`v9_method_upgrade/REPRODUCIBILITY_BOUNDARY.md` before interpreting any CFD
+mapping or transfer result.
 
 ## Data boundaries
 
-This archive contains authored code, protocols, derived CFD audit data,
-compact derived arrays, figures, hashes, and completion evidence. It does not
-contain:
+This archive contains authored code, protocols, compact derived CFD audit data,
+figures, hashes, and completion evidence. It does not contain downloaded
+articles, third-party DNS payloads, raw processor directories, or full CFD time
+histories. Public periodic-hill DNS data remain with the original provider:
 
-- downloaded journal articles;
-- third-party public DNS payloads;
-- raw processor directories or full CFD time histories;
-- machine-specific runtime files or absolute paths.
-
-Public periodic-hill DNS data must be obtained from and credited to the
-original provider:
-
-H. Xiao, J.-L. Wu, S. Laizet, and L. Duan, “Flows over periodic hills of
+H. Xiao, J.-L. Wu, S. Laizet, and L. Duan, "Flows over periodic hills of
 parameterized geometries: A dataset for data-driven turbulence modeling from
-direct simulations,” *Computers & Fluids* 200 (2020) 104431.
+direct simulations," *Computers & Fluids* 200 (2020) 104431.
 https://doi.org/10.1016/j.compfluid.2020.104431.
 
 ## Citation and DOI
 
 Repository: https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability
 
-- Version v1.0.0 DOI: https://doi.org/10.5281/zenodo.21670993
 - Concept DOI for all versions: https://doi.org/10.5281/zenodo.21670992
-
-The version DOI identifies the immutable v1.0.0 archive. The concept DOI
-always resolves to the latest archived version.
+- The immutable version DOI is shown on the corresponding GitHub/Zenodo release.
 
 ## Licences
 
-- Source code is licensed under the MIT License; see `LICENSE-CODE`.
-- Authored data, figures, and documentation are licensed under the Creative
-  Commons Attribution 4.0 International License; see `LICENSE-DATA`.
-- Third-party data are not redistributed here and remain subject to the terms
-  of their original providers.
+- Source code: MIT (`LICENSE-CODE`).
+- Authored data, figures, and documentation: CC BY 4.0 (`LICENSE-DATA`).
+- Third-party data are not redistributed.
 
 ## Authorship and funding
 
-The author order follows the associated article.
-This work was supported by the Youth Project of the Liaoning Education
-Department of China under Grant No. LJKQZ20222277.
+The author order follows the associated article. This work was supported by the
+Youth Project of the Liaoning Education Department of China under Grant No.
+LJKQZ20222277.
