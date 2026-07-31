@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "Please cite the archived release and the associated article."
+type: software
+title: "Reproducibility package for claim-adaptive multi-fidelity design in CFD"
+version: 1.2.0
+date-released: "2026-07-31"
+repository-code: "https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability"
+url: "https://doi.org/10.5281/zenodo.21670992"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21670992"
+    description: "Concept DOI representing all archived versions"
+authors:
+  - family-names: Ma
+    given-names: Jia Jun
+    orcid: "https://orcid.org/0009-0000-4754-9891"
+  - family-names: Lü
+    given-names: Bai Lin
+    orcid: "https://orcid.org/0000-0002-8922-8399"
+  - family-names: Li
+    given-names: Tian Xiang
+  - family-names: Ren
+    given-names: Xiao
+  - family-names: Sun
+    given-names: Xu Dong
+  - family-names: Shang
+    given-names: Jia Bao
+  - family-names: Zhao
+    given-names: Chao
+  - family-names: Liu
+    given-names: Zhi Zhuo
+  - family-names: Wei
+    given-names: Zi Jian
+  - family-names: Su
+    given-names: Jia Chen
+  - family-names: Yan
+    given-names: Wen Yi
+keywords:
+  - multi-fidelity CFD
+  - contrast estimability
+  - numerical uncertainty
+  - dependence-aware robustness
+  - reproducibility

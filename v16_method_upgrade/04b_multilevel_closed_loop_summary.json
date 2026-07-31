@@ -1,0 +1,256 @@
+{
+  "protocol": "V12-20260730",
+  "design": "3x2 cell-mean extreme-level contrast with a distractor cell",
+  "seed": 20260730,
+  "replicates_per_policy_scenario": 5000,
+  "minimum_effect": 3.0,
+  "budget": 40.0,
+  "rows": [
+    {
+      "true_delta": 2.0,
+      "policy": "proposed_decision_targeted_switch",
+      "valid_decision_fraction": 1.0,
+      "false_present_fraction": 0.0,
+      "false_absent_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_valid_decision": 19.5,
+      "median_cost_bootstrap_95": [
+        19.5,
+        19.5,
+        19.5
+      ],
+      "most_common_action_path": "acquire_20_base;acquire_01_base;acquire_21_base;independent_mapping_audit"
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "bound_reduction_ablation",
+      "valid_decision_fraction": 1.0,
+      "false_present_fraction": 0.0,
+      "false_absent_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_valid_decision": 18.0,
+      "median_cost_bootstrap_95": [
+        18.0,
+        18.0,
+        19.5
+      ],
+      "most_common_action_path": "acquire_20_base;acquire_01_base;acquire_21_base;independent_mapping_audit"
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "support_then_c_optimal",
+      "valid_decision_fraction": 1.0,
+      "false_present_fraction": 0.0,
+      "false_absent_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_valid_decision": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "most_common_action_path": "acquire_20_base;acquire_01_base;acquire_21_base;replicate_00;replicate_21;replicate_01;replicate_20;acquire_11_distractor;strict_00;independent_mapping_audit"
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "c_optimal",
+      "valid_decision_fraction": 1.0,
+      "false_present_fraction": 0.0,
+      "false_absent_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_valid_decision": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "most_common_action_path": "acquire_20_base;acquire_01_base;acquire_21_base;replicate_00;replicate_21;replicate_01;replicate_20;acquire_11_distractor;strict_00;independent_mapping_audit"
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "D_optimal",
+      "valid_decision_fraction": 1.0,
+      "false_present_fraction": 0.0,
+      "false_absent_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_valid_decision": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "most_common_action_path": "acquire_11_distractor;acquire_20_base;acquire_01_base;acquire_21_base;replicate_00;replicate_01;replicate_20;replicate_21;strict_00;independent_mapping_audit"
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "prediction_variance",
+      "valid_decision_fraction": 0.9998,
+      "false_present_fraction": 0.0,
+      "false_absent_fraction": 0.0,
+      "indeterminate_fraction": 0.0002,
+      "median_cost_to_valid_decision": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "most_common_action_path": "acquire_11_distractor;acquire_20_base;acquire_01_base;acquire_21_base;replicate_00;replicate_01;replicate_20;replicate_21;strict_00;independent_mapping_audit"
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "high_fidelity_heavy",
+      "valid_decision_fraction": 0.8116,
+      "false_present_fraction": 0.0,
+      "false_absent_fraction": 0.0,
+      "indeterminate_fraction": 0.1884,
+      "median_cost_to_valid_decision": 35.0,
+      "median_cost_bootstrap_95": [
+        35.0,
+        35.0,
+        35.0
+      ],
+      "most_common_action_path": "strict_00;acquire_21_base;strict_21;acquire_20_base;strict_20;acquire_01_base"
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "random",
+      "valid_decision_fraction": 0.7478,
+      "false_present_fraction": 0.0,
+      "false_absent_fraction": 0.0,
+      "indeterminate_fraction": 0.2522,
+      "median_cost_to_valid_decision": 36.5,
+      "median_cost_bootstrap_95": [
+        36.5,
+        36.5,
+        37.0
+      ],
+      "most_common_action_path": "acquire_01_base;replicate_00;strict_00;acquire_11_distractor;replicate_01;strict_01;acquire_20_base;strict_20;replicate_20;acquire_21_base"
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "proposed_decision_targeted_switch",
+      "valid_decision_fraction": 1.0,
+      "false_present_fraction": 0.0,
+      "false_absent_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_valid_decision": 13.5,
+      "median_cost_bootstrap_95": [
+        13.5,
+        13.5,
+        13.5
+      ],
+      "most_common_action_path": "acquire_20_base;acquire_01_base;acquire_21_base"
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "bound_reduction_ablation",
+      "valid_decision_fraction": 1.0,
+      "false_present_fraction": 0.0,
+      "false_absent_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_valid_decision": 18.0,
+      "median_cost_bootstrap_95": [
+        18.0,
+        18.0,
+        18.0
+      ],
+      "most_common_action_path": "acquire_20_base;acquire_01_base;acquire_21_base;independent_mapping_audit"
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "support_then_c_optimal",
+      "valid_decision_fraction": 1.0,
+      "false_present_fraction": 0.0,
+      "false_absent_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_valid_decision": 13.5,
+      "median_cost_bootstrap_95": [
+        13.5,
+        13.5,
+        13.5
+      ],
+      "most_common_action_path": "acquire_20_base;acquire_01_base;acquire_21_base"
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "c_optimal",
+      "valid_decision_fraction": 1.0,
+      "false_present_fraction": 0.0,
+      "false_absent_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_valid_decision": 13.5,
+      "median_cost_bootstrap_95": [
+        13.5,
+        13.5,
+        13.5
+      ],
+      "most_common_action_path": "acquire_20_base;acquire_01_base;acquire_21_base"
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "D_optimal",
+      "valid_decision_fraction": 1.0,
+      "false_present_fraction": 0.0,
+      "false_absent_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_valid_decision": 14.5,
+      "median_cost_bootstrap_95": [
+        14.5,
+        14.5,
+        14.5
+      ],
+      "most_common_action_path": "acquire_11_distractor;acquire_20_base;acquire_01_base;acquire_21_base"
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "prediction_variance",
+      "valid_decision_fraction": 1.0,
+      "false_present_fraction": 0.0,
+      "false_absent_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_valid_decision": 14.5,
+      "median_cost_bootstrap_95": [
+        14.5,
+        14.5,
+        14.5
+      ],
+      "most_common_action_path": "acquire_11_distractor;acquire_20_base;acquire_01_base;acquire_21_base"
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "high_fidelity_heavy",
+      "valid_decision_fraction": 1.0,
+      "false_present_fraction": 0.0,
+      "false_absent_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_valid_decision": 35.0,
+      "median_cost_bootstrap_95": [
+        35.0,
+        35.0,
+        35.0
+      ],
+      "most_common_action_path": "strict_00;acquire_21_base;strict_21;acquire_20_base;strict_20;acquire_01_base"
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "random",
+      "valid_decision_fraction": 0.885,
+      "false_present_fraction": 0.0,
+      "false_absent_fraction": 0.0,
+      "indeterminate_fraction": 0.115,
+      "median_cost_to_valid_decision": 29.0,
+      "median_cost_bootstrap_95": [
+        29.0,
+        29.0,
+        29.0
+      ],
+      "most_common_action_path": "acquire_20_base;acquire_21_base;acquire_01_base"
+    }
+  ],
+  "checks": {
+    "all_false_present_zero": true,
+    "all_false_absent_zero": true
+  },
+  "claim_boundary": "Constructed verification of acquisition logic under declared bounded errors; not external CFD validation.",
+  "frozen_parent_protocol": "V9-20260730"
+}

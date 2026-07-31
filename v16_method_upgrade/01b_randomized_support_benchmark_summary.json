@@ -1,0 +1,77 @@
+{
+  "protocol": "V12-20260730",
+  "randomized_finite_pool": {
+    "seed": 20260730,
+    "retained_instances": 300,
+    "generation_rule": "effect-coded binary factorial rows; intercept, main effects, and all two-factor interactions; retain Gate-1-failing observed designs repaired by finite pools of 4-12 candidates",
+    "exact_feasible_fraction": 1.0,
+    "greedy_feasible_fraction": 1.0,
+    "greedy_exact_cost_match_fraction": 0.76,
+    "greedy_cost_gap_median_fraction": 0.0,
+    "greedy_cost_gap_p95_fraction": 0.3413575924939439,
+    "greedy_cost_gap_max_fraction": 2.431390977443609,
+    "exact_runtime_median_s": 0.02671330000157468,
+    "exact_runtime_p95_s": 9.023284555001013,
+    "greedy_runtime_median_s": 0.010102200001711026,
+    "greedy_runtime_p95_s": 0.059286125000653604
+  },
+  "greedy_runtime_scaling": {
+    "seed": 20260730,
+    "purpose": "computational scaling only; no optimality claim",
+    "parameter_count": 18,
+    "observed_count": 16,
+    "repeats_per_pool": 20,
+    "by_pool_size": {
+      "16": {
+        "repeats": 20,
+        "feasible_fraction": 1.0,
+        "runtime_median_s": 0.039480750001530396,
+        "runtime_p95_s": 0.07737577999432688,
+        "selected_count_median": 2.0
+      },
+      "32": {
+        "repeats": 20,
+        "feasible_fraction": 1.0,
+        "runtime_median_s": 0.09671874999912689,
+        "runtime_p95_s": 0.1130746899980295,
+        "selected_count_median": 2.0
+      },
+      "64": {
+        "repeats": 20,
+        "feasible_fraction": 1.0,
+        "runtime_median_s": 0.15813360000538523,
+        "runtime_p95_s": 0.20497398500083364,
+        "selected_count_median": 2.0
+      },
+      "128": {
+        "repeats": 20,
+        "feasible_fraction": 1.0,
+        "runtime_median_s": 0.227563000000373,
+        "runtime_p95_s": 0.3417798600010428,
+        "selected_count_median": 2.0
+      },
+      "256": {
+        "repeats": 20,
+        "feasible_fraction": 1.0,
+        "runtime_median_s": 0.6574737000009918,
+        "runtime_p95_s": 0.6741851050050173,
+        "selected_count_median": 2.0
+      },
+      "512": {
+        "repeats": 20,
+        "feasible_fraction": 1.0,
+        "runtime_median_s": 1.3074543499969877,
+        "runtime_p95_s": 1.398717965000469,
+        "selected_count_median": 2.0
+      },
+      "1024": {
+        "repeats": 20,
+        "feasible_fraction": 1.0,
+        "runtime_median_s": 2.5641757500015956,
+        "runtime_p95_s": 2.765221979999842,
+        "selected_count_median": 2.0
+      }
+    }
+  },
+  "frozen_parent_protocol": "V10-20260730"
+}

@@ -1,0 +1,385 @@
+{
+  "protocol": "V16-ALL-COMPLETE-LATTICES-20260731",
+  "source_index_sha256": "231716ae1bb3095ebdc109bae10395c872600c12bf27d38aa5400ad64a1a95d9",
+  "dns_manifest_sha256": "34a61d9c3d699a32a1e5acd07f9dc70e947974461754c82d2a0b14ea2aecbb97",
+  "objective_inclusion_rule_cases": [
+    "alph05-10071-2024",
+    "alph15-10929-3036",
+    "alph15-13929-2024",
+    "alph15-7929-2024"
+  ],
+  "supports_per_case": [
+    "fine_F100",
+    "shared_F000"
+  ],
+  "audit_count": 8,
+  "coherent_set_size": 4,
+  "independent_set_size": 256,
+  "numeric_precision": "float64 weighted vectors and Gram matrices",
+  "frozen_display_threshold": 3.0,
+  "coherent_pass_count": 7,
+  "independent_pass_count": 0,
+  "paired_classification_reversal_count": 7,
+  "directional_ratio_reduction_count": 8,
+  "coherent_ratio_minimum": 2.283167614744986,
+  "independent_ratio_maximum": 1.6442596248017893,
+  "common_separation_threshold_interval": [
+    1.6442596248017893,
+    2.283167614744986
+  ],
+  "diameter_expansion_range": [
+    10.828143231305381,
+    15.714237995550342
+  ],
+  "ratio_contraction_range": [
+    10.828143522294788,
+    15.714238053333379
+  ],
+  "results": [
+    {
+      "case_id": "alph05-10071-2024",
+      "support": "fine_F100",
+      "source_fidelity": "F100",
+      "coherent_labels": [
+        "linear",
+        "idw4",
+        "idw8",
+        "idw16"
+      ],
+      "recombination_fidelity_order": [
+        "F000",
+        "F100",
+        "F010",
+        "F110"
+      ],
+      "coherent": {
+        "set_size": 4,
+        "minimum_norm": 0.005803502967438075,
+        "diameter": 0.002541864613862914,
+        "ratio": 2.283167614744986,
+        "three_times_diameter_passed": false,
+        "minimum_norm_member": 0,
+        "diameter_pair": [
+          0,
+          1
+        ]
+      },
+      "independent_recombination": {
+        "set_size": 256,
+        "minimum_norm": 0.0058035029460979356,
+        "diameter": 0.0399434654947095,
+        "ratio": 0.14529292524371998,
+        "three_times_diameter_passed": false,
+        "minimum_norm_member": 1,
+        "diameter_pair": [
+          20,
+          65
+        ]
+      },
+      "ratio_contraction": 15.714238053333379,
+      "diameter_expansion": 15.714237995550342
+    },
+    {
+      "case_id": "alph05-10071-2024",
+      "support": "shared_F000",
+      "source_fidelity": "F000",
+      "coherent_labels": [
+        "linear",
+        "idw4",
+        "idw8",
+        "idw16"
+      ],
+      "recombination_fidelity_order": [
+        "F000",
+        "F100",
+        "F010",
+        "F110"
+      ],
+      "coherent": {
+        "set_size": 4,
+        "minimum_norm": 0.005774212264659168,
+        "diameter": 0.001536825004955185,
+        "ratio": 3.7572347183585473,
+        "three_times_diameter_passed": true,
+        "minimum_norm_member": 0,
+        "diameter_pair": [
+          0,
+          1
+        ]
+      },
+      "independent_recombination": {
+        "set_size": 256,
+        "minimum_norm": 0.00577421207543766,
+        "diameter": 0.021789782632838536,
+        "ratio": 0.26499631376476285,
+        "three_times_diameter_passed": false,
+        "minimum_norm_member": 68,
+        "diameter_pair": [
+          20,
+          65
+        ]
+      },
+      "ratio_contraction": 14.17844144690195,
+      "diameter_expansion": 14.178440982273022
+    },
+    {
+      "case_id": "alph15-10929-3036",
+      "support": "fine_F100",
+      "source_fidelity": "F100",
+      "coherent_labels": [
+        "linear",
+        "idw4",
+        "idw8",
+        "idw16"
+      ],
+      "recombination_fidelity_order": [
+        "F000",
+        "F100",
+        "F010",
+        "F110"
+      ],
+      "coherent": {
+        "set_size": 4,
+        "minimum_norm": 0.006592612879100106,
+        "diameter": 0.0010088868068635496,
+        "ratio": 6.53454166934284,
+        "three_times_diameter_passed": true,
+        "minimum_norm_member": 0,
+        "diameter_pair": [
+          0,
+          1
+        ]
+      },
+      "independent_recombination": {
+        "set_size": 256,
+        "minimum_norm": 0.006592612701933956,
+        "diameter": 0.010924370848892844,
+        "ratio": 0.6034775634335133,
+        "three_times_diameter_passed": false,
+        "minimum_norm_member": 17,
+        "diameter_pair": [
+          20,
+          65
+        ]
+      },
+      "ratio_contraction": 10.828143522294788,
+      "diameter_expansion": 10.828143231305381
+    },
+    {
+      "case_id": "alph15-10929-3036",
+      "support": "shared_F000",
+      "source_fidelity": "F000",
+      "coherent_labels": [
+        "linear",
+        "idw4",
+        "idw8",
+        "idw16"
+      ],
+      "recombination_fidelity_order": [
+        "F000",
+        "F100",
+        "F010",
+        "F110"
+      ],
+      "coherent": {
+        "set_size": 4,
+        "minimum_norm": 0.0065730775841365535,
+        "diameter": 0.0002804795263990772,
+        "ratio": 23.435142195670007,
+        "three_times_diameter_passed": true,
+        "minimum_norm_member": 3,
+        "diameter_pair": [
+          0,
+          3
+        ]
+      },
+      "independent_recombination": {
+        "set_size": 256,
+        "minimum_norm": 0.0065730775841365535,
+        "diameter": 0.00399759106468902,
+        "ratio": 1.6442596248017893,
+        "three_times_diameter_passed": false,
+        "minimum_norm_member": 119,
+        "diameter_pair": [
+          3,
+          116
+        ]
+      },
+      "ratio_contraction": 14.252701849621252,
+      "diameter_expansion": 14.25270184962125
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support": "fine_F100",
+      "source_fidelity": "F100",
+      "coherent_labels": [
+        "linear",
+        "idw4",
+        "idw8",
+        "idw16"
+      ],
+      "recombination_fidelity_order": [
+        "F000",
+        "F100",
+        "F010",
+        "F110"
+      ],
+      "coherent": {
+        "set_size": 4,
+        "minimum_norm": 0.0062830083842117055,
+        "diameter": 0.0016868797410758067,
+        "ratio": 3.724633257024428,
+        "three_times_diameter_passed": true,
+        "minimum_norm_member": 0,
+        "diameter_pair": [
+          0,
+          1
+        ]
+      },
+      "independent_recombination": {
+        "set_size": 256,
+        "minimum_norm": 0.0062830082324742825,
+        "diameter": 0.023336763524458036,
+        "ratio": 0.26923220205275644,
+        "three_times_diameter_passed": false,
+        "minimum_norm_member": 17,
+        "diameter_pair": [
+          5,
+          80
+        ]
+      },
+      "ratio_contraction": 13.83427847273106,
+      "diameter_expansion": 13.834278138627136
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support": "shared_F000",
+      "source_fidelity": "F000",
+      "coherent_labels": [
+        "linear",
+        "idw4",
+        "idw8",
+        "idw16"
+      ],
+      "recombination_fidelity_order": [
+        "F000",
+        "F100",
+        "F010",
+        "F110"
+      ],
+      "coherent": {
+        "set_size": 4,
+        "minimum_norm": 0.006234098834717301,
+        "diameter": 0.0008596383912491568,
+        "ratio": 7.2520014208048735,
+        "three_times_diameter_passed": true,
+        "minimum_norm_member": 0,
+        "diameter_pair": [
+          0,
+          1
+        ]
+      },
+      "independent_recombination": {
+        "set_size": 256,
+        "minimum_norm": 0.006234098834717301,
+        "diameter": 0.011791930287449378,
+        "ratio": 0.5286750076323383,
+        "three_times_diameter_passed": false,
+        "minimum_norm_member": 0,
+        "diameter_pair": [
+          16,
+          69
+        ]
+      },
+      "ratio_contraction": 13.717314637744716,
+      "diameter_expansion": 13.717314637744716
+    },
+    {
+      "case_id": "alph15-7929-2024",
+      "support": "fine_F100",
+      "source_fidelity": "F100",
+      "coherent_labels": [
+        "linear",
+        "idw4",
+        "idw8",
+        "idw16"
+      ],
+      "recombination_fidelity_order": [
+        "F000",
+        "F100",
+        "F010",
+        "F110"
+      ],
+      "coherent": {
+        "set_size": 4,
+        "minimum_norm": 0.008926264601940908,
+        "diameter": 0.0017910862329488656,
+        "ratio": 4.983715712696089,
+        "three_times_diameter_passed": true,
+        "minimum_norm_member": 0,
+        "diameter_pair": [
+          0,
+          1
+        ]
+      },
+      "independent_recombination": {
+        "set_size": 256,
+        "minimum_norm": 0.00892626456010049,
+        "diameter": 0.021969834934880687,
+        "ratio": 0.406296387139832,
+        "three_times_diameter_passed": false,
+        "minimum_norm_member": 17,
+        "diameter_pair": [
+          20,
+          65
+        ]
+      },
+      "ratio_contraction": 12.266207306886242,
+      "diameter_expansion": 12.266207249390384
+    },
+    {
+      "case_id": "alph15-7929-2024",
+      "support": "shared_F000",
+      "source_fidelity": "F000",
+      "coherent_labels": [
+        "linear",
+        "idw4",
+        "idw8",
+        "idw16"
+      ],
+      "recombination_fidelity_order": [
+        "F000",
+        "F100",
+        "F010",
+        "F110"
+      ],
+      "coherent": {
+        "set_size": 4,
+        "minimum_norm": 0.008895896628679095,
+        "diameter": 0.0009796901807383079,
+        "ratio": 9.080316209737886,
+        "three_times_diameter_passed": true,
+        "minimum_norm_member": 3,
+        "diameter_pair": [
+          0,
+          1
+        ]
+      },
+      "independent_recombination": {
+        "set_size": 256,
+        "minimum_norm": 0.008895896176792985,
+        "diameter": 0.012853025314532345,
+        "ratio": 0.6921246911989499,
+        "three_times_diameter_passed": false,
+        "minimum_norm_member": 51,
+        "diameter_pair": [
+          16,
+          69
+        ]
+      },
+      "ratio_contraction": 13.119480239909207,
+      "diameter_expansion": 13.119479573477127
+    }
+  ],
+  "interpretation": "Every lattice meeting the frozen completeness rule was evaluated. This is a mapping-dependence classification, not a total-CFD uncertainty or complete Gate-2 decision."
+}

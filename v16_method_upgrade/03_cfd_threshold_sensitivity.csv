@@ -1,0 +1,16 @@
+threshold,alph05-10071-2024,alph15-10929-3036,alph15-13929-2024,alph15-7929-2024,pooled_four,pooled_four_conservative,individual_cases_passing
+1.5,True,True,True,True,True,True,4
+1.75,True,True,True,True,True,True,4
+2.0,False,False,True,True,True,False,2
+2.25,False,False,True,True,False,False,2
+2.5,False,False,True,True,False,False,2
+2.75,False,False,True,False,False,False,1
+3.0,False,False,False,False,False,False,0
+3.25,False,False,False,False,False,False,0
+3.5,False,False,False,False,False,False,0
+3.75,False,False,False,False,False,False,0
+4.0,False,False,False,False,False,False,0
+4.25,False,False,False,False,False,False,0
+4.5,False,False,False,False,False,False,0
+4.75,False,False,False,False,False,False,0
+5.0,False,False,False,False,False,False,0

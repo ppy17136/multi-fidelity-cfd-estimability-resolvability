@@ -1,0 +1,2069 @@
+{
+  "protocol": "V12-20260730",
+  "parent_frozen_action_table": "V9-20260730 / 04b",
+  "seed": 20260731,
+  "replicates_per_policy_truth": 2000,
+  "true_deltas": [
+    0.0,
+    1.0,
+    2.0,
+    2.5,
+    2.9,
+    3.0,
+    3.1,
+    3.5,
+    4.0,
+    5.0,
+    6.0
+  ],
+  "policies": [
+    "proposed_decision_targeted_switch",
+    "bound_reduction_ablation",
+    "support_then_c_optimal",
+    "c_optimal",
+    "D_optimal",
+    "prediction_variance",
+    "high_fidelity_heavy",
+    "random"
+  ],
+  "minimum_effect": 3.0,
+  "budget": 40.0,
+  "summary": [
+    {
+      "true_delta": 0.0,
+      "policy": "proposed_decision_targeted_switch",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 12.0,
+      "median_cost_bootstrap_95": [
+        12.0,
+        12.0,
+        12.0
+      ],
+      "mean_terminal_cost": 12.23375
+    },
+    {
+      "true_delta": 0.0,
+      "policy": "bound_reduction_ablation",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 12.0,
+      "median_cost_bootstrap_95": [
+        12.0,
+        12.0,
+        12.0
+      ],
+      "mean_terminal_cost": 12.432
+    },
+    {
+      "true_delta": 0.0,
+      "policy": "support_then_c_optimal",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 12.0,
+      "median_cost_bootstrap_95": [
+        12.0,
+        12.0,
+        12.0
+      ],
+      "mean_terminal_cost": 12.156
+    },
+    {
+      "true_delta": 0.0,
+      "policy": "c_optimal",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 12.0,
+      "median_cost_bootstrap_95": [
+        12.0,
+        12.0,
+        12.0
+      ],
+      "mean_terminal_cost": 12.1575
+    },
+    {
+      "true_delta": 0.0,
+      "policy": "D_optimal",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 13.0,
+      "median_cost_bootstrap_95": [
+        13.0,
+        13.0,
+        13.0
+      ],
+      "mean_terminal_cost": 13.15975
+    },
+    {
+      "true_delta": 0.0,
+      "policy": "prediction_variance",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 13.0,
+      "median_cost_bootstrap_95": [
+        13.0,
+        13.0,
+        13.0
+      ],
+      "mean_terminal_cost": 13.1585
+    },
+    {
+      "true_delta": 0.0,
+      "policy": "high_fidelity_heavy",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 35.0,
+      "median_cost_bootstrap_95": [
+        35.0,
+        35.0,
+        35.0
+      ],
+      "mean_terminal_cost": 35.0
+    },
+    {
+      "true_delta": 0.0,
+      "policy": "random",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.882,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.118,
+      "median_cost_to_correct_outcome": 29.0,
+      "median_cost_bootstrap_95": [
+        29.0,
+        29.0,
+        29.0
+      ],
+      "mean_terminal_cost": 28.94375
+    },
+    {
+      "true_delta": 1.0,
+      "policy": "proposed_decision_targeted_switch",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 13.5,
+      "median_cost_bootstrap_95": [
+        13.5,
+        13.5,
+        15.0
+      ],
+      "mean_terminal_cost": 15.15075
+    },
+    {
+      "true_delta": 1.0,
+      "policy": "bound_reduction_ablation",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 18.0,
+      "median_cost_bootstrap_95": [
+        18.0,
+        18.0,
+        18.0
+      ],
+      "mean_terminal_cost": 15.534
+    },
+    {
+      "true_delta": 1.0,
+      "policy": "support_then_c_optimal",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 13.5,
+      "median_cost_bootstrap_95": [
+        13.5,
+        13.5,
+        13.5
+      ],
+      "mean_terminal_cost": 15.30825
+    },
+    {
+      "true_delta": 1.0,
+      "policy": "c_optimal",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 13.5,
+      "median_cost_bootstrap_95": [
+        13.5,
+        13.5,
+        13.5
+      ],
+      "mean_terminal_cost": 15.27675
+    },
+    {
+      "true_delta": 1.0,
+      "policy": "D_optimal",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 14.5,
+      "median_cost_bootstrap_95": [
+        14.5,
+        14.5,
+        14.5
+      ],
+      "mean_terminal_cost": 16.22
+    },
+    {
+      "true_delta": 1.0,
+      "policy": "prediction_variance",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 14.5,
+      "median_cost_bootstrap_95": [
+        14.5,
+        14.5,
+        14.5
+      ],
+      "mean_terminal_cost": 16.07625
+    },
+    {
+      "true_delta": 1.0,
+      "policy": "high_fidelity_heavy",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 35.0,
+      "median_cost_bootstrap_95": [
+        35.0,
+        35.0,
+        35.0
+      ],
+      "mean_terminal_cost": 35.0
+    },
+    {
+      "true_delta": 1.0,
+      "policy": "random",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.8825,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.1175,
+      "median_cost_to_correct_outcome": 29.0,
+      "median_cost_bootstrap_95": [
+        29.0,
+        29.0,
+        29.5
+      ],
+      "mean_terminal_cost": 29.88825
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "proposed_decision_targeted_switch",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 19.5,
+      "median_cost_bootstrap_95": [
+        19.5,
+        19.5,
+        19.5
+      ],
+      "mean_terminal_cost": 20.002
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "bound_reduction_ablation",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 18.0,
+      "median_cost_bootstrap_95": [
+        18.0,
+        18.0,
+        19.5
+      ],
+      "mean_terminal_cost": 19.53575
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "support_then_c_optimal",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "mean_terminal_cost": 27.854
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "c_optimal",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "mean_terminal_cost": 27.76275
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "D_optimal",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "mean_terminal_cost": 27.989
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "prediction_variance",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "mean_terminal_cost": 27.96325
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "high_fidelity_heavy",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.808,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.192,
+      "median_cost_to_correct_outcome": 35.0,
+      "median_cost_bootstrap_95": [
+        35.0,
+        35.0,
+        35.0
+      ],
+      "mean_terminal_cost": 37.13375
+    },
+    {
+      "true_delta": 2.0,
+      "policy": "random",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.7505,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.2495,
+      "median_cost_to_correct_outcome": 36.5,
+      "median_cost_bootstrap_95": [
+        36.5,
+        36.5,
+        37.0
+      ],
+      "mean_terminal_cost": 35.16325
+    },
+    {
+      "true_delta": 2.5,
+      "policy": "proposed_decision_targeted_switch",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.434,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.566,
+      "median_cost_to_correct_outcome": 29.0,
+      "median_cost_bootstrap_95": [
+        29.0,
+        29.0,
+        29.0
+      ],
+      "mean_terminal_cost": 33.9935
+    },
+    {
+      "true_delta": 2.5,
+      "policy": "bound_reduction_ablation",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.433,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.567,
+      "median_cost_to_correct_outcome": 29.0,
+      "median_cost_bootstrap_95": [
+        29.0,
+        29.0,
+        29.0
+      ],
+      "mean_terminal_cost": 34.1515
+    },
+    {
+      "true_delta": 2.5,
+      "policy": "support_then_c_optimal",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.412,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.588,
+      "median_cost_to_correct_outcome": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "mean_terminal_cost": 36.06625
+    },
+    {
+      "true_delta": 2.5,
+      "policy": "c_optimal",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.4005,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.5995,
+      "median_cost_to_correct_outcome": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "mean_terminal_cost": 36.065
+    },
+    {
+      "true_delta": 2.5,
+      "policy": "D_optimal",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.3985,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.6015,
+      "median_cost_to_correct_outcome": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "mean_terminal_cost": 36.1225
+    },
+    {
+      "true_delta": 2.5,
+      "policy": "prediction_variance",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.3775,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.6225,
+      "median_cost_to_correct_outcome": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        38.0
+      ],
+      "mean_terminal_cost": 36.29675
+    },
+    {
+      "true_delta": 2.5,
+      "policy": "high_fidelity_heavy",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.086,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.914,
+      "median_cost_to_correct_outcome": 39.0,
+      "median_cost_bootstrap_95": [
+        39.0,
+        39.0,
+        39.0
+      ],
+      "mean_terminal_cost": 38.92225
+    },
+    {
+      "true_delta": 2.5,
+      "policy": "random",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.218,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.782,
+      "median_cost_to_correct_outcome": 38.5,
+      "median_cost_bootstrap_95": [
+        38.0,
+        38.5,
+        38.5
+      ],
+      "mean_terminal_cost": 38.50625
+    },
+    {
+      "true_delta": 2.9,
+      "policy": "proposed_decision_targeted_switch",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": null,
+      "median_cost_bootstrap_95": null,
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 2.9,
+      "policy": "bound_reduction_ablation",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": null,
+      "median_cost_bootstrap_95": null,
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 2.9,
+      "policy": "support_then_c_optimal",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": null,
+      "median_cost_bootstrap_95": null,
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 2.9,
+      "policy": "c_optimal",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": null,
+      "median_cost_bootstrap_95": null,
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 2.9,
+      "policy": "D_optimal",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": null,
+      "median_cost_bootstrap_95": null,
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 2.9,
+      "policy": "prediction_variance",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": null,
+      "median_cost_bootstrap_95": null,
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 2.9,
+      "policy": "high_fidelity_heavy",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": null,
+      "median_cost_bootstrap_95": null,
+      "mean_terminal_cost": 39.0
+    },
+    {
+      "true_delta": 2.9,
+      "policy": "random",
+      "expected_state": "effect_absent",
+      "correct_outcome_fraction": 0.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": null,
+      "median_cost_bootstrap_95": null,
+      "mean_terminal_cost": 38.966
+    },
+    {
+      "true_delta": 3.0,
+      "policy": "proposed_decision_targeted_switch",
+      "expected_state": "indeterminate",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": 38.0,
+      "median_cost_bootstrap_95": [
+        38.0,
+        38.0,
+        38.0
+      ],
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 3.0,
+      "policy": "bound_reduction_ablation",
+      "expected_state": "indeterminate",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": 38.0,
+      "median_cost_bootstrap_95": [
+        38.0,
+        38.0,
+        38.0
+      ],
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 3.0,
+      "policy": "support_then_c_optimal",
+      "expected_state": "indeterminate",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": 38.0,
+      "median_cost_bootstrap_95": [
+        38.0,
+        38.0,
+        38.0
+      ],
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 3.0,
+      "policy": "c_optimal",
+      "expected_state": "indeterminate",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": 38.0,
+      "median_cost_bootstrap_95": [
+        38.0,
+        38.0,
+        38.0
+      ],
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 3.0,
+      "policy": "D_optimal",
+      "expected_state": "indeterminate",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": 38.0,
+      "median_cost_bootstrap_95": [
+        38.0,
+        38.0,
+        38.0
+      ],
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 3.0,
+      "policy": "prediction_variance",
+      "expected_state": "indeterminate",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": 38.0,
+      "median_cost_bootstrap_95": [
+        38.0,
+        38.0,
+        38.0
+      ],
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 3.0,
+      "policy": "high_fidelity_heavy",
+      "expected_state": "indeterminate",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": 39.0,
+      "median_cost_bootstrap_95": [
+        39.0,
+        39.0,
+        39.0
+      ],
+      "mean_terminal_cost": 39.0
+    },
+    {
+      "true_delta": 3.0,
+      "policy": "random",
+      "expected_state": "indeterminate",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": 39.0,
+      "median_cost_bootstrap_95": [
+        39.0,
+        39.0,
+        39.0
+      ],
+      "mean_terminal_cost": 38.88975
+    },
+    {
+      "true_delta": 3.1,
+      "policy": "proposed_decision_targeted_switch",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": null,
+      "median_cost_bootstrap_95": null,
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 3.1,
+      "policy": "bound_reduction_ablation",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": null,
+      "median_cost_bootstrap_95": null,
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 3.1,
+      "policy": "support_then_c_optimal",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": null,
+      "median_cost_bootstrap_95": null,
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 3.1,
+      "policy": "c_optimal",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": null,
+      "median_cost_bootstrap_95": null,
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 3.1,
+      "policy": "D_optimal",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": null,
+      "median_cost_bootstrap_95": null,
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 3.1,
+      "policy": "prediction_variance",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": null,
+      "median_cost_bootstrap_95": null,
+      "mean_terminal_cost": 38.0
+    },
+    {
+      "true_delta": 3.1,
+      "policy": "high_fidelity_heavy",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": null,
+      "median_cost_bootstrap_95": null,
+      "mean_terminal_cost": 39.0
+    },
+    {
+      "true_delta": 3.1,
+      "policy": "random",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 1.0,
+      "median_cost_to_correct_outcome": null,
+      "median_cost_bootstrap_95": null,
+      "mean_terminal_cost": 38.92175
+    },
+    {
+      "true_delta": 3.5,
+      "policy": "proposed_decision_targeted_switch",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.429,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.571,
+      "median_cost_to_correct_outcome": 29.0,
+      "median_cost_bootstrap_95": [
+        29.0,
+        29.0,
+        29.0
+      ],
+      "mean_terminal_cost": 34.18975
+    },
+    {
+      "true_delta": 3.5,
+      "policy": "bound_reduction_ablation",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.4535,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.5465,
+      "median_cost_to_correct_outcome": 29.0,
+      "median_cost_bootstrap_95": [
+        29.0,
+        29.0,
+        29.0
+      ],
+      "mean_terminal_cost": 33.9515
+    },
+    {
+      "true_delta": 3.5,
+      "policy": "support_then_c_optimal",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.402,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.598,
+      "median_cost_to_correct_outcome": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "mean_terminal_cost": 36.0095
+    },
+    {
+      "true_delta": 3.5,
+      "policy": "c_optimal",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.3835,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.6165,
+      "median_cost_to_correct_outcome": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "mean_terminal_cost": 36.059
+    },
+    {
+      "true_delta": 3.5,
+      "policy": "D_optimal",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.3855,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.6145,
+      "median_cost_to_correct_outcome": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "mean_terminal_cost": 36.12475
+    },
+    {
+      "true_delta": 3.5,
+      "policy": "prediction_variance",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.3895,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.6105,
+      "median_cost_to_correct_outcome": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "mean_terminal_cost": 36.05975
+    },
+    {
+      "true_delta": 3.5,
+      "policy": "high_fidelity_heavy",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.0975,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.9025,
+      "median_cost_to_correct_outcome": 39.0,
+      "median_cost_bootstrap_95": [
+        39.0,
+        39.0,
+        39.0
+      ],
+      "mean_terminal_cost": 38.91075
+    },
+    {
+      "true_delta": 3.5,
+      "policy": "random",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.229,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.771,
+      "median_cost_to_correct_outcome": 38.0,
+      "median_cost_bootstrap_95": [
+        38.0,
+        38.0,
+        38.25
+      ],
+      "mean_terminal_cost": 38.5105
+    },
+    {
+      "true_delta": 4.0,
+      "policy": "proposed_decision_targeted_switch",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 19.5,
+      "median_cost_bootstrap_95": [
+        19.5,
+        19.5,
+        19.5
+      ],
+      "mean_terminal_cost": 20.07775
+    },
+    {
+      "true_delta": 4.0,
+      "policy": "bound_reduction_ablation",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 18.0,
+      "median_cost_bootstrap_95": [
+        18.0,
+        18.0,
+        19.5
+      ],
+      "mean_terminal_cost": 19.54275
+    },
+    {
+      "true_delta": 4.0,
+      "policy": "support_then_c_optimal",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "mean_terminal_cost": 27.7865
+    },
+    {
+      "true_delta": 4.0,
+      "policy": "c_optimal",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "mean_terminal_cost": 27.77375
+    },
+    {
+      "true_delta": 4.0,
+      "policy": "D_optimal",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.9995,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0005,
+      "median_cost_to_correct_outcome": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "mean_terminal_cost": 28.05975
+    },
+    {
+      "true_delta": 4.0,
+      "policy": "prediction_variance",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 30.0,
+      "median_cost_bootstrap_95": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "mean_terminal_cost": 27.84925
+    },
+    {
+      "true_delta": 4.0,
+      "policy": "high_fidelity_heavy",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.8285,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.1715,
+      "median_cost_to_correct_outcome": 35.0,
+      "median_cost_bootstrap_95": [
+        35.0,
+        35.0,
+        35.0
+      ],
+      "mean_terminal_cost": 37.02275
+    },
+    {
+      "true_delta": 4.0,
+      "policy": "random",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.7445,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.2555,
+      "median_cost_to_correct_outcome": 37.0,
+      "median_cost_bootstrap_95": [
+        36.5,
+        37.0,
+        37.0
+      ],
+      "mean_terminal_cost": 35.19525
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "proposed_decision_targeted_switch",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 13.5,
+      "median_cost_bootstrap_95": [
+        13.5,
+        13.5,
+        16.5
+      ],
+      "mean_terminal_cost": 15.25275
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "bound_reduction_ablation",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 18.0,
+      "median_cost_bootstrap_95": [
+        18.0,
+        18.0,
+        18.0
+      ],
+      "mean_terminal_cost": 15.432
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "support_then_c_optimal",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 13.5,
+      "median_cost_bootstrap_95": [
+        13.5,
+        13.5,
+        13.5
+      ],
+      "mean_terminal_cost": 15.32625
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "c_optimal",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 13.5,
+      "median_cost_bootstrap_95": [
+        13.5,
+        13.5,
+        13.5
+      ],
+      "mean_terminal_cost": 15.44175
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "D_optimal",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 14.5,
+      "median_cost_bootstrap_95": [
+        14.5,
+        14.5,
+        14.5
+      ],
+      "mean_terminal_cost": 16.1855
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "prediction_variance",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 14.5,
+      "median_cost_bootstrap_95": [
+        14.5,
+        14.5,
+        14.5
+      ],
+      "mean_terminal_cost": 16.11
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "high_fidelity_heavy",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 35.0,
+      "median_cost_bootstrap_95": [
+        35.0,
+        35.0,
+        35.0
+      ],
+      "mean_terminal_cost": 35.0
+    },
+    {
+      "true_delta": 5.0,
+      "policy": "random",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.8775,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.1225,
+      "median_cost_to_correct_outcome": 29.5,
+      "median_cost_bootstrap_95": [
+        29.0,
+        29.5,
+        30.0
+      ],
+      "mean_terminal_cost": 30.1715
+    },
+    {
+      "true_delta": 6.0,
+      "policy": "proposed_decision_targeted_switch",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 12.0,
+      "median_cost_bootstrap_95": [
+        12.0,
+        12.0,
+        12.0
+      ],
+      "mean_terminal_cost": 12.12875
+    },
+    {
+      "true_delta": 6.0,
+      "policy": "bound_reduction_ablation",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 12.0,
+      "median_cost_bootstrap_95": [
+        12.0,
+        12.0,
+        12.0
+      ],
+      "mean_terminal_cost": 12.231
+    },
+    {
+      "true_delta": 6.0,
+      "policy": "support_then_c_optimal",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 12.0,
+      "median_cost_bootstrap_95": [
+        12.0,
+        12.0,
+        12.0
+      ],
+      "mean_terminal_cost": 12.07275
+    },
+    {
+      "true_delta": 6.0,
+      "policy": "c_optimal",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 12.0,
+      "median_cost_bootstrap_95": [
+        12.0,
+        12.0,
+        12.0
+      ],
+      "mean_terminal_cost": 12.07575
+    },
+    {
+      "true_delta": 6.0,
+      "policy": "D_optimal",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 13.0,
+      "median_cost_bootstrap_95": [
+        13.0,
+        13.0,
+        13.0
+      ],
+      "mean_terminal_cost": 13.063
+    },
+    {
+      "true_delta": 6.0,
+      "policy": "prediction_variance",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 13.0,
+      "median_cost_bootstrap_95": [
+        13.0,
+        13.0,
+        13.0
+      ],
+      "mean_terminal_cost": 13.07975
+    },
+    {
+      "true_delta": 6.0,
+      "policy": "high_fidelity_heavy",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 1.0,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.0,
+      "median_cost_to_correct_outcome": 35.0,
+      "median_cost_bootstrap_95": [
+        35.0,
+        35.0,
+        35.0
+      ],
+      "mean_terminal_cost": 35.0
+    },
+    {
+      "true_delta": 6.0,
+      "policy": "random",
+      "expected_state": "effect_present",
+      "correct_outcome_fraction": 0.8625,
+      "wrong_decisive_fraction": 0.0,
+      "indeterminate_fraction": 0.1375,
+      "median_cost_to_correct_outcome": 29.0,
+      "median_cost_bootstrap_95": [
+        28.5,
+        29.0,
+        29.0
+      ],
+      "mean_terminal_cost": 29.01475
+    }
+  ],
+  "pairwise_comparisons_against_proposed": [
+    {
+      "true_delta": 0.0,
+      "baseline": "bound_reduction_ablation",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 12.0,
+      "baseline_median_cost": 12.0
+    },
+    {
+      "true_delta": 0.0,
+      "baseline": "support_then_c_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 12.0,
+      "baseline_median_cost": 12.0
+    },
+    {
+      "true_delta": 0.0,
+      "baseline": "c_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 12.0,
+      "baseline_median_cost": 12.0
+    },
+    {
+      "true_delta": 0.0,
+      "baseline": "D_optimal",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 12.0,
+      "baseline_median_cost": 13.0
+    },
+    {
+      "true_delta": 0.0,
+      "baseline": "prediction_variance",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 12.0,
+      "baseline_median_cost": 13.0
+    },
+    {
+      "true_delta": 0.0,
+      "baseline": "high_fidelity_heavy",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 12.0,
+      "baseline_median_cost": 35.0
+    },
+    {
+      "true_delta": 0.0,
+      "baseline": "random",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 0.882,
+      "proposed_median_cost": 12.0,
+      "baseline_median_cost": 29.0
+    },
+    {
+      "true_delta": 1.0,
+      "baseline": "bound_reduction_ablation",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 13.5,
+      "baseline_median_cost": 18.0
+    },
+    {
+      "true_delta": 1.0,
+      "baseline": "support_then_c_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 13.5,
+      "baseline_median_cost": 13.5
+    },
+    {
+      "true_delta": 1.0,
+      "baseline": "c_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 13.5,
+      "baseline_median_cost": 13.5
+    },
+    {
+      "true_delta": 1.0,
+      "baseline": "D_optimal",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 13.5,
+      "baseline_median_cost": 14.5
+    },
+    {
+      "true_delta": 1.0,
+      "baseline": "prediction_variance",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 13.5,
+      "baseline_median_cost": 14.5
+    },
+    {
+      "true_delta": 1.0,
+      "baseline": "high_fidelity_heavy",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 13.5,
+      "baseline_median_cost": 35.0
+    },
+    {
+      "true_delta": 1.0,
+      "baseline": "random",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 0.8825,
+      "proposed_median_cost": 13.5,
+      "baseline_median_cost": 29.0
+    },
+    {
+      "true_delta": 2.0,
+      "baseline": "bound_reduction_ablation",
+      "result_for_proposed": "loss",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 19.5,
+      "baseline_median_cost": 18.0
+    },
+    {
+      "true_delta": 2.0,
+      "baseline": "support_then_c_optimal",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 19.5,
+      "baseline_median_cost": 30.0
+    },
+    {
+      "true_delta": 2.0,
+      "baseline": "c_optimal",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 19.5,
+      "baseline_median_cost": 30.0
+    },
+    {
+      "true_delta": 2.0,
+      "baseline": "D_optimal",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 19.5,
+      "baseline_median_cost": 30.0
+    },
+    {
+      "true_delta": 2.0,
+      "baseline": "prediction_variance",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 19.5,
+      "baseline_median_cost": 30.0
+    },
+    {
+      "true_delta": 2.0,
+      "baseline": "high_fidelity_heavy",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 0.808,
+      "proposed_median_cost": 19.5,
+      "baseline_median_cost": 35.0
+    },
+    {
+      "true_delta": 2.0,
+      "baseline": "random",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 0.7505,
+      "proposed_median_cost": 19.5,
+      "baseline_median_cost": 36.5
+    },
+    {
+      "true_delta": 2.5,
+      "baseline": "bound_reduction_ablation",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 0.434,
+      "baseline_correct_fraction": 0.433,
+      "proposed_median_cost": 29.0,
+      "baseline_median_cost": 29.0
+    },
+    {
+      "true_delta": 2.5,
+      "baseline": "support_then_c_optimal",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 0.434,
+      "baseline_correct_fraction": 0.412,
+      "proposed_median_cost": 29.0,
+      "baseline_median_cost": 30.0
+    },
+    {
+      "true_delta": 2.5,
+      "baseline": "c_optimal",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 0.434,
+      "baseline_correct_fraction": 0.4005,
+      "proposed_median_cost": 29.0,
+      "baseline_median_cost": 30.0
+    },
+    {
+      "true_delta": 2.5,
+      "baseline": "D_optimal",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 0.434,
+      "baseline_correct_fraction": 0.3985,
+      "proposed_median_cost": 29.0,
+      "baseline_median_cost": 30.0
+    },
+    {
+      "true_delta": 2.5,
+      "baseline": "prediction_variance",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 0.434,
+      "baseline_correct_fraction": 0.3775,
+      "proposed_median_cost": 29.0,
+      "baseline_median_cost": 30.0
+    },
+    {
+      "true_delta": 2.5,
+      "baseline": "high_fidelity_heavy",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 0.434,
+      "baseline_correct_fraction": 0.086,
+      "proposed_median_cost": 29.0,
+      "baseline_median_cost": 39.0
+    },
+    {
+      "true_delta": 2.5,
+      "baseline": "random",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 0.434,
+      "baseline_correct_fraction": 0.218,
+      "proposed_median_cost": 29.0,
+      "baseline_median_cost": 38.5
+    },
+    {
+      "true_delta": 2.9,
+      "baseline": "bound_reduction_ablation",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 0.0,
+      "baseline_correct_fraction": 0.0,
+      "proposed_median_cost": null,
+      "baseline_median_cost": null
+    },
+    {
+      "true_delta": 2.9,
+      "baseline": "support_then_c_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 0.0,
+      "baseline_correct_fraction": 0.0,
+      "proposed_median_cost": null,
+      "baseline_median_cost": null
+    },
+    {
+      "true_delta": 2.9,
+      "baseline": "c_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 0.0,
+      "baseline_correct_fraction": 0.0,
+      "proposed_median_cost": null,
+      "baseline_median_cost": null
+    },
+    {
+      "true_delta": 2.9,
+      "baseline": "D_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 0.0,
+      "baseline_correct_fraction": 0.0,
+      "proposed_median_cost": null,
+      "baseline_median_cost": null
+    },
+    {
+      "true_delta": 2.9,
+      "baseline": "prediction_variance",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 0.0,
+      "baseline_correct_fraction": 0.0,
+      "proposed_median_cost": null,
+      "baseline_median_cost": null
+    },
+    {
+      "true_delta": 2.9,
+      "baseline": "high_fidelity_heavy",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 0.0,
+      "baseline_correct_fraction": 0.0,
+      "proposed_median_cost": null,
+      "baseline_median_cost": null
+    },
+    {
+      "true_delta": 2.9,
+      "baseline": "random",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 0.0,
+      "baseline_correct_fraction": 0.0,
+      "proposed_median_cost": null,
+      "baseline_median_cost": null
+    },
+    {
+      "true_delta": 3.0,
+      "baseline": "bound_reduction_ablation",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 38.0,
+      "baseline_median_cost": 38.0
+    },
+    {
+      "true_delta": 3.0,
+      "baseline": "support_then_c_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 38.0,
+      "baseline_median_cost": 38.0
+    },
+    {
+      "true_delta": 3.0,
+      "baseline": "c_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 38.0,
+      "baseline_median_cost": 38.0
+    },
+    {
+      "true_delta": 3.0,
+      "baseline": "D_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 38.0,
+      "baseline_median_cost": 38.0
+    },
+    {
+      "true_delta": 3.0,
+      "baseline": "prediction_variance",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 38.0,
+      "baseline_median_cost": 38.0
+    },
+    {
+      "true_delta": 3.0,
+      "baseline": "high_fidelity_heavy",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 38.0,
+      "baseline_median_cost": 39.0
+    },
+    {
+      "true_delta": 3.0,
+      "baseline": "random",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 38.0,
+      "baseline_median_cost": 39.0
+    },
+    {
+      "true_delta": 3.1,
+      "baseline": "bound_reduction_ablation",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 0.0,
+      "baseline_correct_fraction": 0.0,
+      "proposed_median_cost": null,
+      "baseline_median_cost": null
+    },
+    {
+      "true_delta": 3.1,
+      "baseline": "support_then_c_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 0.0,
+      "baseline_correct_fraction": 0.0,
+      "proposed_median_cost": null,
+      "baseline_median_cost": null
+    },
+    {
+      "true_delta": 3.1,
+      "baseline": "c_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 0.0,
+      "baseline_correct_fraction": 0.0,
+      "proposed_median_cost": null,
+      "baseline_median_cost": null
+    },
+    {
+      "true_delta": 3.1,
+      "baseline": "D_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 0.0,
+      "baseline_correct_fraction": 0.0,
+      "proposed_median_cost": null,
+      "baseline_median_cost": null
+    },
+    {
+      "true_delta": 3.1,
+      "baseline": "prediction_variance",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 0.0,
+      "baseline_correct_fraction": 0.0,
+      "proposed_median_cost": null,
+      "baseline_median_cost": null
+    },
+    {
+      "true_delta": 3.1,
+      "baseline": "high_fidelity_heavy",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 0.0,
+      "baseline_correct_fraction": 0.0,
+      "proposed_median_cost": null,
+      "baseline_median_cost": null
+    },
+    {
+      "true_delta": 3.1,
+      "baseline": "random",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 0.0,
+      "baseline_correct_fraction": 0.0,
+      "proposed_median_cost": null,
+      "baseline_median_cost": null
+    },
+    {
+      "true_delta": 3.5,
+      "baseline": "bound_reduction_ablation",
+      "result_for_proposed": "loss",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 0.429,
+      "baseline_correct_fraction": 0.4535,
+      "proposed_median_cost": 29.0,
+      "baseline_median_cost": 29.0
+    },
+    {
+      "true_delta": 3.5,
+      "baseline": "support_then_c_optimal",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 0.429,
+      "baseline_correct_fraction": 0.402,
+      "proposed_median_cost": 29.0,
+      "baseline_median_cost": 30.0
+    },
+    {
+      "true_delta": 3.5,
+      "baseline": "c_optimal",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 0.429,
+      "baseline_correct_fraction": 0.3835,
+      "proposed_median_cost": 29.0,
+      "baseline_median_cost": 30.0
+    },
+    {
+      "true_delta": 3.5,
+      "baseline": "D_optimal",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 0.429,
+      "baseline_correct_fraction": 0.3855,
+      "proposed_median_cost": 29.0,
+      "baseline_median_cost": 30.0
+    },
+    {
+      "true_delta": 3.5,
+      "baseline": "prediction_variance",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 0.429,
+      "baseline_correct_fraction": 0.3895,
+      "proposed_median_cost": 29.0,
+      "baseline_median_cost": 30.0
+    },
+    {
+      "true_delta": 3.5,
+      "baseline": "high_fidelity_heavy",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 0.429,
+      "baseline_correct_fraction": 0.0975,
+      "proposed_median_cost": 29.0,
+      "baseline_median_cost": 39.0
+    },
+    {
+      "true_delta": 3.5,
+      "baseline": "random",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 0.429,
+      "baseline_correct_fraction": 0.229,
+      "proposed_median_cost": 29.0,
+      "baseline_median_cost": 38.0
+    },
+    {
+      "true_delta": 4.0,
+      "baseline": "bound_reduction_ablation",
+      "result_for_proposed": "loss",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 19.5,
+      "baseline_median_cost": 18.0
+    },
+    {
+      "true_delta": 4.0,
+      "baseline": "support_then_c_optimal",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 19.5,
+      "baseline_median_cost": 30.0
+    },
+    {
+      "true_delta": 4.0,
+      "baseline": "c_optimal",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 19.5,
+      "baseline_median_cost": 30.0
+    },
+    {
+      "true_delta": 4.0,
+      "baseline": "D_optimal",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 0.9995,
+      "proposed_median_cost": 19.5,
+      "baseline_median_cost": 30.0
+    },
+    {
+      "true_delta": 4.0,
+      "baseline": "prediction_variance",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 19.5,
+      "baseline_median_cost": 30.0
+    },
+    {
+      "true_delta": 4.0,
+      "baseline": "high_fidelity_heavy",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 0.8285,
+      "proposed_median_cost": 19.5,
+      "baseline_median_cost": 35.0
+    },
+    {
+      "true_delta": 4.0,
+      "baseline": "random",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 0.7445,
+      "proposed_median_cost": 19.5,
+      "baseline_median_cost": 37.0
+    },
+    {
+      "true_delta": 5.0,
+      "baseline": "bound_reduction_ablation",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 13.5,
+      "baseline_median_cost": 18.0
+    },
+    {
+      "true_delta": 5.0,
+      "baseline": "support_then_c_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 13.5,
+      "baseline_median_cost": 13.5
+    },
+    {
+      "true_delta": 5.0,
+      "baseline": "c_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 13.5,
+      "baseline_median_cost": 13.5
+    },
+    {
+      "true_delta": 5.0,
+      "baseline": "D_optimal",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 13.5,
+      "baseline_median_cost": 14.5
+    },
+    {
+      "true_delta": 5.0,
+      "baseline": "prediction_variance",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 13.5,
+      "baseline_median_cost": 14.5
+    },
+    {
+      "true_delta": 5.0,
+      "baseline": "high_fidelity_heavy",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 13.5,
+      "baseline_median_cost": 35.0
+    },
+    {
+      "true_delta": 5.0,
+      "baseline": "random",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 0.8775,
+      "proposed_median_cost": 13.5,
+      "baseline_median_cost": 29.5
+    },
+    {
+      "true_delta": 6.0,
+      "baseline": "bound_reduction_ablation",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 12.0,
+      "baseline_median_cost": 12.0
+    },
+    {
+      "true_delta": 6.0,
+      "baseline": "support_then_c_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 12.0,
+      "baseline_median_cost": 12.0
+    },
+    {
+      "true_delta": 6.0,
+      "baseline": "c_optimal",
+      "result_for_proposed": "tie",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 12.0,
+      "baseline_median_cost": 12.0
+    },
+    {
+      "true_delta": 6.0,
+      "baseline": "D_optimal",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 12.0,
+      "baseline_median_cost": 13.0
+    },
+    {
+      "true_delta": 6.0,
+      "baseline": "prediction_variance",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 12.0,
+      "baseline_median_cost": 13.0
+    },
+    {
+      "true_delta": 6.0,
+      "baseline": "high_fidelity_heavy",
+      "result_for_proposed": "win",
+      "comparison_basis": "median_cost_given_equal_correct_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 1.0,
+      "proposed_median_cost": 12.0,
+      "baseline_median_cost": 35.0
+    },
+    {
+      "true_delta": 6.0,
+      "baseline": "random",
+      "result_for_proposed": "win",
+      "comparison_basis": "correct_outcome_fraction",
+      "proposed_correct_fraction": 1.0,
+      "baseline_correct_fraction": 0.8625,
+      "proposed_median_cost": 12.0,
+      "baseline_median_cost": 29.0
+    }
+  ],
+  "comparison_counts": {
+    "win": 45,
+    "tie": 29,
+    "loss": 3
+  },
+  "all_wrong_decisive_fractions_zero": true,
+  "claim_boundary": "Truth-grid robustness audit under one frozen synthetic action table; not a random-action benchmark, oracle-regret study, or external CFD validation.",
+  "frozen_parent_protocol": "V11-20260730"
+}

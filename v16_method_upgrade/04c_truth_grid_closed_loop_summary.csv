@@ -1,0 +1,89 @@
+true_delta,policy,expected_state,correct_outcome_fraction,wrong_decisive_fraction,indeterminate_fraction,median_cost_to_correct_outcome,median_cost_bootstrap_95,mean_terminal_cost
+0.0,proposed_decision_targeted_switch,effect_absent,1.0,0.0,0.0,12.0,"[12.0, 12.0, 12.0]",12.23375
+0.0,bound_reduction_ablation,effect_absent,1.0,0.0,0.0,12.0,"[12.0, 12.0, 12.0]",12.432
+0.0,support_then_c_optimal,effect_absent,1.0,0.0,0.0,12.0,"[12.0, 12.0, 12.0]",12.156
+0.0,c_optimal,effect_absent,1.0,0.0,0.0,12.0,"[12.0, 12.0, 12.0]",12.1575
+0.0,D_optimal,effect_absent,1.0,0.0,0.0,13.0,"[13.0, 13.0, 13.0]",13.15975
+0.0,prediction_variance,effect_absent,1.0,0.0,0.0,13.0,"[13.0, 13.0, 13.0]",13.1585
+0.0,high_fidelity_heavy,effect_absent,1.0,0.0,0.0,35.0,"[35.0, 35.0, 35.0]",35.0
+0.0,random,effect_absent,0.882,0.0,0.118,29.0,"[29.0, 29.0, 29.0]",28.94375
+1.0,proposed_decision_targeted_switch,effect_absent,1.0,0.0,0.0,13.5,"[13.5, 13.5, 15.0]",15.15075
+1.0,bound_reduction_ablation,effect_absent,1.0,0.0,0.0,18.0,"[18.0, 18.0, 18.0]",15.534
+1.0,support_then_c_optimal,effect_absent,1.0,0.0,0.0,13.5,"[13.5, 13.5, 13.5]",15.30825
+1.0,c_optimal,effect_absent,1.0,0.0,0.0,13.5,"[13.5, 13.5, 13.5]",15.27675
+1.0,D_optimal,effect_absent,1.0,0.0,0.0,14.5,"[14.5, 14.5, 14.5]",16.22
+1.0,prediction_variance,effect_absent,1.0,0.0,0.0,14.5,"[14.5, 14.5, 14.5]",16.07625
+1.0,high_fidelity_heavy,effect_absent,1.0,0.0,0.0,35.0,"[35.0, 35.0, 35.0]",35.0
+1.0,random,effect_absent,0.8825,0.0,0.1175,29.0,"[29.0, 29.0, 29.5]",29.88825
+2.0,proposed_decision_targeted_switch,effect_absent,1.0,0.0,0.0,19.5,"[19.5, 19.5, 19.5]",20.002
+2.0,bound_reduction_ablation,effect_absent,1.0,0.0,0.0,18.0,"[18.0, 18.0, 19.5]",19.53575
+2.0,support_then_c_optimal,effect_absent,1.0,0.0,0.0,30.0,"[30.0, 30.0, 30.0]",27.854
+2.0,c_optimal,effect_absent,1.0,0.0,0.0,30.0,"[30.0, 30.0, 30.0]",27.76275
+2.0,D_optimal,effect_absent,1.0,0.0,0.0,30.0,"[30.0, 30.0, 30.0]",27.989
+2.0,prediction_variance,effect_absent,1.0,0.0,0.0,30.0,"[30.0, 30.0, 30.0]",27.96325
+2.0,high_fidelity_heavy,effect_absent,0.808,0.0,0.192,35.0,"[35.0, 35.0, 35.0]",37.13375
+2.0,random,effect_absent,0.7505,0.0,0.2495,36.5,"[36.5, 36.5, 37.0]",35.16325
+2.5,proposed_decision_targeted_switch,effect_absent,0.434,0.0,0.566,29.0,"[29.0, 29.0, 29.0]",33.9935
+2.5,bound_reduction_ablation,effect_absent,0.433,0.0,0.567,29.0,"[29.0, 29.0, 29.0]",34.1515
+2.5,support_then_c_optimal,effect_absent,0.412,0.0,0.588,30.0,"[30.0, 30.0, 30.0]",36.06625
+2.5,c_optimal,effect_absent,0.4005,0.0,0.5995,30.0,"[30.0, 30.0, 30.0]",36.065
+2.5,D_optimal,effect_absent,0.3985,0.0,0.6015,30.0,"[30.0, 30.0, 30.0]",36.1225
+2.5,prediction_variance,effect_absent,0.3775,0.0,0.6225,30.0,"[30.0, 30.0, 38.0]",36.29675
+2.5,high_fidelity_heavy,effect_absent,0.086,0.0,0.914,39.0,"[39.0, 39.0, 39.0]",38.92225
+2.5,random,effect_absent,0.218,0.0,0.782,38.5,"[38.0, 38.5, 38.5]",38.50625
+2.9,proposed_decision_targeted_switch,effect_absent,0.0,0.0,1.0,,,38.0
+2.9,bound_reduction_ablation,effect_absent,0.0,0.0,1.0,,,38.0
+2.9,support_then_c_optimal,effect_absent,0.0,0.0,1.0,,,38.0
+2.9,c_optimal,effect_absent,0.0,0.0,1.0,,,38.0
+2.9,D_optimal,effect_absent,0.0,0.0,1.0,,,38.0
+2.9,prediction_variance,effect_absent,0.0,0.0,1.0,,,38.0
+2.9,high_fidelity_heavy,effect_absent,0.0,0.0,1.0,,,39.0
+2.9,random,effect_absent,0.0,0.0,1.0,,,38.966
+3.0,proposed_decision_targeted_switch,indeterminate,1.0,0.0,1.0,38.0,"[38.0, 38.0, 38.0]",38.0
+3.0,bound_reduction_ablation,indeterminate,1.0,0.0,1.0,38.0,"[38.0, 38.0, 38.0]",38.0
+3.0,support_then_c_optimal,indeterminate,1.0,0.0,1.0,38.0,"[38.0, 38.0, 38.0]",38.0
+3.0,c_optimal,indeterminate,1.0,0.0,1.0,38.0,"[38.0, 38.0, 38.0]",38.0
+3.0,D_optimal,indeterminate,1.0,0.0,1.0,38.0,"[38.0, 38.0, 38.0]",38.0
+3.0,prediction_variance,indeterminate,1.0,0.0,1.0,38.0,"[38.0, 38.0, 38.0]",38.0
+3.0,high_fidelity_heavy,indeterminate,1.0,0.0,1.0,39.0,"[39.0, 39.0, 39.0]",39.0
+3.0,random,indeterminate,1.0,0.0,1.0,39.0,"[39.0, 39.0, 39.0]",38.88975
+3.1,proposed_decision_targeted_switch,effect_present,0.0,0.0,1.0,,,38.0
+3.1,bound_reduction_ablation,effect_present,0.0,0.0,1.0,,,38.0
+3.1,support_then_c_optimal,effect_present,0.0,0.0,1.0,,,38.0
+3.1,c_optimal,effect_present,0.0,0.0,1.0,,,38.0
+3.1,D_optimal,effect_present,0.0,0.0,1.0,,,38.0
+3.1,prediction_variance,effect_present,0.0,0.0,1.0,,,38.0
+3.1,high_fidelity_heavy,effect_present,0.0,0.0,1.0,,,39.0
+3.1,random,effect_present,0.0,0.0,1.0,,,38.92175
+3.5,proposed_decision_targeted_switch,effect_present,0.429,0.0,0.571,29.0,"[29.0, 29.0, 29.0]",34.18975
+3.5,bound_reduction_ablation,effect_present,0.4535,0.0,0.5465,29.0,"[29.0, 29.0, 29.0]",33.9515
+3.5,support_then_c_optimal,effect_present,0.402,0.0,0.598,30.0,"[30.0, 30.0, 30.0]",36.0095
+3.5,c_optimal,effect_present,0.3835,0.0,0.6165,30.0,"[30.0, 30.0, 30.0]",36.059
+3.5,D_optimal,effect_present,0.3855,0.0,0.6145,30.0,"[30.0, 30.0, 30.0]",36.12475
+3.5,prediction_variance,effect_present,0.3895,0.0,0.6105,30.0,"[30.0, 30.0, 30.0]",36.05975
+3.5,high_fidelity_heavy,effect_present,0.0975,0.0,0.9025,39.0,"[39.0, 39.0, 39.0]",38.91075
+3.5,random,effect_present,0.229,0.0,0.771,38.0,"[38.0, 38.0, 38.25]",38.5105
+4.0,proposed_decision_targeted_switch,effect_present,1.0,0.0,0.0,19.5,"[19.5, 19.5, 19.5]",20.07775
+4.0,bound_reduction_ablation,effect_present,1.0,0.0,0.0,18.0,"[18.0, 18.0, 19.5]",19.54275
+4.0,support_then_c_optimal,effect_present,1.0,0.0,0.0,30.0,"[30.0, 30.0, 30.0]",27.7865
+4.0,c_optimal,effect_present,1.0,0.0,0.0,30.0,"[30.0, 30.0, 30.0]",27.77375
+4.0,D_optimal,effect_present,0.9995,0.0,0.0005,30.0,"[30.0, 30.0, 30.0]",28.05975
+4.0,prediction_variance,effect_present,1.0,0.0,0.0,30.0,"[30.0, 30.0, 30.0]",27.84925
+4.0,high_fidelity_heavy,effect_present,0.8285,0.0,0.1715,35.0,"[35.0, 35.0, 35.0]",37.02275
+4.0,random,effect_present,0.7445,0.0,0.2555,37.0,"[36.5, 37.0, 37.0]",35.19525
+5.0,proposed_decision_targeted_switch,effect_present,1.0,0.0,0.0,13.5,"[13.5, 13.5, 16.5]",15.25275
+5.0,bound_reduction_ablation,effect_present,1.0,0.0,0.0,18.0,"[18.0, 18.0, 18.0]",15.432
+5.0,support_then_c_optimal,effect_present,1.0,0.0,0.0,13.5,"[13.5, 13.5, 13.5]",15.32625
+5.0,c_optimal,effect_present,1.0,0.0,0.0,13.5,"[13.5, 13.5, 13.5]",15.44175
+5.0,D_optimal,effect_present,1.0,0.0,0.0,14.5,"[14.5, 14.5, 14.5]",16.1855
+5.0,prediction_variance,effect_present,1.0,0.0,0.0,14.5,"[14.5, 14.5, 14.5]",16.11
+5.0,high_fidelity_heavy,effect_present,1.0,0.0,0.0,35.0,"[35.0, 35.0, 35.0]",35.0
+5.0,random,effect_present,0.8775,0.0,0.1225,29.5,"[29.0, 29.5, 30.0]",30.1715
+6.0,proposed_decision_targeted_switch,effect_present,1.0,0.0,0.0,12.0,"[12.0, 12.0, 12.0]",12.12875
+6.0,bound_reduction_ablation,effect_present,1.0,0.0,0.0,12.0,"[12.0, 12.0, 12.0]",12.231
+6.0,support_then_c_optimal,effect_present,1.0,0.0,0.0,12.0,"[12.0, 12.0, 12.0]",12.07275
+6.0,c_optimal,effect_present,1.0,0.0,0.0,12.0,"[12.0, 12.0, 12.0]",12.07575
+6.0,D_optimal,effect_present,1.0,0.0,0.0,13.0,"[13.0, 13.0, 13.0]",13.063
+6.0,prediction_variance,effect_present,1.0,0.0,0.0,13.0,"[13.0, 13.0, 13.0]",13.07975
+6.0,high_fidelity_heavy,effect_present,1.0,0.0,0.0,35.0,"[35.0, 35.0, 35.0]",35.0
+6.0,random,effect_present,0.8625,0.0,0.1375,29.0,"[28.5, 29.0, 29.0]",29.01475

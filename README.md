@@ -1,85 +1,58 @@
-# Claim-adaptive multi-fidelity design for CFD
+# Contrast-directed multi-fidelity design for CFD
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21670992.svg)](https://doi.org/10.5281/zenodo.21670992)
 
 This repository contains the reproducibility materials for:
 
-> *Claim-adaptive multi-fidelity design: Minimum-cost support repair and
-> uncertainty-set-aware resolution control for CFD*
+> *Contrast-directed multi-fidelity design for CFD: Minimum-cost support repair and dependence-aware resolution*
 
 ## Central contribution
 
-The method treats scientific attribution as a sequential support-and-resolution
-problem rather than as predictive validation alone:
+The method treats scientific attribution as a sequential support-and-resolution problem rather than as predictive validation alone:
 
 1. verify that each declared contrast is estimable from the acquired design;
 2. repair missing support at minimum acquisition cost;
-3. propagate contrast-aligned numerical uncertainty under an explicitly
-   declared dependence model; and
-4. acquire the next computation until the claim is effect present, effect
-   absent, or indeterminate.
+3. propagate contrast-aligned numerical uncertainty under an explicitly declared dependence construction; and
+4. acquire the next computation until the claim is resolved above the minimum, resolved below the minimum, or retained as indeterminate.
 
-The V9 evidence includes six support-repair benchmarks, bounded and
-covariance-based Gate-2 calibration, a 3x2 closed-loop acquisition comparison,
-a real-CFD joint-versus-independent mapping audit, and a pressure-loss transfer
-audit. The real-CFD finding is deliberately scoped: the same four complete
-mapping outputs pass under a coherent joint ensemble and fail under an
-independent-cell envelope. This demonstrates dependence-model sensitivity of
-the attribution decision; it is not a claim about total CFD uncertainty.
+Release `v1.2.0` adds the exhaustive complete-lattice dependence audit. Every archived geometry satisfying the frozen native-cache and mapping-completeness rule was included: four geometries on fine and shared supports, giving eight audits. With identical CFD fields, marginal mapping outputs, response norm, signal functional, and exact finite-set diameter functional, changing only admissible cross-cell coupling reduced the robustness ratio in 8/8 audits and produced seven paired classification reversals at the frozen `R = 3` rule. Independent recombination enlarged the exact finite-set diameter by 10.83-15.71 times. The common diagnostic separation interval is `1.6442596248 < tau < 2.2831676147`.
+
+## Latest reproducibility package
+
+The latest self-contained package is in `v16_method_upgrade/`.
+
+```bash
+python -m pip install -r v16_method_upgrade/requirements.txt
+cd v16_method_upgrade
+python run_all.py
+```
+
+The clean-extraction verification runs 15 tests, reconstructs the original four-audit result, and independently rebuilds all eight V16 audits from released float64 weighted-vector caches. The maximum absolute difference from expected output is approximately `2.66e-14`.
+
+## Reproducibility boundary
+
+The released vectors reproduce the numerical decision and dependence-set comparison exactly. They do not provide a lightweight rerun of the underlying OpenFOAM simulations and they do not represent total CFD uncertainty. See `v16_method_upgrade/REPRODUCIBILITY_BOUNDARY.md` before interpretation.
 
 ## Repository map
 
-- `v9_method_upgrade/`: frozen protocols, algorithms, tests, result tables, and
-  the evidence summary for the current method upgrade.
-- `figures/v9_method_upgrade/`: current principal figures in PNG and PDF.
-- `theory/`, `protocols/`, `code/`, `data/`, `figures/`, and `provenance/`:
-  the preceding ordered two-gate release and its compact CFD-derived evidence.
+- `v16_method_upgrade/`: current V16 protocols, code, tests, eight float64 audit caches, expected outputs, figures, and hashes.
+- `v9_method_upgrade/`: preceding V9 method-upgrade release retained for provenance.
+- `theory/`, `protocols/`, `code/`, `data/`, `figures/`, and `provenance/`: earlier ordered two-gate materials.
 - `THIRD_PARTY_DATA_NOTICE.md`: data ownership and redistribution boundaries.
-
-## Quick verification
-
-```bash
-python -m pip install -r requirements.txt
-cd v9_method_upgrade
-python -m pytest -q
-python 01_run_support_repair_benchmarks.py
-python 02_run_gate2_calibration.py
-python 04b_run_multilevel_closed_loop_acquisition.py
-python 08_build_method_upgrade_evidence_summary.py
-python build_v9_main_figures.py
-```
-
-The current frozen test suite passes 12/12 tests. See
-`v9_method_upgrade/REPRODUCIBILITY_BOUNDARY.md` before interpreting any CFD
-mapping or transfer result.
 
 ## Data boundaries
 
-This archive contains authored code, protocols, compact derived CFD audit data,
-figures, hashes, and completion evidence. It does not contain downloaded
-articles, third-party DNS payloads, raw processor directories, or full CFD time
-histories. Public periodic-hill DNS data remain with the original provider:
-
-H. Xiao, J.-L. Wu, S. Laizet, and L. Duan, "Flows over periodic hills of
-parameterized geometries: A dataset for data-driven turbulence modeling from
-direct simulations," *Computers & Fluids* 200 (2020) 104431.
-https://doi.org/10.1016/j.compfluid.2020.104431.
+This archive contains authored code, protocols, compact derived CFD audit data, figures, hashes, and completion evidence. It does not contain downloaded articles, third-party DNS payloads, raw processor directories, or full CFD time histories.
 
 ## Citation and DOI
 
 Repository: https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability
 
 - Concept DOI for all versions: https://doi.org/10.5281/zenodo.21670992
-- The immutable version DOI is shown on the corresponding GitHub/Zenodo release.
+- Each GitHub release is archived by Zenodo under a distinct immutable version DOI.
 
 ## Licences
 
 - Source code: MIT (`LICENSE-CODE`).
 - Authored data, figures, and documentation: CC BY 4.0 (`LICENSE-DATA`).
 - Third-party data are not redistributed.
-
-## Authorship and funding
-
-The author order follows the associated article. This work was supported by the
-Youth Project of the Liaoning Education Department of China under Grant No.
-LJKQZ20222277.

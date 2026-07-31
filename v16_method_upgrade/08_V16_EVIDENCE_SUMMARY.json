@@ -1,0 +1,43 @@
+{
+    "release_schema":  "V16-20260731",
+    "support_repair":  {
+                           "instances":  300,
+                           "greedy_feasible_fraction":  1.0,
+                           "exact_cost_match_fraction":  0.76,
+                           "median_gap_fraction":  0.0,
+                           "p95_gap_fraction":  0.3413575924939439,
+                           "maximum_gap_fraction":  2.431390977443609
+                       },
+    "symmetric_mapping":  {
+                              "objective_inclusion_rule":  "all archived geometries with indexed native caches and non-empty C/U/Vc fields for F000/F010/F100/F110 plus finite outputs from all four pathways on fine_F100 and shared_F000 support",
+                              "geometries":  4,
+                              "audits":  8,
+                              "numeric_precision":  "float64 weighted vectors and Gram matrices",
+                              "coherent_passes_at_R_3":  7,
+                              "recombined_passes_at_R_3":  0,
+                              "paired_reversals_at_R_3":  7,
+                              "independent_ratio_lower_than_coherent":  8,
+                              "diameter_expansion_range":  [
+                                                               10.828143231305381,
+                                                               15.714237995550342
+                                                           ],
+                              "common_all_eight_separation_threshold_interval":  [
+                                                                                     1.6442596248017893,
+                                                                                     2.283167614744986
+                                                                                 ],
+                              "audit_protocol":  "V16-ALL-COMPLETE-LATTICES-20260731",
+                              "self_contained_reconstruction":  true,
+                              "clean_extraction_maximum_abs_difference":  2.6645352591003757E-14
+                          },
+    "truth_grid":  {
+                       "truths":  11,
+                       "replicates_per_policy_truth":  2000,
+                       "all_wrong_decisive_fractions_zero":  true,
+                       "claim_boundary":  "Truth-grid robustness audit under one frozen synthetic action table; not a random-action benchmark, oracle-regret study, or external CFD validation."
+                   },
+    "archive_status":  {
+                           "public_repository_version":  "v1.2.0",
+                           "concept_doi":  "10.5281/zenodo.21670992",
+                           "release_scope":  "The v1.2.0 source archive contains the self-contained V16 all-complete-lattices reconstruction. Zenodo assigns its immutable version DOI after GitHub release publication."
+                       }
+}
