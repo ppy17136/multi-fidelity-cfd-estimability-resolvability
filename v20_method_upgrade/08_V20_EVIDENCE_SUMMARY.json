@@ -1,0 +1,58 @@
+{
+  "release_schema": "V20-20260803",
+  "support_repair": {
+    "instances": 300,
+    "repairable_by_construction": true,
+    "greedy_feasible_fraction": 1.0,
+    "exact_cost_match_fraction": 0.76,
+    "p95_gap_fraction": 0.3413575924939439,
+    "maximum_gap_fraction": 2.431390977443609,
+    "claim_boundary": "Minimum-cost certification applies to exact Gate-1 finite-pool enumeration; greedy repair is approximate and total decision cost is not globally certified."
+  },
+  "corrected_closed_loop": {
+    "protocol": "V20-20260803",
+    "policies": [
+      "proposed_decision_targeted_switch",
+      "bound_reduction_ablation",
+      "support_then_c_optimal",
+      "D_optimal",
+      "prediction_variance",
+      "high_fidelity_heavy",
+      "random"
+    ],
+    "distinct_policy_count": 7,
+    "paired_action_indexed_scenarios": true,
+    "replicates_per_policy_scenario": 5000,
+    "delta_2_proposed_median_cost": 19.5,
+    "delta_5_proposed_median_cost": 13.5
+  },
+  "truth_grid": {
+    "protocol": "V20-20260803",
+    "truths": 11,
+    "replicates_per_policy_truth": 2000,
+    "paired_action_indexed_scenarios": true,
+    "all_wrong_decisive_fractions_zero": true,
+    "claim_boundary": "Frozen synthetic action-table sensitivity; not an oracle-regret study, a universal-optimality claim, or external CFD validation."
+  },
+  "symmetric_mapping": {
+    "inventory_status": "frozen 12-case release inventory; four geometries marked complete",
+    "audit_count": 8,
+    "coherent_passes_at_R_3": 7,
+    "recombined_passes_at_R_3": 0,
+    "paired_mapping_classification_reversals_at_R_3": 7,
+    "directional_ratio_reduction_count": 8,
+    "common_separation_threshold_interval": [
+      1.6442596248017893,
+      2.283167614744986
+    ],
+    "maximum_abs_difference_from_expected": 2.6645352591003757e-14,
+    "structural_note": "The coherent four-member set is nested in the 256-member independently recombined set; non-increasing R is structural, while expansion magnitude and threshold crossings are empirical.",
+    "claim_boundary": "The reconstruction reproduces finite-set mapping-robustness classifications and does not independently rebuild raw OpenFOAM cache eligibility or total-CFD uncertainty."
+  },
+  "public_archive_at_build_time": {
+    "version": "v1.2.0",
+    "version_doi": "10.5281/zenodo.21715871",
+    "concept_doi": "10.5281/zenodo.21670992",
+    "note": "V20 is the corrected reproducibility archive prepared for the next immutable public version."
+  }
+}

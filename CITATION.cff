@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this reproducibility package, please cite the archived release and the associated article."
 type: software
-title: "Reproducibility package for claim-adaptive multi-fidelity design in CFD"
-version: 1.2.0
-date-released: "2026-07-31"
+title: "Reproducibility package for dependence-aware multi-fidelity simulation decisions"
+version: 1.3.0
+date-released: "2026-08-03"
 doi: "10.5281/zenodo.21670992"
 repository-code: "https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability"
 url: "https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability"
@@ -40,9 +40,9 @@ authors:
   - family-names: Yan
     given-names: Wen Yi
 keywords:
-  - multi-fidelity CFD
-  - estimability
-  - numerical resolvability
+  - multi-fidelity simulation
+  - contrast estimability
+  - numerical uncertainty
   - factorial interaction
   - model discrepancy
   - reproducibility

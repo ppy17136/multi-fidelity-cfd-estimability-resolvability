@@ -1,0 +1,1 @@
+V16 added the portable eight-audit reconstruction and frozen inventory index. V20 retains those mapping inputs unchanged and corrects only the synthetic closed-loop comparator design and cross-platform packaging.

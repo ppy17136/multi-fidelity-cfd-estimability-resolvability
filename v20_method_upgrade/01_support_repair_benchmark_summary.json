@@ -1,0 +1,10 @@
+{
+  "protocol": "V12-20260730",
+  "case_count": 6,
+  "exact_feasible_count": 6,
+  "greedy_feasible_count": 6,
+  "greedy_exact_cost_matches": 5,
+  "greedy_exact_cost_match_fraction": 0.8333333333333334,
+  "maximum_greedy_cost_gap_fraction": 0.23809523809523808,
+  "frozen_parent_protocol": "V9-20260730"
+}

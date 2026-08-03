@@ -1,0 +1,121 @@
+{
+  "protocol": "V12-20260730",
+  "input": "released float64 weighted cell-vector caches",
+  "result_count": 4,
+  "maximum_abs_difference_from_primary_audit": 0.0,
+  "passed": true,
+  "results": [
+    {
+      "cache": "alph15-13929-2024__fine_F100.npz",
+      "finite_common_support_points": 55368,
+      "coherent": {
+        "set_size": 4,
+        "minimum_norm": 0.006283008384211706,
+        "diameter": 0.0016868797410758058,
+        "ratio": 3.7246332570244305,
+        "three_times_diameter_passed": true,
+        "minimum_norm_member": 0,
+        "diameter_pair": [
+          0,
+          1
+        ]
+      },
+      "independent_recombination": {
+        "set_size": 256,
+        "minimum_norm": 0.0062830082324742825,
+        "diameter": 0.023336763524458046,
+        "ratio": 0.26923220205275633,
+        "three_times_diameter_passed": false,
+        "minimum_norm_member": 17,
+        "diameter_pair": [
+          5,
+          80
+        ]
+      }
+    },
+    {
+      "cache": "alph15-13929-2024__shared_F000.npz",
+      "finite_common_support_points": 14118,
+      "coherent": {
+        "set_size": 4,
+        "minimum_norm": 0.006234098834717301,
+        "diameter": 0.0008596383912491565,
+        "ratio": 7.252001420804876,
+        "three_times_diameter_passed": true,
+        "minimum_norm_member": 0,
+        "diameter_pair": [
+          0,
+          1
+        ]
+      },
+      "independent_recombination": {
+        "set_size": 256,
+        "minimum_norm": 0.006234098834717301,
+        "diameter": 0.011791930287449386,
+        "ratio": 0.5286750076323379,
+        "three_times_diameter_passed": false,
+        "minimum_norm_member": 0,
+        "diameter_pair": [
+          16,
+          69
+        ]
+      }
+    },
+    {
+      "cache": "alph15-7929-2024__fine_F100.npz",
+      "finite_common_support_points": 31296,
+      "coherent": {
+        "set_size": 4,
+        "minimum_norm": 0.008926264601940908,
+        "diameter": 0.0017910862329488656,
+        "ratio": 4.983715712696089,
+        "three_times_diameter_passed": true,
+        "minimum_norm_member": 0,
+        "diameter_pair": [
+          0,
+          1
+        ]
+      },
+      "independent_recombination": {
+        "set_size": 256,
+        "minimum_norm": 0.00892626456010049,
+        "diameter": 0.02196983493488068,
+        "ratio": 0.4062963871398321,
+        "three_times_diameter_passed": false,
+        "minimum_norm_member": 17,
+        "diameter_pair": [
+          20,
+          65
+        ]
+      }
+    },
+    {
+      "cache": "alph15-7929-2024__shared_F000.npz",
+      "finite_common_support_points": 7992,
+      "coherent": {
+        "set_size": 4,
+        "minimum_norm": 0.008895896628679095,
+        "diameter": 0.0009796901807383083,
+        "ratio": 9.08031620973788,
+        "three_times_diameter_passed": true,
+        "minimum_norm_member": 3,
+        "diameter_pair": [
+          0,
+          1
+        ]
+      },
+      "independent_recombination": {
+        "set_size": 256,
+        "minimum_norm": 0.008895896176792985,
+        "diameter": 0.012853025314532342,
+        "ratio": 0.69212469119895,
+        "three_times_diameter_passed": false,
+        "minimum_norm_member": 51,
+        "diameter_pair": [
+          16,
+          69
+        ]
+      }
+    }
+  ]
+}

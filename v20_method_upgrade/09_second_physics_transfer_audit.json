@@ -1,0 +1,73 @@
+{
+  "protocol": "V12-20260730",
+  "application": "obstructed circular internal flow",
+  "fidelity_axes": [
+    "mesh: medium/fine",
+    "closure: kEpsilon/kOmegaSST"
+  ],
+  "response": "boundary pressure-loss coefficient K",
+  "conditions": 3,
+  "complete_four_cell_designs": 3,
+  "results": [
+    {
+      "condition": "normal",
+      "K_medium_kEpsilon": 0.259045034,
+      "K_fine_kEpsilon": 0.26227386,
+      "K_medium_kOmegaSST": 0.25617538933084244,
+      "K_fine_kOmegaSST": 0.2579711814,
+      "mesh_shift_kEpsilon": 0.003228826000000018,
+      "mesh_shift_kOmegaSST": 0.0017957920691575868,
+      "closure_shift_medium": -0.0028696446691575672,
+      "closure_shift_fine": -0.004302678599999998,
+      "mesh_by_closure_contrast": -0.0014330339308424311,
+      "absolute_contrast": 0.0014330339308424311,
+      "contrast_relative_to_four_cell_mean_abs_pct": 0.5535805798081086,
+      "gate1_estimable": true,
+      "gate2_status": "not assessed: no independent contrast-level K error bound",
+      "maximum_reported_sst_mass_imbalance_pct": 2.5537669542643112e-08
+    },
+    {
+      "condition": "severe_inlet",
+      "K_medium_kEpsilon": 1.383424556,
+      "K_fine_kEpsilon": 1.270820748,
+      "K_medium_kOmegaSST": 1.4669284153492386,
+      "K_fine_kOmegaSST": 1.361804867,
+      "mesh_shift_kEpsilon": -0.11260380800000003,
+      "mesh_shift_kOmegaSST": -0.10512354834923854,
+      "closure_shift_medium": 0.08350385934923854,
+      "closure_shift_fine": 0.09098411900000003,
+      "mesh_by_closure_contrast": 0.007480259650761489,
+      "absolute_contrast": 0.007480259650761489,
+      "contrast_relative_to_four_cell_mean_abs_pct": 0.5457077413641414,
+      "gate1_estimable": true,
+      "gate2_status": "not assessed: no independent contrast-level K error bound",
+      "maximum_reported_sst_mass_imbalance_pct": 3.830650431396467e-08
+    },
+    {
+      "condition": "severe_outlet",
+      "K_medium_kEpsilon": 0.438381618,
+      "K_fine_kEpsilon": 0.411735464,
+      "K_medium_kOmegaSST": 0.44315013342634046,
+      "K_fine_kOmegaSST": 0.4146968076,
+      "mesh_shift_kEpsilon": -0.026646153999999977,
+      "mesh_shift_kOmegaSST": -0.02845332582634047,
+      "closure_shift_medium": 0.004768515426340492,
+      "closure_shift_fine": 0.0029613435999999993,
+      "mesh_by_closure_contrast": -0.0018071718263404923,
+      "absolute_contrast": 0.0018071718263404923,
+      "contrast_relative_to_four_cell_mean_abs_pct": 0.4232341669910273,
+      "gate1_estimable": true,
+      "gate2_status": "not assessed: no independent contrast-level K error bound",
+      "maximum_reported_sst_mass_imbalance_pct": 1.532259508046949e-07
+    }
+  ],
+  "gate2_assessed": false,
+  "reason_gate2_not_assessed": "No independent contrast-level pressure-loss error bound is available for all four archived cells.",
+  "recommended_placement": "Brief transfer paragraph/table in the main paper; complete audit in supplementary material.",
+  "input_sha256": {
+    "fixedRe100k_patchK_grid_sensitivity_20260710.csv": "9ffe0b32a54637280a15cebc05fdcb706a9f475e4f45489c8d16012c91d6fb8a",
+    "fine_sst_audit_v141.csv": "d1421fc987909531af72a685ef873dd9b615fdde5b868ef540a5021658f573e6",
+    "09_FROZEN_SECOND_PHYSICS_TRANSFER_AUDIT.md": "5c8b767dbe015f47ad5b2993897abd85590f3c72585f1dfc4772989605a92a6f"
+  },
+  "frozen_parent_protocol": "V9-20260730"
+}

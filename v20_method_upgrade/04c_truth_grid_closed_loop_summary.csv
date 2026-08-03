@@ -1,0 +1,78 @@
+true_delta,policy,expected_state,correct_outcome_fraction,wrong_decisive_fraction,indeterminate_fraction,median_cost_to_correct_outcome,median_cost_bootstrap_95,mean_terminal_cost
+0.0,proposed_decision_targeted_switch,effect_absent,1.0,0.0,0.0,12.0,"[12.0, 12.0, 12.0]",12.232
+0.0,bound_reduction_ablation,effect_absent,1.0,0.0,0.0,12.0,"[12.0, 12.0, 12.0]",12.432
+0.0,support_then_c_optimal,effect_absent,1.0,0.0,0.0,12.0,"[12.0, 12.0, 12.0]",12.1605
+0.0,D_optimal,effect_absent,1.0,0.0,0.0,13.0,"[13.0, 13.0, 13.0]",13.15925
+0.0,prediction_variance,effect_absent,1.0,0.0,0.0,13.0,"[13.0, 13.0, 13.0]",13.15925
+0.0,high_fidelity_heavy,effect_absent,1.0,0.0,0.0,35.0,"[35.0, 35.0, 35.0]",35.0
+0.0,random,effect_absent,0.8665,0.0,0.1335,29.0,"[29.0, 29.0, 29.5]",29.50325
+1.0,proposed_decision_targeted_switch,effect_absent,1.0,0.0,0.0,13.5,"[13.5, 13.5, 15.0]",15.21525
+1.0,bound_reduction_ablation,effect_absent,1.0,0.0,0.0,18.0,"[18.0, 18.0, 18.0]",15.432
+1.0,support_then_c_optimal,effect_absent,1.0,0.0,0.0,13.5,"[13.5, 13.5, 13.5]",15.267
+1.0,D_optimal,effect_absent,1.0,0.0,0.0,14.5,"[14.5, 14.5, 14.5]",16.10575
+1.0,prediction_variance,effect_absent,1.0,0.0,0.0,14.5,"[14.5, 14.5, 14.5]",16.10575
+1.0,high_fidelity_heavy,effect_absent,1.0,0.0,0.0,35.0,"[35.0, 35.0, 35.0]",35.0
+1.0,random,effect_absent,0.869,0.0,0.131,29.0,"[29.0, 29.0, 29.0]",29.81425
+2.0,proposed_decision_targeted_switch,effect_absent,1.0,0.0,0.0,19.5,"[19.5, 19.5, 19.5]",20.11175
+2.0,bound_reduction_ablation,effect_absent,1.0,0.0,0.0,19.5,"[18.0, 19.5, 19.5]",19.57425
+2.0,support_then_c_optimal,effect_absent,1.0,0.0,0.0,30.0,"[30.0, 30.0, 30.0]",27.614
+2.0,D_optimal,effect_absent,1.0,0.0,0.0,30.0,"[30.0, 30.0, 30.0]",27.826
+2.0,prediction_variance,effect_absent,1.0,0.0,0.0,30.0,"[30.0, 30.0, 30.0]",27.826
+2.0,high_fidelity_heavy,effect_absent,0.8145,0.0,0.1855,35.0,"[35.0, 35.0, 35.0]",37.0345
+2.0,random,effect_absent,0.741,0.0,0.259,36.5,"[36.0, 36.5, 36.5]",35.27275
+2.5,proposed_decision_targeted_switch,effect_absent,0.4285,0.0,0.5715,29.0,"[29.0, 29.0, 29.0]",34.09975
+2.5,bound_reduction_ablation,effect_absent,0.433,0.0,0.567,29.0,"[29.0, 29.0, 29.0]",34.024
+2.5,support_then_c_optimal,effect_absent,0.3945,0.0,0.6055,30.0,"[30.0, 30.0, 30.0]",36.01975
+2.5,D_optimal,effect_absent,0.395,0.0,0.605,30.0,"[30.0, 30.0, 30.0]",36.02625
+2.5,prediction_variance,effect_absent,0.395,0.0,0.605,30.0,"[30.0, 30.0, 30.0]",36.02625
+2.5,high_fidelity_heavy,effect_absent,0.091,0.0,0.909,39.0,"[39.0, 39.0, 39.0]",38.911
+2.5,random,effect_absent,0.238,0.0,0.762,38.0,"[38.0, 38.0, 38.5]",38.48175
+2.9,proposed_decision_targeted_switch,effect_absent,0.0,0.0,1.0,,,38.0
+2.9,bound_reduction_ablation,effect_absent,0.0,0.0,1.0,,,38.0
+2.9,support_then_c_optimal,effect_absent,0.0,0.0,1.0,,,38.0
+2.9,D_optimal,effect_absent,0.0,0.0,1.0,,,38.0
+2.9,prediction_variance,effect_absent,0.0,0.0,1.0,,,38.0
+2.9,high_fidelity_heavy,effect_absent,0.0,0.0,1.0,,,39.0
+2.9,random,effect_absent,0.0,0.0,1.0,,,38.98675
+3.0,proposed_decision_targeted_switch,indeterminate,1.0,0.0,1.0,38.0,"[38.0, 38.0, 38.0]",38.0
+3.0,bound_reduction_ablation,indeterminate,1.0,0.0,1.0,38.0,"[38.0, 38.0, 38.0]",38.0
+3.0,support_then_c_optimal,indeterminate,1.0,0.0,1.0,38.0,"[38.0, 38.0, 38.0]",38.0
+3.0,D_optimal,indeterminate,1.0,0.0,1.0,38.0,"[38.0, 38.0, 38.0]",38.0
+3.0,prediction_variance,indeterminate,1.0,0.0,1.0,38.0,"[38.0, 38.0, 38.0]",38.0
+3.0,high_fidelity_heavy,indeterminate,1.0,0.0,1.0,39.0,"[39.0, 39.0, 39.0]",39.0
+3.0,random,indeterminate,1.0,0.0,1.0,39.0,"[39.0, 39.0, 39.5]",38.975
+3.1,proposed_decision_targeted_switch,effect_present,0.0,0.0,1.0,,,38.0
+3.1,bound_reduction_ablation,effect_present,0.0,0.0,1.0,,,38.0
+3.1,support_then_c_optimal,effect_present,0.0,0.0,1.0,,,38.0
+3.1,D_optimal,effect_present,0.0,0.0,1.0,,,38.0
+3.1,prediction_variance,effect_present,0.0,0.0,1.0,,,38.0
+3.1,high_fidelity_heavy,effect_present,0.0,0.0,1.0,,,39.0
+3.1,random,effect_present,0.0,0.0,1.0,,,38.972
+3.5,proposed_decision_targeted_switch,effect_present,0.435,0.0,0.565,29.0,"[29.0, 29.0, 29.0]",34.12925
+3.5,bound_reduction_ablation,effect_present,0.435,0.0,0.565,29.0,"[29.0, 29.0, 29.0]",34.12
+3.5,support_then_c_optimal,effect_present,0.396,0.0,0.604,30.0,"[30.0, 30.0, 30.0]",36.0
+3.5,D_optimal,effect_present,0.397,0.0,0.603,30.0,"[30.0, 30.0, 30.0]",35.9925
+3.5,prediction_variance,effect_present,0.397,0.0,0.603,30.0,"[30.0, 30.0, 30.0]",35.9925
+3.5,high_fidelity_heavy,effect_present,0.087,0.0,0.913,39.0,"[39.0, 39.0, 39.0]",38.92225
+3.5,random,effect_present,0.246,0.0,0.754,38.0,"[38.0, 38.0, 38.5]",38.482
+4.0,proposed_decision_targeted_switch,effect_present,1.0,0.0,0.0,19.5,"[19.5, 19.5, 19.5]",20.11575
+4.0,bound_reduction_ablation,effect_present,1.0,0.0,0.0,18.0,"[18.0, 18.0, 19.5]",19.59
+4.0,support_then_c_optimal,effect_present,1.0,0.0,0.0,30.0,"[30.0, 30.0, 30.0]",27.93325
+4.0,D_optimal,effect_present,1.0,0.0,0.0,30.0,"[30.0, 30.0, 30.0]",28.14325
+4.0,prediction_variance,effect_present,1.0,0.0,0.0,30.0,"[30.0, 30.0, 30.0]",28.14325
+4.0,high_fidelity_heavy,effect_present,0.8175,0.0,0.1825,35.0,"[35.0, 35.0, 35.0]",37.07025
+4.0,random,effect_present,0.763,0.0,0.237,37.0,"[36.5, 37.0, 37.0]",35.4745
+5.0,proposed_decision_targeted_switch,effect_present,1.0,0.0,0.0,15.0,"[13.5, 15.0, 16.5]",15.3385
+5.0,bound_reduction_ablation,effect_present,1.0,0.0,0.0,18.0,"[18.0, 18.0, 18.0]",15.519
+5.0,support_then_c_optimal,effect_present,1.0,0.0,0.0,13.5,"[13.5, 13.5, 13.5]",15.561
+5.0,D_optimal,effect_present,1.0,0.0,0.0,14.5,"[14.5, 14.5, 14.5]",16.34825
+5.0,prediction_variance,effect_present,1.0,0.0,0.0,14.5,"[14.5, 14.5, 14.5]",16.34825
+5.0,high_fidelity_heavy,effect_present,1.0,0.0,0.0,35.0,"[35.0, 35.0, 35.0]",35.0
+5.0,random,effect_present,0.877,0.0,0.123,29.0,"[29.0, 29.0, 29.5]",29.8915
+6.0,proposed_decision_targeted_switch,effect_present,1.0,0.0,0.0,12.0,"[12.0, 12.0, 12.0]",12.1045
+6.0,bound_reduction_ablation,effect_present,1.0,0.0,0.0,12.0,"[12.0, 12.0, 12.0]",12.195
+6.0,support_then_c_optimal,effect_present,1.0,0.0,0.0,12.0,"[12.0, 12.0, 12.0]",12.063
+6.0,D_optimal,effect_present,1.0,0.0,0.0,13.0,"[13.0, 13.0, 13.0]",13.0645
+6.0,prediction_variance,effect_present,1.0,0.0,0.0,13.0,"[13.0, 13.0, 13.0]",13.0645
+6.0,high_fidelity_heavy,effect_present,1.0,0.0,0.0,35.0,"[35.0, 35.0, 35.0]",35.0
+6.0,random,effect_present,0.8735,0.0,0.1265,29.0,"[29.0, 29.0, 29.0]",29.2725
