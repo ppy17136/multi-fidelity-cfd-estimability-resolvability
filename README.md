@@ -1,10 +1,10 @@
-# Beyond predictive accuracy in multi-fidelity simulation
+# From predictive accuracy to decision-ready multi-fidelity simulation
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21670992.svg)](https://doi.org/10.5281/zenodo.21670992)
 
 This repository contains the reproducibility materials for:
 
-> *Beyond predictive accuracy in multi-fidelity simulation: Minimum-cost contrast repair and dependence-aware decisions*
+> *From predictive accuracy to decision-ready multi-fidelity simulation: Minimum-cost contrast-support repair and dependence-aware decisions*
 
 ## Central contribution
 

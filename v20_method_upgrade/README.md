@@ -1,11 +1,11 @@
-# Beyond predictive accuracy in multi-fidelity simulation
+# From predictive accuracy to decision-ready multi-fidelity simulation
 
 Public reproducibility schema: `V20-20260803`
 
 Concept DOI for all public versions: https://doi.org/10.5281/zenodo.21670992
 
-This archive supports the manuscript *Beyond predictive accuracy in
-multi-fidelity simulation: Minimum-cost contrast repair and dependence-aware
+This archive supports the manuscript *From predictive accuracy to decision-ready
+multi-fidelity simulation: Minimum-cost contrast-support repair and dependence-aware
 decisions*. V20 corrects the closed-loop comparison by removing a duplicate
 policy alias and assigning all policies the same action-indexed random scenario
 within each truth/replicate pair. Seven distinct policies are therefore
