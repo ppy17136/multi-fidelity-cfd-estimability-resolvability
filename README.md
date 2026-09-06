@@ -1,37 +1,38 @@
 # Minimum-relaxation certificates for pathway dependence in multifidelity uncertainty quantification
 
-## Current release: v2.1.8
+## Current release: v2.1.9
 
-Public version DOI: [10.5281/zenodo.22540664](https://doi.org/10.5281/zenodo.22540664).
-
-This repository contains versioned reproducibility materials. The current paper and verification entry point are in `pathway_dependence_v2_1_8/`.
+The current verification entry point is `pathway_dependence_v2_1_9/`.
+Use the [versioned release](https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability/releases/tag/v2.1.9) to identify this correction.
 
 ```sh
-cd pathway_dependence_v2_1_8
+cd pathway_dependence_v2_1_9
 python -m pip install -r requirements.txt
 python run_all.py
 ```
 
-The verifier checks byte integrity, runs 66 automated tests, reconstructs eight CFD audits, enumerates 128 diffusion-chain partitions, and performs 24 independent diffusion-solver checks. It operates in an external copy without modifying the released inputs. Full generation of all 1,024 diffusion solves is a separate command documented in the package README.
+Version 2.1.9 adds exact stored-input guards for scalar crossing witnesses, exact integer-capacity two-label cuts, and an explicit zero-cost state for initially indeterminate scalar cases. The independent diffusion verifier also supports deeply nested Windows work directories. See `RELEASE_V2.1.9.md` for the correction scope.
 
-The common-partition 37/42 outputs supply the main CFD results. Optional 28/29/33/35 robust-union analyses are kept separately under `auxiliary/robust_union/` and checked with `python run_all.py --include-robust-union`. They are different uncertainty constructions and are not substituted for the main results.
+The verifier checks byte integrity, runs 79 automated tests, reconstructs eight CFD audits, enumerates 128 diffusion-chain partitions, and performs 24 independent diffusion-solver checks. Tests and reconstruction execute in a separate copy without modifying the released inputs. Full generation of the 1,024 diffusion solves is documented separately in the package README.
+
+The common-partition 37/42 outputs supply the manuscript CFD results. Optional 28/29/33/35 robust-union analyses remain in `auxiliary/robust_union/` and are checked with `python run_all.py --include-robust-union`. These constructions are not interchangeable.
 
 ## Exact accompanying archive
 
-The journal attachment is preserved byte-for-byte at [`release_archives/pathway_coupling_certificates_v2.1.8_20260906.zip`](release_archives/pathway_coupling_certificates_v2.1.8_20260906.zip).
+The accompanying code ZIP is preserved at [`release_archives/pathway_coupling_certificates_v2.1.9_20260907.zip`](release_archives/pathway_coupling_certificates_v2.1.9_20260907.zip).
 
-SHA-256: `f76f5249508cc36d2bde64a053bf6b98811c9f56e19ce331f8278d8b83d50d51`
+SHA-256: `9cd8a8478e744a1adbdc21dd11e34e209565ff62fc4867d08c7fe82a79699d9b`
 
-The nested archive's statements about an unassigned version DOI record its pre-publication build state. This release page and repository-level citation metadata identify the subsequent public archive. Its scientific files and internal manifest are unchanged.
+The package manifest covers every payload. Its scientific input arrays and figures are unchanged from version 2.1.8; historical timing records are not a new timing benchmark of this correction.
 
 ## Citation and provenance
 
-Use [10.5281/zenodo.22540664](https://doi.org/10.5281/zenodo.22540664) for this study's code and certificates. The [concept DOI](https://doi.org/10.5281/zenodo.21670992) identifies the historical version series. The earlier [v1.3.0 DOI](https://doi.org/10.5281/zenodo.21767134) identifies the source CFD mapping data and does not identify the new graph-certificate package.
+The preceding [v2.1.8 DOI](https://doi.org/10.5281/zenodo.22540664) identifies the earlier release, not this correction. The [concept DOI](https://doi.org/10.5281/zenodo.21670992) identifies the version series. The earlier [v1.3.0 DOI](https://doi.org/10.5281/zenodo.21767134) identifies the source CFD mapping data.
 
-Earlier directories (`v20_method_upgrade`, `v16_method_upgrade`, `v9_method_upgrade`, and the original top-level code/data material) retain historical results. They are not the current verification entry point. The repository-wide historical manifest predates this release; use `PUBLIC_RELEASE_SHA256.csv` and the current package's `SHA256SUMS.csv` for this release. `PUBLIC_RELEASE_SHA256.csv` describes the immutable tagged deposit; `CURRENT_CHECKOUT_SHA256.csv` covers the current checkout after adding the assigned DOI to these citation documents.
+Earlier directories, releases and source records are retained for provenance. They are not the current verification entry point. `PUBLIC_RELEASE_SHA256.csv` describes the tagged deposit; `CURRENT_CHECKOUT_SHA256.csv` covers the corresponding checkout, excluding the manifest files themselves. Package-specific verification uses `pathway_dependence_v2_1_9/SHA256SUMS.csv`.
 
 ## Scope and licences
 
-Graph constraints and weights are declared sensitivity models, not probabilities or physical error estimates. The CFD vectors support finite mapping audits; they do not rerun raw OpenFOAM cases, reconstruct omitted raw-cache eligibility, quantify total CFD uncertainty, or establish physical validation. Numerical solver witnesses are tolerance-qualified, distinct from symbolic proofs.
+Graph constraints and weights are declared sensitivity models, not calibrated probabilities or physical error estimates. CFD vectors support finite mapping audits; they do not rerun raw OpenFOAM cases, reconstruct omitted raw-cache eligibility, quantify total CFD uncertainty, or establish physical validation. Floating-point MILP and forest outputs remain distinct from exact-arithmetic optimality proofs.
 
-Code: MIT. Authored data, figures, and documentation: CC BY 4.0. Downloaded papers and third-party raw datasets are not redistributed in the current package.
+Code: MIT. Authored data, figures and documentation: CC BY 4.0. Downloaded papers and third-party raw datasets are not redistributed in the current package.

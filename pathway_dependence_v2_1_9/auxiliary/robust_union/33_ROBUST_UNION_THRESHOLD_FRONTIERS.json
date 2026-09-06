@@ -1,0 +1,330 @@
+{
+  "status": "exact_threshold_to_relaxation_cost_frontier",
+  "decision_rule": "pass iff R(c) >= tau; destroy when R(c) < tau",
+  "monotonicity": "Nested U_c implies nonincreasing S(c), nondecreasing D(c), and nonincreasing R(c)=S(c)/D(c).",
+  "audit_count": 8,
+  "common_minimum_cost_two_interval": {
+    "lower_open": 1.6442596248017918,
+    "upper_closed": 2.2831676147449826,
+    "nonempty": true
+  },
+  "results": [
+    {
+      "case_id": "alph05-10071-2024",
+      "support": "fine_F100",
+      "profile": [
+        {
+          "budget": 0.0,
+          "ratio": 2.2831676147449826,
+          "signal": 0.005803502967438074,
+          "diameter": 0.002541864613862918
+        },
+        {
+          "budget": 2.0,
+          "ratio": 0.1452929252973153,
+          "signal": 0.0058035029460979356,
+          "diameter": 0.039943465479975244
+        },
+        {
+          "budget": 3.0,
+          "ratio": 0.1452929252973153,
+          "signal": 0.0058035029460979356,
+          "diameter": 0.039943465479975244
+        },
+        {
+          "budget": 4.0,
+          "ratio": 0.14529292524371984,
+          "signal": 0.0058035029460979356,
+          "diameter": 0.039943465494709535
+        }
+      ],
+      "threshold_cost_intervals": [
+        {
+          "minimum_destroying_budget": 2.0,
+          "threshold_lower_open": 0.1452929252973153,
+          "threshold_upper_closed": 2.2831676147449826
+        },
+        {
+          "minimum_destroying_budget": 4.0,
+          "threshold_lower_open": 0.14529292524371984,
+          "threshold_upper_closed": 0.1452929252973153
+        }
+      ]
+    },
+    {
+      "case_id": "alph05-10071-2024",
+      "support": "shared_F000",
+      "profile": [
+        {
+          "budget": 0.0,
+          "ratio": 3.7572347183585886,
+          "signal": 0.005774212264659168,
+          "diameter": 0.0015368250049551681
+        },
+        {
+          "budget": 2.0,
+          "ratio": 0.26499631409867314,
+          "signal": 0.00577421207543766,
+          "diameter": 0.02178978260538218
+        },
+        {
+          "budget": 3.0,
+          "ratio": 0.26499631409867314,
+          "signal": 0.00577421207543766,
+          "diameter": 0.02178978260538218
+        },
+        {
+          "budget": 4.0,
+          "ratio": 0.26499631376476296,
+          "signal": 0.00577421207543766,
+          "diameter": 0.021789782632838525
+        }
+      ],
+      "threshold_cost_intervals": [
+        {
+          "minimum_destroying_budget": 2.0,
+          "threshold_lower_open": 0.26499631409867314,
+          "threshold_upper_closed": 3.7572347183585886
+        },
+        {
+          "minimum_destroying_budget": 4.0,
+          "threshold_lower_open": 0.26499631376476296,
+          "threshold_upper_closed": 0.26499631409867314
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-10929-3036",
+      "support": "fine_F100",
+      "profile": [
+        {
+          "budget": 0.0,
+          "ratio": 6.534541669343037,
+          "signal": 0.0065926128791001055,
+          "diameter": 0.001008886806863519
+        },
+        {
+          "budget": 2.0,
+          "ratio": 0.6034775701236038,
+          "signal": 0.006592612701933957,
+          "diameter": 0.010924370727786391
+        },
+        {
+          "budget": 3.0,
+          "ratio": 0.6034775701236038,
+          "signal": 0.006592612701933957,
+          "diameter": 0.010924370727786391
+        },
+        {
+          "budget": 4.0,
+          "ratio": 0.6034775634335144,
+          "signal": 0.006592612701933957,
+          "diameter": 0.010924370848892827
+        }
+      ],
+      "threshold_cost_intervals": [
+        {
+          "minimum_destroying_budget": 2.0,
+          "threshold_lower_open": 0.6034775701236038,
+          "threshold_upper_closed": 6.534541669343037
+        },
+        {
+          "minimum_destroying_budget": 4.0,
+          "threshold_lower_open": 0.6034775634335144,
+          "threshold_upper_closed": 0.6034775701236038
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-10929-3036",
+      "support": "shared_F000",
+      "profile": [
+        {
+          "budget": 0.0,
+          "ratio": 23.435142195663275,
+          "signal": 0.006573077584136554,
+          "diameter": 0.0002804795263991578
+        },
+        {
+          "budget": 2.0,
+          "ratio": 1.6442596248017918,
+          "signal": 0.006573077584136554,
+          "diameter": 0.0039975910646890146
+        },
+        {
+          "budget": 3.0,
+          "ratio": 1.6442596248017918,
+          "signal": 0.006573077584136554,
+          "diameter": 0.0039975910646890146
+        },
+        {
+          "budget": 4.0,
+          "ratio": 1.6442596248017918,
+          "signal": 0.006573077584136554,
+          "diameter": 0.0039975910646890146
+        }
+      ],
+      "threshold_cost_intervals": [
+        {
+          "minimum_destroying_budget": 2.0,
+          "threshold_lower_open": 1.6442596248017918,
+          "threshold_upper_closed": 23.435142195663275
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support": "fine_F100",
+      "profile": [
+        {
+          "budget": 0.0,
+          "ratio": 3.7246332570244247,
+          "signal": 0.0062830083842117055,
+          "diameter": 0.0016868797410758082
+        },
+        {
+          "budget": 2.0,
+          "ratio": 0.2692322020527564,
+          "signal": 0.0062830082324742825,
+          "diameter": 0.023336763524458043
+        },
+        {
+          "budget": 3.0,
+          "ratio": 0.2692322020527564,
+          "signal": 0.0062830082324742825,
+          "diameter": 0.023336763524458043
+        },
+        {
+          "budget": 4.0,
+          "ratio": 0.2692322020527564,
+          "signal": 0.0062830082324742825,
+          "diameter": 0.023336763524458043
+        }
+      ],
+      "threshold_cost_intervals": [
+        {
+          "minimum_destroying_budget": 2.0,
+          "threshold_lower_open": 0.2692322020527564,
+          "threshold_upper_closed": 3.7246332570244247
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support": "shared_F000",
+      "profile": [
+        {
+          "budget": 0.0,
+          "ratio": 7.252001420804765,
+          "signal": 0.0062340988347173,
+          "diameter": 0.0008596383912491695
+        },
+        {
+          "budget": 2.0,
+          "ratio": 0.5286750076323379,
+          "signal": 0.0062340988347173,
+          "diameter": 0.011791930287449386
+        },
+        {
+          "budget": 3.0,
+          "ratio": 0.5286750076323379,
+          "signal": 0.0062340988347173,
+          "diameter": 0.011791930287449386
+        },
+        {
+          "budget": 4.0,
+          "ratio": 0.5286750076323379,
+          "signal": 0.0062340988347173,
+          "diameter": 0.011791930287449386
+        }
+      ],
+      "threshold_cost_intervals": [
+        {
+          "minimum_destroying_budget": 2.0,
+          "threshold_lower_open": 0.5286750076323379,
+          "threshold_upper_closed": 7.252001420804765
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-7929-2024",
+      "support": "fine_F100",
+      "profile": [
+        {
+          "budget": 0.0,
+          "ratio": 4.983715712696188,
+          "signal": 0.008926264601940908,
+          "diameter": 0.0017910862329488298
+        },
+        {
+          "budget": 2.0,
+          "ratio": 0.40629638759207126,
+          "signal": 0.00892626456010049,
+          "diameter": 0.021969834910426565
+        },
+        {
+          "budget": 3.0,
+          "ratio": 0.40629638759207126,
+          "signal": 0.00892626456010049,
+          "diameter": 0.021969834910426565
+        },
+        {
+          "budget": 4.0,
+          "ratio": 0.40629638713983235,
+          "signal": 0.00892626456010049,
+          "diameter": 0.02196983493488067
+        }
+      ],
+      "threshold_cost_intervals": [
+        {
+          "minimum_destroying_budget": 2.0,
+          "threshold_lower_open": 0.40629638759207126,
+          "threshold_upper_closed": 4.983715712696188
+        },
+        {
+          "minimum_destroying_budget": 4.0,
+          "threshold_lower_open": 0.40629638713983235,
+          "threshold_upper_closed": 0.40629638759207126
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-7929-2024",
+      "support": "shared_F000",
+      "profile": [
+        {
+          "budget": 0.0,
+          "ratio": 9.080316209737594,
+          "signal": 0.008895896628679095,
+          "diameter": 0.0009796901807383393
+        },
+        {
+          "budget": 2.0,
+          "ratio": 0.6921246911989505,
+          "signal": 0.008895896176792987,
+          "diameter": 0.012853025314532337
+        },
+        {
+          "budget": 3.0,
+          "ratio": 0.6921246911989505,
+          "signal": 0.008895896176792987,
+          "diameter": 0.012853025314532337
+        },
+        {
+          "budget": 4.0,
+          "ratio": 0.6921246911989505,
+          "signal": 0.008895896176792987,
+          "diameter": 0.012853025314532337
+        }
+      ],
+      "threshold_cost_intervals": [
+        {
+          "minimum_destroying_budget": 2.0,
+          "threshold_lower_open": 0.6921246911989505,
+          "threshold_upper_closed": 9.080316209737594
+        }
+      ]
+    }
+  ],
+  "claim_boundary": "The frontier is exact for the declared unit-cost square graph and released finite mapping sets, not for total CFD uncertainty."
+}

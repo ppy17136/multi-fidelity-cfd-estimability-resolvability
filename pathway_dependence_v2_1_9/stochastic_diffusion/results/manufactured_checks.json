@@ -1,0 +1,78 @@
+[
+  {
+    "beta": 0.0,
+    "series": [
+      {
+        "n": 8,
+        "residual": 1.7469452771835257e-15,
+        "elapsed_s": 0.004694700000982266,
+        "l2_error": 0.006475373360939739,
+        "minimum_conductivity": 1.0,
+        "maximum_conductivity": 1.0
+      },
+      {
+        "n": 16,
+        "residual": 6.1508056352467796e-15,
+        "elapsed_s": 0.0006405999993148725,
+        "l2_error": 0.0016094822200395569,
+        "minimum_conductivity": 1.0,
+        "maximum_conductivity": 1.0
+      },
+      {
+        "n": 32,
+        "residual": 2.7545530827928907e-14,
+        "elapsed_s": 0.0016773000024841167,
+        "l2_error": 0.0004017888396839193,
+        "minimum_conductivity": 1.0,
+        "maximum_conductivity": 1.0
+      },
+      {
+        "n": 64,
+        "residual": 1.1645102480185077e-13,
+        "elapsed_s": 0.005884500002139248,
+        "l2_error": 0.00010041090484972164,
+        "minimum_conductivity": 1.0,
+        "maximum_conductivity": 1.0
+      }
+    ],
+    "last_order": 2.000521533789098
+  },
+  {
+    "beta": 0.3,
+    "series": [
+      {
+        "n": 8,
+        "residual": 1.9784502265288227e-15,
+        "elapsed_s": 0.00043399999776738696,
+        "l2_error": 0.006469474517189978,
+        "minimum_conductivity": 1.0189268850520263,
+        "maximum_conductivity": 1.3247847587288655
+      },
+      {
+        "n": 16,
+        "residual": 7.81413916278697e-15,
+        "elapsed_s": 0.0005920000003243331,
+        "l2_error": 0.001609440494298206,
+        "minimum_conductivity": 1.009419082964071,
+        "maximum_conductivity": 1.3372630162808696
+      },
+      {
+        "n": 32,
+        "residual": 3.342868653099511e-14,
+        "elapsed_s": 0.0016856000002007931,
+        "l2_error": 0.00040195301491933213,
+        "minimum_conductivity": 1.004698503514398,
+        "maximum_conductivity": 1.34354615126254
+      },
+      {
+        "n": 64,
+        "residual": 1.3617759835895014e-13,
+        "elapsed_s": 0.0061801000010746066,
+        "l2_error": 0.00010047356892792484,
+        "minimum_conductivity": 1.0023464987290562,
+        "maximum_conductivity": 1.3466987805989061
+      }
+    ],
+    "last_order": 2.0002108429416783
+  }
+]

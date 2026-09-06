@@ -1,0 +1,2413 @@
+{
+  "status": "exact_single_common_partition_profiles",
+  "cost_models": {
+    "balanced": {
+      "mesh": 0.25,
+      "closure": 0.25
+    },
+    "mesh_dominant": {
+      "mesh": 0.4,
+      "closure": 0.1
+    },
+    "closure_dominant": {
+      "mesh": 0.1,
+      "closure": 0.4
+    }
+  },
+  "audit_count": 8,
+  "results": [
+    {
+      "case_id": "alph05-10071-2024",
+      "support": "fine_F100",
+      "independent_metrics": {
+        "signal": 0.0058035029460979356,
+        "diameter": 0.039943465494709535,
+        "ratio": 0.14529292524371984
+      },
+      "cost_models": [
+        {
+          "cost_model": "balanced",
+          "axis_edge_cost": {
+            "mesh": 0.25,
+            "closure": 0.25
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 1.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          },
+          "profile": [
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.002541864613862918,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.005803502967438074,
+              "minimum_single_partition_ratio": 2.2831676147449826,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9363634431218898
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 7,
+              "maximum_single_partition_diameter": 0.039943465479975244,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.0058035029460979356,
+              "minimum_single_partition_ratio": 0.14529292583157388,
+              "ratio_partition": "[[0, 1, 3], [2]]",
+              "diameter_relative_gap": 3.6887861366948206e-10
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.75,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.039943465479975244,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.0058035029460979356,
+              "minimum_single_partition_ratio": 0.1452929252973153,
+              "ratio_partition": "[[0, 1], [2], [3]]",
+              "diameter_relative_gap": 3.6887861366948206e-10
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "balanced",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.039943465494709535,
+              "diameter_partition": "[[0], [1], [2], [3]]",
+              "minimum_single_partition_signal": 0.0058035029460979356,
+              "minimum_single_partition_ratio": 0.14529292524371984,
+              "ratio_partition": "[[0], [1], [2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        },
+        {
+          "cost_model": "mesh_dominant",
+          "axis_edge_cost": {
+            "mesh": 0.4,
+            "closure": 0.1
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 1.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 0.5,
+            "1e-08": 0.2,
+            "1e-07": 0.2
+          },
+          "profile": [
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.002541864613862918,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.005803502967438074,
+              "minimum_single_partition_ratio": 2.2831676147449826,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9363634431218898
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.2,
+              "admissible_component_partitions": 2,
+              "maximum_single_partition_diameter": 0.03994346524983127,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.005803502967438074,
+              "minimum_single_partition_ratio": 0.14529292666871435,
+              "ratio_partition": "[[0, 1], [2, 3]]",
+              "diameter_relative_gap": 6.130621378670633e-09
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 6,
+              "maximum_single_partition_diameter": 0.039943465479975244,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.0058035029460979356,
+              "minimum_single_partition_ratio": 0.14529292583157388,
+              "ratio_partition": "[[0, 1, 3], [2]]",
+              "diameter_relative_gap": 3.6887861366948206e-10
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.6,
+              "admissible_component_partitions": 8,
+              "maximum_single_partition_diameter": 0.039943465479975244,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.0058035029460979356,
+              "minimum_single_partition_ratio": 0.1452929252973153,
+              "ratio_partition": "[[0, 1], [2], [3]]",
+              "diameter_relative_gap": 3.6887861366948206e-10
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.8,
+              "admissible_component_partitions": 9,
+              "maximum_single_partition_diameter": 0.039943465479975244,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.0058035029460979356,
+              "minimum_single_partition_ratio": 0.1452929252973153,
+              "ratio_partition": "[[0, 1], [2], [3]]",
+              "diameter_relative_gap": 3.6887861366948206e-10
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.9,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.039943465479975244,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.0058035029460979356,
+              "minimum_single_partition_ratio": 0.1452929252973153,
+              "ratio_partition": "[[0, 1], [2], [3]]",
+              "diameter_relative_gap": 3.6887861366948206e-10
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.039943465494709535,
+              "diameter_partition": "[[0], [1], [2], [3]]",
+              "minimum_single_partition_signal": 0.0058035029460979356,
+              "minimum_single_partition_ratio": 0.14529292524371984,
+              "ratio_partition": "[[0], [1], [2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        },
+        {
+          "cost_model": "closure_dominant",
+          "axis_edge_cost": {
+            "mesh": 0.1,
+            "closure": 0.4
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 1.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          },
+          "profile": [
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.002541864613862918,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.005803502967438074,
+              "minimum_single_partition_ratio": 2.2831676147449826,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9363634431218898
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.2,
+              "admissible_component_partitions": 2,
+              "maximum_single_partition_diameter": 0.002541864613862918,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.005803502967438074,
+              "minimum_single_partition_ratio": 2.2831676147449826,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9363634431218898
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 6,
+              "maximum_single_partition_diameter": 0.039943465479975244,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.0058035029460979356,
+              "minimum_single_partition_ratio": 0.14529292583157388,
+              "ratio_partition": "[[0, 1, 3], [2]]",
+              "diameter_relative_gap": 3.6887861366948206e-10
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.6000000000000001,
+              "admissible_component_partitions": 8,
+              "maximum_single_partition_diameter": 0.039943465479975244,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.0058035029460979356,
+              "minimum_single_partition_ratio": 0.14529292583157388,
+              "ratio_partition": "[[0, 1, 3], [2]]",
+              "diameter_relative_gap": 3.6887861366948206e-10
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.8,
+              "admissible_component_partitions": 9,
+              "maximum_single_partition_diameter": 0.039943465479975244,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.0058035029460979356,
+              "minimum_single_partition_ratio": 0.14529292583157388,
+              "ratio_partition": "[[0, 1, 3], [2]]",
+              "diameter_relative_gap": 3.6887861366948206e-10
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.9,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.039943465479975244,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.0058035029460979356,
+              "minimum_single_partition_ratio": 0.1452929252973153,
+              "ratio_partition": "[[0, 1], [2], [3]]",
+              "diameter_relative_gap": 3.6887861366948206e-10
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.039943465494709535,
+              "diameter_partition": "[[0], [1], [2], [3]]",
+              "minimum_single_partition_signal": 0.0058035029460979356,
+              "minimum_single_partition_ratio": 0.14529292524371984,
+              "ratio_partition": "[[0], [1], [2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "alph05-10071-2024",
+      "support": "shared_F000",
+      "independent_metrics": {
+        "signal": 0.00577421207543766,
+        "diameter": 0.021789782632838525,
+        "ratio": 0.26499631376476296
+      },
+      "cost_models": [
+        {
+          "cost_model": "balanced",
+          "axis_edge_cost": {
+            "mesh": 0.25,
+            "closure": 0.25
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 1.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          },
+          "profile": [
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0015368250049551681,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.005774212264659168,
+              "minimum_single_partition_ratio": 3.7572347183585886,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9294703838560061
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 7,
+              "maximum_single_partition_diameter": 0.02178978260538218,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.00577421207543766,
+              "minimum_single_partition_ratio": 0.26499632278262886,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 1.2600559944542719e-09
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.75,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.02178978260538218,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.00577421207543766,
+              "minimum_single_partition_ratio": 0.26499631409867314,
+              "ratio_partition": "[[0, 2], [1], [3]]",
+              "diameter_relative_gap": 1.2600559944542719e-09
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "balanced",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.021789782632838525,
+              "diameter_partition": "[[0], [1], [2], [3]]",
+              "minimum_single_partition_signal": 0.00577421207543766,
+              "minimum_single_partition_ratio": 0.26499631376476296,
+              "ratio_partition": "[[0], [1], [2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        },
+        {
+          "cost_model": "mesh_dominant",
+          "axis_edge_cost": {
+            "mesh": 0.4,
+            "closure": 0.1
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 1.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 0.5,
+            "1e-07": 0.2
+          },
+          "profile": [
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0015368250049551681,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.005774212264659168,
+              "minimum_single_partition_ratio": 3.7572347183585886,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9294703838560061
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.2,
+              "admissible_component_partitions": 2,
+              "maximum_single_partition_diameter": 0.021789782382634515,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.005774212264659168,
+              "minimum_single_partition_ratio": 0.2649963254915734,
+              "ratio_partition": "[[0, 1], [2, 3]]",
+              "diameter_relative_gap": 1.148262993275606e-08
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 6,
+              "maximum_single_partition_diameter": 0.02178978260538218,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.005774212156056661,
+              "minimum_single_partition_ratio": 0.26499632278262886,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 1.2600559944542719e-09
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.6,
+              "admissible_component_partitions": 8,
+              "maximum_single_partition_diameter": 0.02178978260538218,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.005774212156056661,
+              "minimum_single_partition_ratio": 0.26499631908269994,
+              "ratio_partition": "[[0], [1], [2, 3]]",
+              "diameter_relative_gap": 1.2600559944542719e-09
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.8,
+              "admissible_component_partitions": 9,
+              "maximum_single_partition_diameter": 0.02178978260538218,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.00577421207543766,
+              "minimum_single_partition_ratio": 0.26499631908269994,
+              "ratio_partition": "[[0], [1], [2, 3]]",
+              "diameter_relative_gap": 1.2600559944542719e-09
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.9,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.02178978260538218,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.00577421207543766,
+              "minimum_single_partition_ratio": 0.26499631409867314,
+              "ratio_partition": "[[0, 2], [1], [3]]",
+              "diameter_relative_gap": 1.2600559944542719e-09
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.021789782632838525,
+              "diameter_partition": "[[0], [1], [2], [3]]",
+              "minimum_single_partition_signal": 0.00577421207543766,
+              "minimum_single_partition_ratio": 0.26499631376476296,
+              "ratio_partition": "[[0], [1], [2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        },
+        {
+          "cost_model": "closure_dominant",
+          "axis_edge_cost": {
+            "mesh": 0.1,
+            "closure": 0.4
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 1.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          },
+          "profile": [
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0015368250049551681,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.005774212264659168,
+              "minimum_single_partition_ratio": 3.7572347183585886,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9294703838560061
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.2,
+              "admissible_component_partitions": 2,
+              "maximum_single_partition_diameter": 0.0015368251161898081,
+              "diameter_partition": "[[0, 2], [1, 3]]",
+              "minimum_single_partition_signal": 0.00577421207543766,
+              "minimum_single_partition_ratio": 3.7572343232868577,
+              "ratio_partition": "[[0, 2], [1, 3]]",
+              "diameter_relative_gap": 0.929470378751107
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 6,
+              "maximum_single_partition_diameter": 0.02178978260538218,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.00577421207543766,
+              "minimum_single_partition_ratio": 0.26499632278262886,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 1.2600559944542719e-09
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.6000000000000001,
+              "admissible_component_partitions": 8,
+              "maximum_single_partition_diameter": 0.02178978260538218,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.00577421207543766,
+              "minimum_single_partition_ratio": 0.26499631409867314,
+              "ratio_partition": "[[0, 2], [1], [3]]",
+              "diameter_relative_gap": 1.2600559944542719e-09
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.8,
+              "admissible_component_partitions": 9,
+              "maximum_single_partition_diameter": 0.02178978260538218,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.00577421207543766,
+              "minimum_single_partition_ratio": 0.26499631409867314,
+              "ratio_partition": "[[0, 2], [1], [3]]",
+              "diameter_relative_gap": 1.2600559944542719e-09
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.9,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.02178978260538218,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.00577421207543766,
+              "minimum_single_partition_ratio": 0.26499631409867314,
+              "ratio_partition": "[[0, 2], [1], [3]]",
+              "diameter_relative_gap": 1.2600559944542719e-09
+            },
+            {
+              "case_id": "alph05-10071-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.021789782632838525,
+              "diameter_partition": "[[0], [1], [2], [3]]",
+              "minimum_single_partition_signal": 0.00577421207543766,
+              "minimum_single_partition_ratio": 0.26499631376476296,
+              "ratio_partition": "[[0], [1], [2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-10929-3036",
+      "support": "fine_F100",
+      "independent_metrics": {
+        "signal": 0.006592612701933957,
+        "diameter": 0.010924370848892827,
+        "ratio": 0.6034775634335144
+      },
+      "cost_models": [
+        {
+          "cost_model": "balanced",
+          "axis_edge_cost": {
+            "mesh": 0.25,
+            "closure": 0.25
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 1.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 1.0,
+            "1e-07": 0.5
+          },
+          "profile": [
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.001008886806863519,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.0065926128791001055,
+              "minimum_single_partition_ratio": 6.534541669343037,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9076480631407924
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 7,
+              "maximum_single_partition_diameter": 0.010924370727786391,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.006592612701933957,
+              "minimum_single_partition_ratio": 0.603477586341119,
+              "ratio_partition": "[[0, 1, 3], [2]]",
+              "diameter_relative_gap": 1.1085895683965614e-08
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.75,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.010924370727786391,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.006592612701933957,
+              "minimum_single_partition_ratio": 0.6034775701236038,
+              "ratio_partition": "[[0], [1, 3], [2]]",
+              "diameter_relative_gap": 1.1085895683965614e-08
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "balanced",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.010924370848892827,
+              "diameter_partition": "[[0], [1], [2], [3]]",
+              "minimum_single_partition_signal": 0.006592612701933957,
+              "minimum_single_partition_ratio": 0.6034775634335144,
+              "ratio_partition": "[[0], [1], [2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        },
+        {
+          "cost_model": "mesh_dominant",
+          "axis_edge_cost": {
+            "mesh": 0.4,
+            "closure": 0.1
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 1.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 1.0,
+            "1e-07": 0.2
+          },
+          "profile": [
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.001008886806863519,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.0065926128791001055,
+              "minimum_single_partition_ratio": 6.534541669343037,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9076480631407924
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.2,
+              "admissible_component_partitions": 2,
+              "maximum_single_partition_diameter": 0.010924370552263874,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.0065926128791001055,
+              "minimum_single_partition_ratio": 0.6034775960372296,
+              "ratio_partition": "[[0, 1], [2, 3]]",
+              "diameter_relative_gap": 2.7152955205088068e-08
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 6,
+              "maximum_single_partition_diameter": 0.010924370727786391,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.006592612781573308,
+              "minimum_single_partition_ratio": 0.603477586341119,
+              "ratio_partition": "[[0, 1, 3], [2]]",
+              "diameter_relative_gap": 1.1085895683965614e-08
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.6,
+              "admissible_component_partitions": 8,
+              "maximum_single_partition_diameter": 0.010924370727786391,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.006592612781573308,
+              "minimum_single_partition_ratio": 0.6034775774136669,
+              "ratio_partition": "[[0, 1], [2], [3]]",
+              "diameter_relative_gap": 1.1085895683965614e-08
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.8,
+              "admissible_component_partitions": 9,
+              "maximum_single_partition_diameter": 0.010924370727786391,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.006592612701933957,
+              "minimum_single_partition_ratio": 0.6034775774136669,
+              "ratio_partition": "[[0, 1], [2], [3]]",
+              "diameter_relative_gap": 1.1085895683965614e-08
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.9,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.010924370727786391,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.006592612701933957,
+              "minimum_single_partition_ratio": 0.6034775701236038,
+              "ratio_partition": "[[0], [1, 3], [2]]",
+              "diameter_relative_gap": 1.1085895683965614e-08
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.010924370848892827,
+              "diameter_partition": "[[0], [1], [2], [3]]",
+              "minimum_single_partition_signal": 0.006592612701933957,
+              "minimum_single_partition_ratio": 0.6034775634335144,
+              "ratio_partition": "[[0], [1], [2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        },
+        {
+          "cost_model": "closure_dominant",
+          "axis_edge_cost": {
+            "mesh": 0.1,
+            "closure": 0.4
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 1.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 1.0,
+            "1e-07": 0.5
+          },
+          "profile": [
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.001008886806863519,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.0065926128791001055,
+              "minimum_single_partition_ratio": 6.534541669343037,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9076480631407924
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.2,
+              "admissible_component_partitions": 2,
+              "maximum_single_partition_diameter": 0.0010088868536657252,
+              "diameter_partition": "[[0, 2], [1, 3]]",
+              "minimum_single_partition_signal": 0.006592612701933957,
+              "minimum_single_partition_ratio": 6.534541190600437,
+              "ratio_partition": "[[0, 2], [1, 3]]",
+              "diameter_relative_gap": 0.9076480588565908
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 6,
+              "maximum_single_partition_diameter": 0.010924370727786391,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.006592612701933957,
+              "minimum_single_partition_ratio": 0.603477586341119,
+              "ratio_partition": "[[0, 1, 3], [2]]",
+              "diameter_relative_gap": 1.1085895683965614e-08
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.6000000000000001,
+              "admissible_component_partitions": 8,
+              "maximum_single_partition_diameter": 0.010924370727786391,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.006592612701933957,
+              "minimum_single_partition_ratio": 0.6034775701236038,
+              "ratio_partition": "[[0], [1, 3], [2]]",
+              "diameter_relative_gap": 1.1085895683965614e-08
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.8,
+              "admissible_component_partitions": 9,
+              "maximum_single_partition_diameter": 0.010924370727786391,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.006592612701933957,
+              "minimum_single_partition_ratio": 0.6034775701236038,
+              "ratio_partition": "[[0], [1, 3], [2]]",
+              "diameter_relative_gap": 1.1085895683965614e-08
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.9,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.010924370727786391,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.006592612701933957,
+              "minimum_single_partition_ratio": 0.6034775701236038,
+              "ratio_partition": "[[0], [1, 3], [2]]",
+              "diameter_relative_gap": 1.1085895683965614e-08
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.010924370848892827,
+              "diameter_partition": "[[0], [1], [2], [3]]",
+              "minimum_single_partition_signal": 0.006592612701933957,
+              "minimum_single_partition_ratio": 0.6034775634335144,
+              "ratio_partition": "[[0], [1], [2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-10929-3036",
+      "support": "shared_F000",
+      "independent_metrics": {
+        "signal": 0.006573077584136554,
+        "diameter": 0.0039975910646890146,
+        "ratio": 1.6442596248017918
+      },
+      "cost_models": [
+        {
+          "cost_model": "balanced",
+          "axis_edge_cost": {
+            "mesh": 0.25,
+            "closure": 0.25
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          },
+          "profile": [
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0002804795263991578,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 23.435142195663275,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9298378643887185
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 7,
+              "maximum_single_partition_diameter": 0.0039975910646890146,
+              "diameter_partition": "[[0, 1, 2], [3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 1.6442596248017918,
+              "ratio_partition": "[[0, 1, 2], [3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.75,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.0039975910646890146,
+              "diameter_partition": "[[0, 1, 2], [3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 1.6442596248017918,
+              "ratio_partition": "[[0, 1, 2], [3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "balanced",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.0039975910646890146,
+              "diameter_partition": "[[0, 1, 2], [3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 1.6442596248017918,
+              "ratio_partition": "[[0, 1, 2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        },
+        {
+          "cost_model": "mesh_dominant",
+          "axis_edge_cost": {
+            "mesh": 0.4,
+            "closure": 0.1
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.2,
+            "1e-08": 0.2,
+            "1e-07": 0.2
+          },
+          "profile": [
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0002804795263991578,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 23.435142195663275,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9298378643887185
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.2,
+              "admissible_component_partitions": 2,
+              "maximum_single_partition_diameter": 0.003997591063522008,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 1.6442596252817963,
+              "ratio_partition": "[[0, 1], [2, 3]]",
+              "diameter_relative_gap": 2.9192745747164827e-10
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 6,
+              "maximum_single_partition_diameter": 0.0039975910646890146,
+              "diameter_partition": "[[0, 1, 2], [3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 1.6442596248017918,
+              "ratio_partition": "[[0, 1, 2], [3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.6,
+              "admissible_component_partitions": 8,
+              "maximum_single_partition_diameter": 0.0039975910646890146,
+              "diameter_partition": "[[0, 1, 2], [3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 1.6442596248017918,
+              "ratio_partition": "[[0, 1, 2], [3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.8,
+              "admissible_component_partitions": 9,
+              "maximum_single_partition_diameter": 0.0039975910646890146,
+              "diameter_partition": "[[0, 1, 2], [3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 1.6442596248017918,
+              "ratio_partition": "[[0, 1, 2], [3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.9,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.0039975910646890146,
+              "diameter_partition": "[[0, 1, 2], [3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 1.6442596248017918,
+              "ratio_partition": "[[0, 1, 2], [3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.0039975910646890146,
+              "diameter_partition": "[[0, 1, 2], [3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 1.6442596248017918,
+              "ratio_partition": "[[0, 1, 2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        },
+        {
+          "cost_model": "closure_dominant",
+          "axis_edge_cost": {
+            "mesh": 0.1,
+            "closure": 0.4
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          },
+          "profile": [
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0002804795263991578,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 23.435142195663275,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9298378643887185
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.2,
+              "admissible_component_partitions": 2,
+              "maximum_single_partition_diameter": 0.0002804797555722118,
+              "diameter_partition": "[[0, 2], [1, 3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 23.43512304738964,
+              "ratio_partition": "[[0, 2], [1, 3]]",
+              "diameter_relative_gap": 0.9298378070609303
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 6,
+              "maximum_single_partition_diameter": 0.0039975910646890146,
+              "diameter_partition": "[[0, 1, 2], [3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 1.6442596248017918,
+              "ratio_partition": "[[0, 1, 2], [3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.6000000000000001,
+              "admissible_component_partitions": 8,
+              "maximum_single_partition_diameter": 0.0039975910646890146,
+              "diameter_partition": "[[0, 1, 2], [3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 1.6442596248017918,
+              "ratio_partition": "[[0, 1, 2], [3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.8,
+              "admissible_component_partitions": 9,
+              "maximum_single_partition_diameter": 0.0039975910646890146,
+              "diameter_partition": "[[0, 1, 2], [3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 1.6442596248017918,
+              "ratio_partition": "[[0, 1, 2], [3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.9,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.0039975910646890146,
+              "diameter_partition": "[[0, 1, 2], [3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 1.6442596248017918,
+              "ratio_partition": "[[0, 1, 2], [3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-10929-3036",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.0039975910646890146,
+              "diameter_partition": "[[0, 1, 2], [3]]",
+              "minimum_single_partition_signal": 0.006573077584136554,
+              "minimum_single_partition_ratio": 1.6442596248017918,
+              "ratio_partition": "[[0, 1, 2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support": "fine_F100",
+      "independent_metrics": {
+        "signal": 0.0062830082324742825,
+        "diameter": 0.023336763524458043,
+        "ratio": 0.2692322020527564
+      },
+      "cost_models": [
+        {
+          "cost_model": "balanced",
+          "axis_edge_cost": {
+            "mesh": 0.25,
+            "closure": 0.25
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          },
+          "profile": [
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0016868797410758082,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.0062830083842117055,
+              "minimum_single_partition_ratio": 3.7246332570244247,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9277157803262703
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 7,
+              "maximum_single_partition_diameter": 0.023336763524458043,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.0062830082324742825,
+              "minimum_single_partition_ratio": 0.26923220855483293,
+              "ratio_partition": "[[0, 1], [2, 3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.75,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.023336763524458043,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.0062830082324742825,
+              "minimum_single_partition_ratio": 0.2692322025283699,
+              "ratio_partition": "[[0], [1, 3], [2]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "balanced",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.023336763524458043,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.0062830082324742825,
+              "minimum_single_partition_ratio": 0.2692322020527564,
+              "ratio_partition": "[[0], [1], [2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        },
+        {
+          "cost_model": "mesh_dominant",
+          "axis_edge_cost": {
+            "mesh": 0.4,
+            "closure": 0.1
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 0.2,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.2,
+            "1e-10": 0.2,
+            "1e-09": 0.2,
+            "1e-08": 0.2,
+            "1e-07": 0.2
+          },
+          "profile": [
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0016868797410758082,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.0062830083842117055,
+              "minimum_single_partition_ratio": 3.7246332570244247,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9277157803262703
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.2,
+              "admissible_component_partitions": 2,
+              "maximum_single_partition_diameter": 0.023336763524458043,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.0062830083842117055,
+              "minimum_single_partition_ratio": 0.26923220855483293,
+              "ratio_partition": "[[0, 1], [2, 3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 6,
+              "maximum_single_partition_diameter": 0.023336763524458043,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.006283008261761296,
+              "minimum_single_partition_ratio": 0.26923220855483293,
+              "ratio_partition": "[[0, 1], [2, 3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.6,
+              "admissible_component_partitions": 8,
+              "maximum_single_partition_diameter": 0.023336763524458043,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.006283008261761296,
+              "minimum_single_partition_ratio": 0.2692322033077296,
+              "ratio_partition": "[[0], [1], [2, 3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.8,
+              "admissible_component_partitions": 9,
+              "maximum_single_partition_diameter": 0.023336763524458043,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.0062830082324742825,
+              "minimum_single_partition_ratio": 0.2692322033077296,
+              "ratio_partition": "[[0], [1], [2, 3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.9,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.023336763524458043,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.0062830082324742825,
+              "minimum_single_partition_ratio": 0.2692322025283699,
+              "ratio_partition": "[[0], [1, 3], [2]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.023336763524458043,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.0062830082324742825,
+              "minimum_single_partition_ratio": 0.2692322020527564,
+              "ratio_partition": "[[0], [1], [2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        },
+        {
+          "cost_model": "closure_dominant",
+          "axis_edge_cost": {
+            "mesh": 0.1,
+            "closure": 0.4
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 0.8,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.8,
+            "1e-10": 0.8,
+            "1e-09": 0.8,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          },
+          "profile": [
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0016868797410758082,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.0062830083842117055,
+              "minimum_single_partition_ratio": 3.7246332570244247,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9277157803262703
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.2,
+              "admissible_component_partitions": 2,
+              "maximum_single_partition_diameter": 0.0016868797410758082,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.0062830082324742825,
+              "minimum_single_partition_ratio": 3.724633167072889,
+              "ratio_partition": "[[0, 2], [1, 3]]",
+              "diameter_relative_gap": 0.9277157803262703
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 6,
+              "maximum_single_partition_diameter": 0.023336763483232364,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.0062830082324742825,
+              "minimum_single_partition_ratio": 0.2692322090304465,
+              "ratio_partition": "[[0, 1, 3], [2]]",
+              "diameter_relative_gap": 1.7665551213754931e-09
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.6000000000000001,
+              "admissible_component_partitions": 8,
+              "maximum_single_partition_diameter": 0.023336763483232364,
+              "diameter_partition": "[[0, 1, 3], [2]]",
+              "minimum_single_partition_signal": 0.0062830082324742825,
+              "minimum_single_partition_ratio": 0.2692322025283699,
+              "ratio_partition": "[[0], [1, 3], [2]]",
+              "diameter_relative_gap": 1.7665551213754931e-09
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.8,
+              "admissible_component_partitions": 9,
+              "maximum_single_partition_diameter": 0.023336763524458043,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.0062830082324742825,
+              "minimum_single_partition_ratio": 0.2692322025283699,
+              "ratio_partition": "[[0], [1, 3], [2]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.9,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.023336763524458043,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.0062830082324742825,
+              "minimum_single_partition_ratio": 0.2692322025283699,
+              "ratio_partition": "[[0], [1, 3], [2]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.023336763524458043,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.0062830082324742825,
+              "minimum_single_partition_ratio": 0.2692322020527564,
+              "ratio_partition": "[[0], [1], [2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support": "shared_F000",
+      "independent_metrics": {
+        "signal": 0.0062340988347173,
+        "diameter": 0.011791930287449386,
+        "ratio": 0.5286750076323379
+      },
+      "cost_models": [
+        {
+          "cost_model": "balanced",
+          "axis_edge_cost": {
+            "mesh": 0.25,
+            "closure": 0.25
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          },
+          "profile": [
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0008596383912491695,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 7.252001420804765,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9270994340795827
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 7,
+              "maximum_single_partition_diameter": 0.011791930287449386,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 0.5286750076323379,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.75,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.011791930287449386,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 0.5286750076323379,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "balanced",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.011791930287449386,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 0.5286750076323379,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        },
+        {
+          "cost_model": "mesh_dominant",
+          "axis_edge_cost": {
+            "mesh": 0.4,
+            "closure": 0.1
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.2
+          },
+          "profile": [
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0008596383912491695,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 7.252001420804765,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9270994340795827
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.2,
+              "admissible_component_partitions": 2,
+              "maximum_single_partition_diameter": 0.011791929955827243,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 0.5286750225001619,
+              "ratio_partition": "[[0, 1], [2, 3]]",
+              "diameter_relative_gap": 2.81228038884811e-08
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 6,
+              "maximum_single_partition_diameter": 0.011791930287449386,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 0.5286750076323379,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.6,
+              "admissible_component_partitions": 8,
+              "maximum_single_partition_diameter": 0.011791930287449386,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 0.5286750076323379,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.8,
+              "admissible_component_partitions": 9,
+              "maximum_single_partition_diameter": 0.011791930287449386,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 0.5286750076323379,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.9,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.011791930287449386,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 0.5286750076323379,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.011791930287449386,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 0.5286750076323379,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        },
+        {
+          "cost_model": "closure_dominant",
+          "axis_edge_cost": {
+            "mesh": 0.1,
+            "closure": 0.4
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          },
+          "profile": [
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0008596383912491695,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 7.252001420804765,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9270994340795827
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.2,
+              "admissible_component_partitions": 2,
+              "maximum_single_partition_diameter": 0.0008596383912491695,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 7.252001420804765,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9270994340795827
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 6,
+              "maximum_single_partition_diameter": 0.011791930287449386,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 0.5286750076323379,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.6000000000000001,
+              "admissible_component_partitions": 8,
+              "maximum_single_partition_diameter": 0.011791930287449386,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 0.5286750076323379,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.8,
+              "admissible_component_partitions": 9,
+              "maximum_single_partition_diameter": 0.011791930287449386,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 0.5286750076323379,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.9,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.011791930287449386,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 0.5286750076323379,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-13929-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.011791930287449386,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.0062340988347173,
+              "minimum_single_partition_ratio": 0.5286750076323379,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-7929-2024",
+      "support": "fine_F100",
+      "independent_metrics": {
+        "signal": 0.00892626456010049,
+        "diameter": 0.02196983493488067,
+        "ratio": 0.40629638713983235
+      },
+      "cost_models": [
+        {
+          "cost_model": "balanced",
+          "axis_edge_cost": {
+            "mesh": 0.25,
+            "closure": 0.25
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 1.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          },
+          "profile": [
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0017910862329488298,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.008926264601940908,
+              "minimum_single_partition_ratio": 4.983715712696188,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9184752075626571
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 7,
+              "maximum_single_partition_diameter": 0.021969834910426565,
+              "diameter_partition": "[[0], [1, 2, 3]]",
+              "minimum_single_partition_signal": 0.00892626456010049,
+              "minimum_single_partition_ratio": 0.40629638949651975,
+              "ratio_partition": "[[0], [1, 2, 3]]",
+              "diameter_relative_gap": 1.113076428647911e-09
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.75,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.021969834910426565,
+              "diameter_partition": "[[0], [1, 2, 3]]",
+              "minimum_single_partition_signal": 0.00892626456010049,
+              "minimum_single_partition_ratio": 0.40629638759207126,
+              "ratio_partition": "[[0], [1, 3], [2]]",
+              "diameter_relative_gap": 1.113076428647911e-09
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "balanced",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.02196983493488067,
+              "diameter_partition": "[[0], [1], [2], [3]]",
+              "minimum_single_partition_signal": 0.00892626456010049,
+              "minimum_single_partition_ratio": 0.40629638713983235,
+              "ratio_partition": "[[0], [1], [2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        },
+        {
+          "cost_model": "mesh_dominant",
+          "axis_edge_cost": {
+            "mesh": 0.4,
+            "closure": 0.1
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 1.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 0.5,
+            "1e-07": 0.2
+          },
+          "profile": [
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0017910862329488298,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.008926264601940908,
+              "minimum_single_partition_ratio": 4.983715712696188,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9184752075626571
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.2,
+              "admissible_component_partitions": 2,
+              "maximum_single_partition_diameter": 0.021969834689113295,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.008926264601940908,
+              "minimum_single_partition_ratio": 0.406296393589349,
+              "ratio_partition": "[[0, 1], [2, 3]]",
+              "diameter_relative_gap": 1.1186582690741738e-08
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 6,
+              "maximum_single_partition_diameter": 0.021969834910426565,
+              "diameter_partition": "[[0], [1, 2, 3]]",
+              "minimum_single_partition_signal": 0.008926264572823603,
+              "minimum_single_partition_ratio": 0.40629638949651975,
+              "ratio_partition": "[[0], [1, 2, 3]]",
+              "diameter_relative_gap": 1.113076428647911e-09
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.6,
+              "admissible_component_partitions": 8,
+              "maximum_single_partition_diameter": 0.021969834910426565,
+              "diameter_partition": "[[0], [1, 2, 3]]",
+              "minimum_single_partition_signal": 0.008926264572823603,
+              "minimum_single_partition_ratio": 0.4062963881711886,
+              "ratio_partition": "[[0], [1], [2, 3]]",
+              "diameter_relative_gap": 1.113076428647911e-09
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.8,
+              "admissible_component_partitions": 9,
+              "maximum_single_partition_diameter": 0.021969834910426565,
+              "diameter_partition": "[[0], [1, 2, 3]]",
+              "minimum_single_partition_signal": 0.00892626456010049,
+              "minimum_single_partition_ratio": 0.4062963881711886,
+              "ratio_partition": "[[0], [1], [2, 3]]",
+              "diameter_relative_gap": 1.113076428647911e-09
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.9,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.021969834910426565,
+              "diameter_partition": "[[0], [1, 2, 3]]",
+              "minimum_single_partition_signal": 0.00892626456010049,
+              "minimum_single_partition_ratio": 0.40629638759207126,
+              "ratio_partition": "[[0], [1, 3], [2]]",
+              "diameter_relative_gap": 1.113076428647911e-09
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.02196983493488067,
+              "diameter_partition": "[[0], [1], [2], [3]]",
+              "minimum_single_partition_signal": 0.00892626456010049,
+              "minimum_single_partition_ratio": 0.40629638713983235,
+              "ratio_partition": "[[0], [1], [2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        },
+        {
+          "cost_model": "closure_dominant",
+          "axis_edge_cost": {
+            "mesh": 0.1,
+            "closure": 0.4
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 1.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          },
+          "profile": [
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0017910862329488298,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.008926264601940908,
+              "minimum_single_partition_ratio": 4.983715712696188,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9184752075626571
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.2,
+              "admissible_component_partitions": 2,
+              "maximum_single_partition_diameter": 0.0017910862329488298,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.00892626456010049,
+              "minimum_single_partition_ratio": 4.9837156893358285,
+              "ratio_partition": "[[0, 2], [1, 3]]",
+              "diameter_relative_gap": 0.9184752075626571
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 6,
+              "maximum_single_partition_diameter": 0.021969834910426565,
+              "diameter_partition": "[[0], [1, 2, 3]]",
+              "minimum_single_partition_signal": 0.00892626456010049,
+              "minimum_single_partition_ratio": 0.40629638949651975,
+              "ratio_partition": "[[0], [1, 2, 3]]",
+              "diameter_relative_gap": 1.113076428647911e-09
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.6000000000000001,
+              "admissible_component_partitions": 8,
+              "maximum_single_partition_diameter": 0.021969834910426565,
+              "diameter_partition": "[[0], [1, 2, 3]]",
+              "minimum_single_partition_signal": 0.00892626456010049,
+              "minimum_single_partition_ratio": 0.40629638759207126,
+              "ratio_partition": "[[0], [1, 3], [2]]",
+              "diameter_relative_gap": 1.113076428647911e-09
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.8,
+              "admissible_component_partitions": 9,
+              "maximum_single_partition_diameter": 0.021969834910426565,
+              "diameter_partition": "[[0], [1, 2, 3]]",
+              "minimum_single_partition_signal": 0.00892626456010049,
+              "minimum_single_partition_ratio": 0.40629638759207126,
+              "ratio_partition": "[[0], [1, 3], [2]]",
+              "diameter_relative_gap": 1.113076428647911e-09
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.9,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.021969834910426565,
+              "diameter_partition": "[[0], [1, 2, 3]]",
+              "minimum_single_partition_signal": 0.00892626456010049,
+              "minimum_single_partition_ratio": 0.40629638759207126,
+              "ratio_partition": "[[0], [1, 3], [2]]",
+              "diameter_relative_gap": 1.113076428647911e-09
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "fine_F100",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.02196983493488067,
+              "diameter_partition": "[[0], [1], [2], [3]]",
+              "minimum_single_partition_signal": 0.00892626456010049,
+              "minimum_single_partition_ratio": 0.40629638713983235,
+              "ratio_partition": "[[0], [1], [2], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-7929-2024",
+      "support": "shared_F000",
+      "independent_metrics": {
+        "signal": 0.008895896176792987,
+        "diameter": 0.012853025314532337,
+        "ratio": 0.6921246911989505
+      },
+      "cost_models": [
+        {
+          "cost_model": "balanced",
+          "axis_edge_cost": {
+            "mesh": 0.25,
+            "closure": 0.25
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          },
+          "profile": [
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0009796901807383393,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.008895896628679095,
+              "minimum_single_partition_ratio": 9.080316209737594,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9237774643117953
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 7,
+              "maximum_single_partition_diameter": 0.012853025314532337,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.008895896176792987,
+              "minimum_single_partition_ratio": 0.6921247263569072,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "balanced",
+              "relaxation_budget": 0.75,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.012853025314532337,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.008895896176792987,
+              "minimum_single_partition_ratio": 0.6921246911989505,
+              "ratio_partition": "[[0, 2], [1], [3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "balanced",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.012853025314532337,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.008895896176792987,
+              "minimum_single_partition_ratio": 0.6921246911989505,
+              "ratio_partition": "[[0, 2], [1], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        },
+        {
+          "cost_model": "mesh_dominant",
+          "axis_edge_cost": {
+            "mesh": 0.4,
+            "closure": 0.1
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.2
+          },
+          "profile": [
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0009796901807383393,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.008895896628679095,
+              "minimum_single_partition_ratio": 9.080316209737594,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9237774643117953
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.2,
+              "admissible_component_partitions": 2,
+              "maximum_single_partition_diameter": 0.012853025065937019,
+              "diameter_partition": "[[0, 1], [2, 3]]",
+              "minimum_single_partition_signal": 0.008895896628679095,
+              "minimum_single_partition_ratio": 0.6921247397435587,
+              "ratio_partition": "[[0, 1], [2, 3]]",
+              "diameter_relative_gap": 1.9341385538314016e-08
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 6,
+              "maximum_single_partition_diameter": 0.012853025314532337,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.008895896311943428,
+              "minimum_single_partition_ratio": 0.6921247263569072,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.6,
+              "admissible_component_partitions": 8,
+              "maximum_single_partition_diameter": 0.012853025314532337,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.008895896311943428,
+              "minimum_single_partition_ratio": 0.692124701714019,
+              "ratio_partition": "[[0], [1], [2, 3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.8,
+              "admissible_component_partitions": 9,
+              "maximum_single_partition_diameter": 0.012853025314532337,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.008895896176792987,
+              "minimum_single_partition_ratio": 0.692124701714019,
+              "ratio_partition": "[[0], [1], [2, 3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 0.9,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.012853025314532337,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.008895896176792987,
+              "minimum_single_partition_ratio": 0.6921246911989505,
+              "ratio_partition": "[[0, 2], [1], [3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "mesh_dominant",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.012853025314532337,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.008895896176792987,
+              "minimum_single_partition_ratio": 0.6921246911989505,
+              "ratio_partition": "[[0, 2], [1], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        },
+        {
+          "cost_model": "closure_dominant",
+          "axis_edge_cost": {
+            "mesh": 0.1,
+            "closure": 0.4
+          },
+          "distinct_component_partitions": 12,
+          "minimum_cost_exact_independent_diameter": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          },
+          "profile": [
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.0,
+              "admissible_component_partitions": 1,
+              "maximum_single_partition_diameter": 0.0009796901807383393,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.008895896628679095,
+              "minimum_single_partition_ratio": 9.080316209737594,
+              "ratio_partition": "[[0, 1, 2, 3]]",
+              "diameter_relative_gap": 0.9237774643117953
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.2,
+              "admissible_component_partitions": 2,
+              "maximum_single_partition_diameter": 0.0009796901807383393,
+              "diameter_partition": "[[0, 1, 2, 3]]",
+              "minimum_single_partition_signal": 0.008895896176792987,
+              "minimum_single_partition_ratio": 9.080315748483498,
+              "ratio_partition": "[[0, 2], [1, 3]]",
+              "diameter_relative_gap": 0.9237774643117953
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.5,
+              "admissible_component_partitions": 6,
+              "maximum_single_partition_diameter": 0.012853025314532337,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.008895896176792987,
+              "minimum_single_partition_ratio": 0.6921247263569072,
+              "ratio_partition": "[[0, 2, 3], [1]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.6000000000000001,
+              "admissible_component_partitions": 8,
+              "maximum_single_partition_diameter": 0.012853025314532337,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.008895896176792987,
+              "minimum_single_partition_ratio": 0.6921246911989505,
+              "ratio_partition": "[[0, 2], [1], [3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.8,
+              "admissible_component_partitions": 9,
+              "maximum_single_partition_diameter": 0.012853025314532337,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.008895896176792987,
+              "minimum_single_partition_ratio": 0.6921246911989505,
+              "ratio_partition": "[[0, 2], [1], [3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 0.9,
+              "admissible_component_partitions": 11,
+              "maximum_single_partition_diameter": 0.012853025314532337,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.008895896176792987,
+              "minimum_single_partition_ratio": 0.6921246911989505,
+              "ratio_partition": "[[0, 2], [1], [3]]",
+              "diameter_relative_gap": 0.0
+            },
+            {
+              "case_id": "alph15-7929-2024",
+              "support": "shared_F000",
+              "cost_model": "closure_dominant",
+              "relaxation_budget": 1.0,
+              "admissible_component_partitions": 12,
+              "maximum_single_partition_diameter": 0.012853025314532337,
+              "diameter_partition": "[[0, 2, 3], [1]]",
+              "minimum_single_partition_signal": 0.008895896176792987,
+              "minimum_single_partition_ratio": 0.6921246911989505,
+              "ratio_partition": "[[0, 2], [1], [3]]",
+              "diameter_relative_gap": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "claim_boundary": "Every reported set functional is attained within one common component partition. Edge weights are declared sensitivity models, not empirically identified probabilities or physical errors."
+}

@@ -1,9 +1,9 @@
 {
   "title": "Minimum-relaxation certificates for pathway dependence in multifidelity uncertainty quantification: reproducibility package",
   "upload_type": "software",
-  "version": "2.1.8",
-  "publication_date": "2026-09-06",
-  "description": "Reproducibility materials for Minimum-relaxation certificates for pathway dependence in multifidelity uncertainty quantification. The v2.1.8 package contains graph-certificate algorithms, checked numerical witnesses, eight CFD mapping-vector audits, and a stochastic diffusion benchmark. The one-command verification runs 48 core tests, eight theory-extension tests, six reconstruction-policy tests, and four release-routing tests. Common-partition manuscript results and optional robust-union analyses are separately identified. The CFD inputs support finite mapping audits, not raw OpenFOAM reruns, total CFD uncertainty, or physical validation. Graph edge costs are declared sensitivity weights, not probabilities. Code is MIT licensed; authored data, figures and documentation are CC BY 4.0. Earlier repository directories are retained as historical materials. The exact submission ZIP is included under release_archives; its internal metadata records the pre-publication build state.",
+  "version": "2.1.9",
+  "publication_date": "2026-09-07",
+  "description": "Reproducibility materials for Minimum-relaxation certificates for pathway dependence in multifidelity uncertainty quantification. Version 2.1.9 corrects stored-input scalar crossing checks, two-label forcing capacities, and initially indeterminate decision states. The independent diffusion verifier supports deeply nested Windows directories. The one-command verification runs 61 core/weight tests, eight theory tests, six comparison-policy tests, and four routing tests; it reconstructs eight CFD mapping-vector audits, 128 diffusion-chain partitions, and 24 independent solver checks. Original scientific arrays, figures and timing records are retained unchanged. CFD results concern finite mapping audits rather than raw OpenFOAM reruns, total CFD uncertainty, or physical validation. Graph edge costs are declared sensitivity weights, not probabilities. Code is MIT licensed; authored data, figures and documentation are CC BY 4.0. Earlier directories and releases are historical. The exact accompanying ZIP is under release_archives.",
   "creators": [
     {
       "name": "Ma, Jia Jun",

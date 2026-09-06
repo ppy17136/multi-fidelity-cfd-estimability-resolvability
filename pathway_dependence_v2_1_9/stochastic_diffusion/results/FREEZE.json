@@ -1,0 +1,12 @@
+{
+  "time_local": "2026-09-06T14:14:05+0800",
+  "protocol_sha256": "ab7ba64fe7e9594a5bea81ea8861d8b164e8cc6dfa29d2c2c4907614d10e8572",
+  "generator_sha256": "93c54816a9104ff126ebeb8a736bba6b7032af52123f219e315a4310a6abfcbd",
+  "nodes_sha256": "0ba90a4629b703942c3e6210c74b27ffd951b1ced31c4f8db60ac5ba62eb6cb8",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "python": "3.11.5",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "threads": 1,
+  "label": "Frozen computational benchmark, not a registry preregistration"
+}

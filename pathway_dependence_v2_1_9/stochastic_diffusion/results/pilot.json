@@ -1,0 +1,649 @@
+{
+  "solves": 64,
+  "elapsed_s": 0.13882860000740038,
+  "extrapolated_1024_s": 2.221257600118406,
+  "estimate_only": true,
+  "max_residual": 1.3352404481953793e-13,
+  "rows": [
+    {
+      "n": 8,
+      "residual": 1.7016567431142538e-15,
+      "elapsed_s": 0.0005988000011711847,
+      "l2_error": null,
+      "minimum_conductivity": 1.018035801870588,
+      "maximum_conductivity": 1.7342614763192201,
+      "pathway": 0,
+      "sample": 0
+    },
+    {
+      "n": 12,
+      "residual": 4.017267350463604e-15,
+      "elapsed_s": 0.000514600000315113,
+      "l2_error": null,
+      "minimum_conductivity": 0.9981593436935727,
+      "maximum_conductivity": 1.7493337602442507,
+      "pathway": 0,
+      "sample": 0
+    },
+    {
+      "n": 16,
+      "residual": 7.378772273831888e-15,
+      "elapsed_s": 0.0007700999994995072,
+      "l2_error": null,
+      "minimum_conductivity": 0.9902147980993924,
+      "maximum_conductivity": 1.754663773984262,
+      "pathway": 0,
+      "sample": 0
+    },
+    {
+      "n": 24,
+      "residual": 1.747978549328034e-14,
+      "elapsed_s": 0.0011047999978472944,
+      "l2_error": null,
+      "minimum_conductivity": 0.9836419221021689,
+      "maximum_conductivity": 1.7584883917722602,
+      "pathway": 0,
+      "sample": 0
+    },
+    {
+      "n": 32,
+      "residual": 3.155903100993539e-14,
+      "elapsed_s": 0.0017786999997042585,
+      "l2_error": null,
+      "minimum_conductivity": 0.9778066558117045,
+      "maximum_conductivity": 1.759830454505878,
+      "pathway": 0,
+      "sample": 0
+    },
+    {
+      "n": 40,
+      "residual": 5.107480149272959e-14,
+      "elapsed_s": 0.0027508999992278405,
+      "l2_error": null,
+      "minimum_conductivity": 0.9738036375599476,
+      "maximum_conductivity": 1.7604522436157182,
+      "pathway": 0,
+      "sample": 0
+    },
+    {
+      "n": 48,
+      "residual": 7.46976257807857e-14,
+      "elapsed_s": 0.004258800003299257,
+      "l2_error": null,
+      "minimum_conductivity": 0.971093799227598,
+      "maximum_conductivity": 1.7607901663616878,
+      "pathway": 0,
+      "sample": 0
+    },
+    {
+      "n": 64,
+      "residual": 1.3352404481953793e-13,
+      "elapsed_s": 0.006165699996927287,
+      "l2_error": null,
+      "minimum_conductivity": 0.9676488769400002,
+      "maximum_conductivity": 1.7611262813367399,
+      "pathway": 0,
+      "sample": 0
+    },
+    {
+      "n": 8,
+      "residual": 1.5942552328933518e-15,
+      "elapsed_s": 0.0005060000003140885,
+      "l2_error": null,
+      "minimum_conductivity": 0.8608375544591682,
+      "maximum_conductivity": 1.071982398057151,
+      "pathway": 0,
+      "sample": 1
+    },
+    {
+      "n": 12,
+      "residual": 3.280980894427949e-15,
+      "elapsed_s": 0.0005013000009057578,
+      "l2_error": null,
+      "minimum_conductivity": 0.8598234970205512,
+      "maximum_conductivity": 1.0787988195072578,
+      "pathway": 0,
+      "sample": 1
+    },
+    {
+      "n": 16,
+      "residual": 5.642327775126509e-15,
+      "elapsed_s": 0.0006604999980481807,
+      "l2_error": null,
+      "minimum_conductivity": 0.8595112037908316,
+      "maximum_conductivity": 1.081487070914638,
+      "pathway": 0,
+      "sample": 1
+    },
+    {
+      "n": 24,
+      "residual": 1.3696457911254656e-14,
+      "elapsed_s": 0.001128799998696195,
+      "l2_error": null,
+      "minimum_conductivity": 0.8593256668934321,
+      "maximum_conductivity": 1.0831890260834447,
+      "pathway": 0,
+      "sample": 1
+    },
+    {
+      "n": 32,
+      "residual": 2.4413330679677394e-14,
+      "elapsed_s": 0.0017862000022432767,
+      "l2_error": null,
+      "minimum_conductivity": 0.859280763466651,
+      "maximum_conductivity": 1.0836836817752133,
+      "pathway": 0,
+      "sample": 1
+    },
+    {
+      "n": 40,
+      "residual": 4.1707127261476043e-14,
+      "elapsed_s": 0.002635299999383278,
+      "l2_error": null,
+      "minimum_conductivity": 0.8592693673006286,
+      "maximum_conductivity": 1.0838705053880133,
+      "pathway": 0,
+      "sample": 1
+    },
+    {
+      "n": 48,
+      "residual": 5.566048737771371e-14,
+      "elapsed_s": 0.0037894000015512574,
+      "l2_error": null,
+      "minimum_conductivity": 0.8592683255124872,
+      "maximum_conductivity": 1.0839503171168956,
+      "pathway": 0,
+      "sample": 1
+    },
+    {
+      "n": 64,
+      "residual": 9.85663270470254e-14,
+      "elapsed_s": 0.006437200001528254,
+      "l2_error": null,
+      "minimum_conductivity": 0.859274477538832,
+      "maximum_conductivity": 1.0840795658416043,
+      "pathway": 0,
+      "sample": 1
+    },
+    {
+      "n": 8,
+      "residual": 1.4253643388039758e-15,
+      "elapsed_s": 0.0004712000009021722,
+      "l2_error": null,
+      "minimum_conductivity": 1.0574771306965387,
+      "maximum_conductivity": 1.4880152235150652,
+      "pathway": 1,
+      "sample": 0
+    },
+    {
+      "n": 12,
+      "residual": 3.940162240728458e-15,
+      "elapsed_s": 0.0005266000007395633,
+      "l2_error": null,
+      "minimum_conductivity": 1.037940334485634,
+      "maximum_conductivity": 1.4863538918132653,
+      "pathway": 1,
+      "sample": 0
+    },
+    {
+      "n": 16,
+      "residual": 6.4619136380411884e-15,
+      "elapsed_s": 0.0006322000008367468,
+      "l2_error": null,
+      "minimum_conductivity": 1.0284360000515231,
+      "maximum_conductivity": 1.486023017343615,
+      "pathway": 1,
+      "sample": 0
+    },
+    {
+      "n": 24,
+      "residual": 1.6564248067660678e-14,
+      "elapsed_s": 0.0011766000025090761,
+      "l2_error": null,
+      "minimum_conductivity": 1.01832154692047,
+      "maximum_conductivity": 1.4880152235150652,
+      "pathway": 1,
+      "sample": 0
+    },
+    {
+      "n": 32,
+      "residual": 3.095739864886825e-14,
+      "elapsed_s": 0.0018266000006406102,
+      "l2_error": null,
+      "minimum_conductivity": 1.0125122510996727,
+      "maximum_conductivity": 1.4887255653838605,
+      "pathway": 1,
+      "sample": 0
+    },
+    {
+      "n": 40,
+      "residual": 4.344472041499906e-14,
+      "elapsed_s": 0.0025314999984402675,
+      "l2_error": null,
+      "minimum_conductivity": 1.0092610430470765,
+      "maximum_conductivity": 1.488737088230362,
+      "pathway": 1,
+      "sample": 0
+    },
+    {
+      "n": 48,
+      "residual": 6.888193405965472e-14,
+      "elapsed_s": 0.003670999998576008,
+      "l2_error": null,
+      "minimum_conductivity": 1.0071925273953217,
+      "maximum_conductivity": 1.4888697235146389,
+      "pathway": 1,
+      "sample": 0
+    },
+    {
+      "n": 64,
+      "residual": 1.2334159705306175e-13,
+      "elapsed_s": 0.006048499999451451,
+      "l2_error": null,
+      "minimum_conductivity": 1.0047192591864536,
+      "maximum_conductivity": 1.488944052971432,
+      "pathway": 1,
+      "sample": 0
+    },
+    {
+      "n": 8,
+      "residual": 1.6734103319685346e-15,
+      "elapsed_s": 0.00043709999954444356,
+      "l2_error": null,
+      "minimum_conductivity": 0.8221876910378735,
+      "maximum_conductivity": 1.1143875786867896,
+      "pathway": 1,
+      "sample": 1
+    },
+    {
+      "n": 12,
+      "residual": 4.123683190126207e-15,
+      "elapsed_s": 0.0005049999999755528,
+      "l2_error": null,
+      "minimum_conductivity": 0.819957315807733,
+      "maximum_conductivity": 1.124518037483672,
+      "pathway": 1,
+      "sample": 1
+    },
+    {
+      "n": 16,
+      "residual": 7.080966989501842e-15,
+      "elapsed_s": 0.0006187999970279634,
+      "l2_error": null,
+      "minimum_conductivity": 0.8194470917964578,
+      "maximum_conductivity": 1.1281506066893476,
+      "pathway": 1,
+      "sample": 1
+    },
+    {
+      "n": 24,
+      "residual": 1.692424467206384e-14,
+      "elapsed_s": 0.0010634999998728745,
+      "l2_error": null,
+      "minimum_conductivity": 0.8193392656506455,
+      "maximum_conductivity": 1.130773377564622,
+      "pathway": 1,
+      "sample": 1
+    },
+    {
+      "n": 32,
+      "residual": 2.8404072331979427e-14,
+      "elapsed_s": 0.0018242000005557202,
+      "l2_error": null,
+      "minimum_conductivity": 0.8197453872831504,
+      "maximum_conductivity": 1.1316969173858271,
+      "pathway": 1,
+      "sample": 1
+    },
+    {
+      "n": 40,
+      "residual": 4.4290834794883474e-14,
+      "elapsed_s": 0.0026144000003114343,
+      "l2_error": null,
+      "minimum_conductivity": 0.8191245322185094,
+      "maximum_conductivity": 1.132125366253251,
+      "pathway": 1,
+      "sample": 1
+    },
+    {
+      "n": 48,
+      "residual": 6.920897787419644e-14,
+      "elapsed_s": 0.004108500001166249,
+      "l2_error": null,
+      "minimum_conductivity": 0.8189763066062367,
+      "maximum_conductivity": 1.1323583647706272,
+      "pathway": 1,
+      "sample": 1
+    },
+    {
+      "n": 64,
+      "residual": 1.172988784527774e-13,
+      "elapsed_s": 0.006040000000211876,
+      "l2_error": null,
+      "minimum_conductivity": 0.8191466033151084,
+      "maximum_conductivity": 1.1325902216866686,
+      "pathway": 1,
+      "sample": 1
+    },
+    {
+      "n": 8,
+      "residual": 1.3396199170585762e-15,
+      "elapsed_s": 0.00046720000318600796,
+      "l2_error": null,
+      "minimum_conductivity": 0.5330545648851874,
+      "maximum_conductivity": 1.0715640263116375,
+      "pathway": 2,
+      "sample": 0
+    },
+    {
+      "n": 12,
+      "residual": 2.5741623430186985e-15,
+      "elapsed_s": 0.0004859000000578817,
+      "l2_error": null,
+      "minimum_conductivity": 0.5250018515890286,
+      "maximum_conductivity": 1.0920330056980287,
+      "pathway": 2,
+      "sample": 0
+    },
+    {
+      "n": 16,
+      "residual": 4.342600187065937e-15,
+      "elapsed_s": 0.0006157999996503349,
+      "l2_error": null,
+      "minimum_conductivity": 0.5221974480977588,
+      "maximum_conductivity": 1.1061104543413267,
+      "pathway": 2,
+      "sample": 0
+    },
+    {
+      "n": 24,
+      "residual": 1.1542338728592248e-14,
+      "elapsed_s": 0.0010652000019035768,
+      "l2_error": null,
+      "minimum_conductivity": 0.5201989155256207,
+      "maximum_conductivity": 1.122531758895803,
+      "pathway": 2,
+      "sample": 0
+    },
+    {
+      "n": 32,
+      "residual": 1.9735493305344542e-14,
+      "elapsed_s": 0.0017217999993590638,
+      "l2_error": null,
+      "minimum_conductivity": 0.5195003501440967,
+      "maximum_conductivity": 1.131533423859236,
+      "pathway": 2,
+      "sample": 0
+    },
+    {
+      "n": 40,
+      "residual": 3.222147462942672e-14,
+      "elapsed_s": 0.002721100001508603,
+      "l2_error": null,
+      "minimum_conductivity": 0.5191771770835257,
+      "maximum_conductivity": 1.137261296066452,
+      "pathway": 2,
+      "sample": 0
+    },
+    {
+      "n": 48,
+      "residual": 4.557258631118899e-14,
+      "elapsed_s": 0.003997600000730017,
+      "l2_error": null,
+      "minimum_conductivity": 0.5190016696268835,
+      "maximum_conductivity": 1.1410986529773164,
+      "pathway": 2,
+      "sample": 0
+    },
+    {
+      "n": 64,
+      "residual": 8.33687189778351e-14,
+      "elapsed_s": 0.005914500001381384,
+      "l2_error": null,
+      "minimum_conductivity": 0.5188271896756765,
+      "maximum_conductivity": 1.1459148184698413,
+      "pathway": 2,
+      "sample": 0
+    },
+    {
+      "n": 8,
+      "residual": 1.5245367351712178e-15,
+      "elapsed_s": 0.0004303999994590413,
+      "l2_error": null,
+      "minimum_conductivity": 0.7468727023003064,
+      "maximum_conductivity": 0.9868119714211242,
+      "pathway": 2,
+      "sample": 1
+    },
+    {
+      "n": 12,
+      "residual": 3.3143096466565433e-15,
+      "elapsed_s": 0.000492299997858936,
+      "l2_error": null,
+      "minimum_conductivity": 0.737984691077941,
+      "maximum_conductivity": 0.9960528124354437,
+      "pathway": 2,
+      "sample": 1
+    },
+    {
+      "n": 16,
+      "residual": 5.578180218807737e-15,
+      "elapsed_s": 0.000620599999820115,
+      "l2_error": null,
+      "minimum_conductivity": 0.7380743420509394,
+      "maximum_conductivity": 1.0035196479600919,
+      "pathway": 2,
+      "sample": 1
+    },
+    {
+      "n": 24,
+      "residual": 1.495452681908466e-14,
+      "elapsed_s": 0.0010775000009743962,
+      "l2_error": null,
+      "minimum_conductivity": 0.737103902324029,
+      "maximum_conductivity": 1.0102567644667804,
+      "pathway": 2,
+      "sample": 1
+    },
+    {
+      "n": 32,
+      "residual": 2.644062972692392e-14,
+      "elapsed_s": 0.0018046000004687812,
+      "l2_error": null,
+      "minimum_conductivity": 0.736286190300681,
+      "maximum_conductivity": 1.0143203394682387,
+      "pathway": 2,
+      "sample": 1
+    },
+    {
+      "n": 40,
+      "residual": 4.1854485163710675e-14,
+      "elapsed_s": 0.0031475999967369717,
+      "l2_error": null,
+      "minimum_conductivity": 0.7360240507644126,
+      "maximum_conductivity": 1.0167436666153944,
+      "pathway": 2,
+      "sample": 1
+    },
+    {
+      "n": 48,
+      "residual": 5.801641979097265e-14,
+      "elapsed_s": 0.0036123999998380896,
+      "l2_error": null,
+      "minimum_conductivity": 0.7360334868771504,
+      "maximum_conductivity": 1.0183116450923126,
+      "pathway": 2,
+      "sample": 1
+    },
+    {
+      "n": 64,
+      "residual": 1.0473840225006911e-13,
+      "elapsed_s": 0.005914199999097036,
+      "l2_error": null,
+      "minimum_conductivity": 0.7358325711000628,
+      "maximum_conductivity": 1.02043415386576,
+      "pathway": 2,
+      "sample": 1
+    },
+    {
+      "n": 8,
+      "residual": 1.3350114495898333e-15,
+      "elapsed_s": 0.00042129999928874895,
+      "l2_error": null,
+      "minimum_conductivity": 0.7750546555645004,
+      "maximum_conductivity": 0.9818881072127329,
+      "pathway": 3,
+      "sample": 0
+    },
+    {
+      "n": 12,
+      "residual": 3.64173178415294e-15,
+      "elapsed_s": 0.00047259999701054767,
+      "l2_error": null,
+      "minimum_conductivity": 0.7732153734940965,
+      "maximum_conductivity": 1.0017896630129681,
+      "pathway": 3,
+      "sample": 0
+    },
+    {
+      "n": 16,
+      "residual": 5.0425281447675115e-15,
+      "elapsed_s": 0.0006735999995726161,
+      "l2_error": null,
+      "minimum_conductivity": 0.7737942378025551,
+      "maximum_conductivity": 1.0113149359813525,
+      "pathway": 3,
+      "sample": 0
+    },
+    {
+      "n": 24,
+      "residual": 1.3970061308704707e-14,
+      "elapsed_s": 0.001141300002927892,
+      "l2_error": null,
+      "minimum_conductivity": 0.7725791330625169,
+      "maximum_conductivity": 1.0204060101918304,
+      "pathway": 3,
+      "sample": 0
+    },
+    {
+      "n": 32,
+      "residual": 2.5925309733776807e-14,
+      "elapsed_s": 0.0017917000004672445,
+      "l2_error": null,
+      "minimum_conductivity": 0.7726724183731603,
+      "maximum_conductivity": 1.0247518383542662,
+      "pathway": 3,
+      "sample": 0
+    },
+    {
+      "n": 40,
+      "residual": 4.340559763649374e-14,
+      "elapsed_s": 0.003261699999711709,
+      "l2_error": null,
+      "minimum_conductivity": 0.7725655241012214,
+      "maximum_conductivity": 1.0272867658847962,
+      "pathway": 3,
+      "sample": 0
+    },
+    {
+      "n": 48,
+      "residual": 5.711151199461438e-14,
+      "elapsed_s": 0.0036755000000994187,
+      "l2_error": null,
+      "minimum_conductivity": 0.772577996624812,
+      "maximum_conductivity": 1.0289444556978875,
+      "pathway": 3,
+      "sample": 0
+    },
+    {
+      "n": 64,
+      "residual": 1.0163148585531457e-13,
+      "elapsed_s": 0.006013499998516636,
+      "l2_error": null,
+      "minimum_conductivity": 0.7725558105146,
+      "maximum_conductivity": 1.030978558124431,
+      "pathway": 3,
+      "sample": 0
+    },
+    {
+      "n": 8,
+      "residual": 1.5690494727414441e-15,
+      "elapsed_s": 0.0005853000002389308,
+      "l2_error": null,
+      "minimum_conductivity": 0.7618497412353115,
+      "maximum_conductivity": 0.9674666315437069,
+      "pathway": 3,
+      "sample": 1
+    },
+    {
+      "n": 12,
+      "residual": 3.3493261331637943e-15,
+      "elapsed_s": 0.0005399000001489185,
+      "l2_error": null,
+      "minimum_conductivity": 0.758413078202543,
+      "maximum_conductivity": 0.9950322949840831,
+      "pathway": 3,
+      "sample": 1
+    },
+    {
+      "n": 16,
+      "residual": 6.386576193505694e-15,
+      "elapsed_s": 0.0006766000005882233,
+      "l2_error": null,
+      "minimum_conductivity": 0.7580265672175732,
+      "maximum_conductivity": 1.007433427591177,
+      "pathway": 3,
+      "sample": 1
+    },
+    {
+      "n": 24,
+      "residual": 1.4706925563425066e-14,
+      "elapsed_s": 0.0011402000018279068,
+      "l2_error": null,
+      "minimum_conductivity": 0.7575010773717566,
+      "maximum_conductivity": 1.0186510307603625,
+      "pathway": 3,
+      "sample": 1
+    },
+    {
+      "n": 32,
+      "residual": 2.566052314273564e-14,
+      "elapsed_s": 0.0018044999997073319,
+      "l2_error": null,
+      "minimum_conductivity": 0.7573350530752274,
+      "maximum_conductivity": 1.0237576025088027,
+      "pathway": 3,
+      "sample": 1
+    },
+    {
+      "n": 40,
+      "residual": 4.3325273685710465e-14,
+      "elapsed_s": 0.0032179000008909497,
+      "l2_error": null,
+      "minimum_conductivity": 0.7573879078553228,
+      "maximum_conductivity": 1.0266480309631272,
+      "pathway": 3,
+      "sample": 1
+    },
+    {
+      "n": 48,
+      "residual": 5.831162804630028e-14,
+      "elapsed_s": 0.0034521000015956815,
+      "l2_error": null,
+      "minimum_conductivity": 0.7573472003237343,
+      "maximum_conductivity": 1.0284998525197828,
+      "pathway": 3,
+      "sample": 1
+    },
+    {
+      "n": 64,
+      "residual": 1.0218350615851283e-13,
+      "elapsed_s": 0.006389400001353351,
+      "l2_error": null,
+      "minimum_conductivity": 0.7573975129915941,
+      "maximum_conductivity": 1.0307277941290565,
+      "pathway": 3,
+      "sample": 1
+    }
+  ]
+}

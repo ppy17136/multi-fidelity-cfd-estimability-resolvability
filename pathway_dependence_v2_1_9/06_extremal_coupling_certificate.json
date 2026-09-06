@@ -1,0 +1,168 @@
+{
+  "status": "completed_extremal_coupling_certificate",
+  "relative_tolerance": 1e-10,
+  "result_count": 8,
+  "results": [
+    {
+      "case_id": "alph05-10071-2024",
+      "support": "fine_F100",
+      "minimum_norm": 0.005803502946097935,
+      "diameter": 0.039943465494709535,
+      "minimum_member_count_within_tolerance": 3,
+      "diameter_pair_count_within_tolerance": 9,
+      "coarsest_minimum_norm_witness_partitions": [
+        "F000+F100+F010 | F110"
+      ],
+      "coarsest_diameter_witness_partitions": [
+        "F000+F110 | F100+F010"
+      ],
+      "coarsest_joint_endpoint_witness_partitions": [
+        "F000 | F100+F010 | F110"
+      ],
+      "minimum_blocks_for_independent_minimum": 2,
+      "minimum_blocks_for_independent_diameter": 2,
+      "minimum_blocks_for_both_independent_extrema": 3
+    },
+    {
+      "case_id": "alph05-10071-2024",
+      "support": "shared_F000",
+      "minimum_norm": 0.0057742120754376595,
+      "diameter": 0.021789782632838525,
+      "minimum_member_count_within_tolerance": 9,
+      "diameter_pair_count_within_tolerance": 9,
+      "coarsest_minimum_norm_witness_partitions": [
+        "F000+F010 | F100+F110"
+      ],
+      "coarsest_diameter_witness_partitions": [
+        "F000+F110 | F100+F010"
+      ],
+      "coarsest_joint_endpoint_witness_partitions": [
+        "F000 | F100 | F010 | F110"
+      ],
+      "minimum_blocks_for_independent_minimum": 2,
+      "minimum_blocks_for_independent_diameter": 2,
+      "minimum_blocks_for_both_independent_extrema": 4
+    },
+    {
+      "case_id": "alph15-10929-3036",
+      "support": "fine_F100",
+      "minimum_norm": 0.006592612701933956,
+      "diameter": 0.010924370848892827,
+      "minimum_member_count_within_tolerance": 9,
+      "diameter_pair_count_within_tolerance": 9,
+      "coarsest_minimum_norm_witness_partitions": [
+        "F000+F010 | F100+F110"
+      ],
+      "coarsest_diameter_witness_partitions": [
+        "F000+F110 | F100+F010"
+      ],
+      "coarsest_joint_endpoint_witness_partitions": [
+        "F000 | F100 | F010 | F110"
+      ],
+      "minimum_blocks_for_independent_minimum": 2,
+      "minimum_blocks_for_independent_diameter": 2,
+      "minimum_blocks_for_both_independent_extrema": 4
+    },
+    {
+      "case_id": "alph15-10929-3036",
+      "support": "shared_F000",
+      "minimum_norm": 0.006573077584136553,
+      "diameter": 0.0039975910646890146,
+      "minimum_member_count_within_tolerance": 9,
+      "diameter_pair_count_within_tolerance": 9,
+      "coarsest_minimum_norm_witness_partitions": [
+        "F000+F100+F010+F110"
+      ],
+      "coarsest_diameter_witness_partitions": [
+        "F000+F100+F010 | F110"
+      ],
+      "coarsest_joint_endpoint_witness_partitions": [
+        "F000+F100+F010 | F110"
+      ],
+      "minimum_blocks_for_independent_minimum": 1,
+      "minimum_blocks_for_independent_diameter": 2,
+      "minimum_blocks_for_both_independent_extrema": 2
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support": "fine_F100",
+      "minimum_norm": 0.006283008232474284,
+      "diameter": 0.023336763524458043,
+      "minimum_member_count_within_tolerance": 9,
+      "diameter_pair_count_within_tolerance": 9,
+      "coarsest_minimum_norm_witness_partitions": [
+        "F000+F010 | F100+F110"
+      ],
+      "coarsest_diameter_witness_partitions": [
+        "F000+F100 | F010+F110"
+      ],
+      "coarsest_joint_endpoint_witness_partitions": [
+        "F000 | F100 | F010 | F110"
+      ],
+      "minimum_blocks_for_independent_minimum": 2,
+      "minimum_blocks_for_independent_diameter": 2,
+      "minimum_blocks_for_both_independent_extrema": 4
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support": "shared_F000",
+      "minimum_norm": 0.0062340988347173,
+      "diameter": 0.011791930287449386,
+      "minimum_member_count_within_tolerance": 1,
+      "diameter_pair_count_within_tolerance": 9,
+      "coarsest_minimum_norm_witness_partitions": [
+        "F000+F100+F010+F110"
+      ],
+      "coarsest_diameter_witness_partitions": [
+        "F000+F010+F110 | F100"
+      ],
+      "coarsest_joint_endpoint_witness_partitions": [
+        "F000+F010+F110 | F100"
+      ],
+      "minimum_blocks_for_independent_minimum": 1,
+      "minimum_blocks_for_independent_diameter": 2,
+      "minimum_blocks_for_both_independent_extrema": 2
+    },
+    {
+      "case_id": "alph15-7929-2024",
+      "support": "fine_F100",
+      "minimum_norm": 0.008926264560100492,
+      "diameter": 0.02196983493488067,
+      "minimum_member_count_within_tolerance": 9,
+      "diameter_pair_count_within_tolerance": 9,
+      "coarsest_minimum_norm_witness_partitions": [
+        "F000+F010 | F100+F110"
+      ],
+      "coarsest_diameter_witness_partitions": [
+        "F000+F110 | F100+F010"
+      ],
+      "coarsest_joint_endpoint_witness_partitions": [
+        "F000 | F100 | F010 | F110"
+      ],
+      "minimum_blocks_for_independent_minimum": 2,
+      "minimum_blocks_for_independent_diameter": 2,
+      "minimum_blocks_for_both_independent_extrema": 4
+    },
+    {
+      "case_id": "alph15-7929-2024",
+      "support": "shared_F000",
+      "minimum_norm": 0.008895896176792985,
+      "diameter": 0.012853025314532337,
+      "minimum_member_count_within_tolerance": 1,
+      "diameter_pair_count_within_tolerance": 9,
+      "coarsest_minimum_norm_witness_partitions": [
+        "F000+F010 | F100+F110"
+      ],
+      "coarsest_diameter_witness_partitions": [
+        "F000+F010+F110 | F100"
+      ],
+      "coarsest_joint_endpoint_witness_partitions": [
+        "F000+F010 | F100 | F110"
+      ],
+      "minimum_blocks_for_independent_minimum": 2,
+      "minimum_blocks_for_independent_diameter": 2,
+      "minimum_blocks_for_both_independent_extrema": 3
+    }
+  ],
+  "certificate_logic": "A realization is admissible under a partition exactly when every block is constant in pathway label. A diameter pair is admissible exactly when every block is constant in the ordered pair of its two pathway labels. Therefore any refinement of a listed witness partition attains the corresponding fully independent extremum within the declared relative tolerance."
+}

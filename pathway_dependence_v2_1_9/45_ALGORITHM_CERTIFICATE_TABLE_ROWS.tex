@@ -1,0 +1,14 @@
+\begin{tabularx}{\textwidth}{@{}p{0.19\textwidth}r p{0.24\textwidth}X@{}}
+\toprule
+Verification block & Instances & Frozen scale & Result \\
+\midrule
+Direct partition-width equivalence & 48 & $q=2$--5, $P=4$ & 48/48 exact cost matches \\
+Two-label minimum cut & 210 & $q=2$--8, random general graphs & 210/210 matches to complete enumeration \\
+Three-terminal reduction & 1,024 & all simple graphs on five vertices & 1,024/1,024 exact matches \\
+Forest dynamic program & 24 & $q=256$--16,384, at most 16 labels/cell & 24/24 witnesses verified; 7.141 s chain and 7.086 s tree median at largest size \\
+General-graph MILP & 80 & $q=12$--128, at most 392 edges & 80/80 zero-gap certificates; maximum 1.407 s and 25 nodes \\
+Adversarial boundary audit & 7 & degenerate and threshold-boundary instances & 7/7 expected outcomes recovered \\
+Core regression suite & 53 & core certificate tests & 53/53 tests passed \\
+Weight stability & 8 & bounds, regions, and CFD cut families & 8/8 tests passed \\
+\bottomrule
+\end{tabularx}

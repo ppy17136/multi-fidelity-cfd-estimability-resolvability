@@ -1,0 +1,141 @@
+{
+  "cells": 8,
+  "pathways": 4,
+  "output_dimension": 4,
+  "graph": "seven-edge chain",
+  "masks_checked": 128,
+  "independent_assignments": 65536,
+  "direction": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "coherent_min": 0.09940406143324101,
+  "coherent_max": 0.09991315622320152,
+  "independent_min": 0.09938895057894019,
+  "independent_max": 0.09991364405681215,
+  "coherent_width": 0.0005090947899605014,
+  "independent_width": 0.0005246934778719702,
+  "width_expansion": 1.0306400462528384,
+  "directional_cost": 0.7142857142857142,
+  "exhaustive_mask_cost": 0.7142857142857143,
+  "cut_edge_indices": [
+    0,
+    2,
+    4,
+    5,
+    6
+  ],
+  "labels": [
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "label_list_sizes": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "label_lists": [
+    [
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        3
+      ]
+    ],
+    [
+      [
+        1,
+        3
+      ]
+    ],
+    [
+      [
+        1,
+        2
+      ]
+    ],
+    [
+      [
+        1,
+        2
+      ]
+    ],
+    [
+      [
+        1,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        3
+      ]
+    ]
+  ],
+  "all_labels_singleton": true,
+  "witness_width": 0.000524693477871957,
+  "endpoint_enumeration_max_error": 0.0,
+  "decomposition_reconstruction_max_error": 2.8189256484623115e-17,
+  "above_baseline_fragility_interval": [
+    0.09938895057894019,
+    0.09940406143324101
+  ],
+  "below_baseline_fragility_interval": [
+    0.09991315622320152,
+    0.09991364405681215
+  ],
+  "outside_independent_interval": "no crossing possible; minimum cost infinite",
+  "already_indeterminate": "minimum cost zero; not a newly destroyed decision",
+  "note": "All frozen outcomes retained. Singleton lists imply a predetermined cut, not a difficult DP optimization.",
+  "graph_module_sha256": "099f225bfe2d5259aa5814fb2bbf03b21376e5753e3f3aef0a6bd951726e10c8",
+  "vector_diameter_computed": false
+}
