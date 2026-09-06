@@ -1,0 +1,2736 @@
+{
+  "scope": "fixed released CFD vectors; relative diameter tolerance 1e-7; no new CFD",
+  "weight_domain": {
+    "lower": [
+      0.15,
+      0.15,
+      0.15,
+      0.15
+    ],
+    "upper": [
+      0.35,
+      0.35,
+      0.35,
+      0.35
+    ],
+    "sum": 1,
+    "choice": "declared sensitivity domain, not estimated uncertainty"
+  },
+  "input_sha256": {
+    "alph05-10071-2024__fine_F100.npz": "cc9d3daf424206949d0975b6a7fd44daa34a2c9f16d52767a85ac244a4d0edaa",
+    "alph05-10071-2024__shared_F000.npz": "18eb34322eb9904ad2b734f240713559e72a4989ed2fe8b67b05aaa2cb72dcd1",
+    "alph15-10929-3036__fine_F100.npz": "c7a2a02d9c69c483936976f4ff7c69746c8efe16621d76de4c0b042d0b64da0a",
+    "alph15-10929-3036__shared_F000.npz": "d076b7653e77d96e58129570196a7b4daab16fcc8f82024e1321ee8ed11a5703",
+    "alph15-13929-2024__fine_F100.npz": "3fd15da0810aa2b57f3d85cc015b703496d6c05e6ae2e2884a35b4d60fab2559",
+    "alph15-13929-2024__shared_F000.npz": "429facb0c30b0382264deb0b666cd00bc33f7e15cf1f81b7eee9638279c39ff0",
+    "alph15-7929-2024__fine_F100.npz": "cede1152c090d01467aa8058fdc8926c1bd61aba8945f4a22ebc6988cc6fdea1",
+    "alph15-7929-2024__shared_F000.npz": "f051005cebba1a1e72a6a1a90ce02da7377d1fe015b8a307cb60109d58d2f223"
+  },
+  "audit_count": 8,
+  "results": [
+    {
+      "case_id": "alph05-10071-2024",
+      "support": "fine_F100",
+      "edge_order": [
+        "mesh_bottom",
+        "mesh_top",
+        "closure_left",
+        "closure_right"
+      ],
+      "partitions": [
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "diameter": 0.039943465494709535,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "diameter": 0.03994346526456556,
+          "relative_gap": 5.761742765001151e-09,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "diameter": 0.03994346526456556,
+          "relative_gap": 5.761742765001151e-09,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "diameter": 0.0399434654799753,
+          "relative_gap": 3.6887722392649045e-10,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "diameter": 0.0399434654799753,
+          "relative_gap": 3.6887722392649045e-10,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "diameter": 0.039943465249831146,
+          "relative_gap": 6.1306245055923645e-09,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "diameter": 0.002541864613862922,
+          "relative_gap": 0.9363634431218896,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "diameter": 0.002541864613862922,
+          "relative_gap": 0.9363634431218896,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "diameter": 0.0399434654799753,
+          "relative_gap": 3.6887722392649045e-10,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "diameter": 0.002541864790973498,
+          "relative_gap": 0.9363634386878583,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "diameter": 0.002541864613862922,
+          "relative_gap": 0.9363634431218896,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              2,
+              3
+            ],
+            [
+              1
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "diameter": 0.002541864790973498,
+          "relative_gap": 0.9363634386878583,
+          "qualifies": false
+        }
+      ],
+      "pareto_cuts": [
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "bounds": {
+        "minimum": 0.3,
+        "maximum_reoptimized": 0.5666666666666667,
+        "minimum_fixed_witness_worst_cost": 0.7,
+        "commitment_gap": 0.1333333333333333,
+        "maximizing_weights": [
+          0.21666666666666667,
+          0.21666666666666667,
+          0.35,
+          0.21666666666666667
+        ],
+        "witness_regions": [
+          {
+            "cut": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          },
+          {
+            "cut": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          },
+          {
+            "cut": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "alph05-10071-2024",
+      "support": "shared_F000",
+      "edge_order": [
+        "mesh_bottom",
+        "mesh_top",
+        "closure_left",
+        "closure_right"
+      ],
+      "partitions": [
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "diameter": 0.021789782632838553,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "diameter": 0.021789782605382182,
+          "relative_gap": 1.260057109019251e-09,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "diameter": 0.0015368250185840801,
+          "relative_gap": 0.9294703832305334,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "diameter": 0.0015368251161898166,
+          "relative_gap": 0.9294703787511067,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "diameter": 0.02178978241009262,
+          "relative_gap": 1.0222494485740995e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "diameter": 0.02178978238263454,
+          "relative_gap": 1.1482630091979614e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "diameter": 0.02178978241009262,
+          "relative_gap": 1.0222494485740995e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "diameter": 0.0015368250049551857,
+          "relative_gap": 0.9294703838560053,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "diameter": 0.0015368251025361524,
+          "relative_gap": 0.9294703793777153,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "diameter": 0.021789782605382182,
+          "relative_gap": 1.260057109019251e-09,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "diameter": 0.0015368251161898166,
+          "relative_gap": 0.9294703787511067,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              2,
+              3
+            ],
+            [
+              1
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "diameter": 0.021789782605382182,
+          "relative_gap": 1.260057109019251e-09,
+          "qualifies": true
+        }
+      ],
+      "pareto_cuts": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "bounds": {
+        "minimum": 0.3,
+        "maximum_reoptimized": 0.5666666666666667,
+        "minimum_fixed_witness_worst_cost": 0.7,
+        "commitment_gap": 0.1333333333333333,
+        "maximizing_weights": [
+          0.21666666666666667,
+          0.21666666666666667,
+          0.21666666666666667,
+          0.35
+        ],
+        "witness_regions": [
+          {
+            "cut": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          },
+          {
+            "cut": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          },
+          {
+            "cut": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "alph15-10929-3036",
+      "support": "fine_F100",
+      "edge_order": [
+        "mesh_bottom",
+        "mesh_top",
+        "closure_left",
+        "closure_right"
+      ],
+      "partitions": [
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "diameter": 0.010924370848892858,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "diameter": 0.010924370673371013,
+          "relative_gap": 1.6066998067882266e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "diameter": 0.010924370673371013,
+          "relative_gap": 1.6066998067882266e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "diameter": 0.01092437072778635,
+          "relative_gap": 1.1085902353309474e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "diameter": 0.01092437072778635,
+          "relative_gap": 1.1085902353309474e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "diameter": 0.010924370552263885,
+          "relative_gap": 2.7152957110614818e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "diameter": 0.0010088869072441416,
+          "relative_gap": 0.9076480539521058,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "diameter": 0.0010088868068635452,
+          "relative_gap": 0.9076480631407902,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "diameter": 0.01092437072778635,
+          "relative_gap": 1.1085902353309474e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "diameter": 0.0010088869072441416,
+          "relative_gap": 0.9076480539521058,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "diameter": 0.0010088868536656996,
+          "relative_gap": 0.9076480588565935,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              2,
+              3
+            ],
+            [
+              1
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "diameter": 0.0010088868068635452,
+          "relative_gap": 0.9076480631407902,
+          "qualifies": false
+        }
+      ],
+      "pareto_cuts": [
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "bounds": {
+        "minimum": 0.3,
+        "maximum_reoptimized": 0.5666666666666667,
+        "minimum_fixed_witness_worst_cost": 0.7,
+        "commitment_gap": 0.1333333333333333,
+        "maximizing_weights": [
+          0.21666666666666667,
+          0.21666666666666667,
+          0.35,
+          0.21666666666666667
+        ],
+        "witness_regions": [
+          {
+            "cut": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          },
+          {
+            "cut": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          },
+          {
+            "cut": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "alph15-10929-3036",
+      "support": "shared_F000",
+      "edge_order": [
+        "mesh_bottom",
+        "mesh_top",
+        "closure_left",
+        "closure_right"
+      ],
+      "partitions": [
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "diameter": 0.003997591064689017,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "diameter": 0.003997591063522005,
+          "relative_gap": 2.9192875929825905e-10,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "diameter": 0.00028047970918731763,
+          "relative_gap": 0.9298378186641417,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "diameter": 0.0002804797555723384,
+          "relative_gap": 0.9298378070608987,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "diameter": 0.003997591064689017,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "diameter": 0.003997591063522005,
+          "relative_gap": 2.9192875929825905e-10,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "diameter": 0.003997591064689017,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "diameter": 0.0002804795263990766,
+          "relative_gap": 0.9298378643887389,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "diameter": 0.0002804795727168646,
+          "relative_gap": 0.9298378528023141,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "diameter": 0.003997591064689017,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "diameter": 0.0002804797555723384,
+          "relative_gap": 0.9298378070608987,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              2,
+              3
+            ],
+            [
+              1
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "diameter": 0.0039975909542841895,
+          "relative_gap": 2.7617839307390584e-08,
+          "qualifies": true
+        }
+      ],
+      "pareto_cuts": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "bounds": {
+        "minimum": 0.3,
+        "maximum_reoptimized": 0.5666666666666667,
+        "minimum_fixed_witness_worst_cost": 0.7,
+        "commitment_gap": 0.1333333333333333,
+        "maximizing_weights": [
+          0.21666666666666667,
+          0.21666666666666667,
+          0.21666666666666667,
+          0.35
+        ],
+        "witness_regions": [
+          {
+            "cut": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          },
+          {
+            "cut": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          },
+          {
+            "cut": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support": "fine_F100",
+      "edge_order": [
+        "mesh_bottom",
+        "mesh_top",
+        "closure_left",
+        "closure_right"
+      ],
+      "partitions": [
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "diameter": 0.023336763524458043,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "diameter": 0.023336763524458043,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "diameter": 0.023336763461751384,
+          "relative_gap": 2.687033240226297e-09,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "diameter": 0.023336763483232437,
+          "relative_gap": 1.7665519993322023e-09,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "diameter": 0.023336763524458043,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "diameter": 0.023336763524458043,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "diameter": 0.001686879741075809,
+          "relative_gap": 0.9277157803262702,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "diameter": 0.001686879741075809,
+          "relative_gap": 0.9277157803262702,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "diameter": 0.023336763483232437,
+          "relative_gap": 1.7665519993322023e-09,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "diameter": 0.001686879741075809,
+          "relative_gap": 0.9277157803262702,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "diameter": 0.001686879741075809,
+          "relative_gap": 0.9277157803262702,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              2,
+              3
+            ],
+            [
+              1
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "diameter": 0.001686879741075809,
+          "relative_gap": 0.9277157803262702,
+          "qualifies": false
+        }
+      ],
+      "pareto_cuts": [
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "bounds": {
+        "minimum": 0.3,
+        "maximum_reoptimized": 0.5666666666666667,
+        "minimum_fixed_witness_worst_cost": 0.7,
+        "commitment_gap": 0.1333333333333333,
+        "maximizing_weights": [
+          0.21666666666666667,
+          0.21666666666666667,
+          0.35,
+          0.21666666666666667
+        ],
+        "witness_regions": [
+          {
+            "cut": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          },
+          {
+            "cut": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          },
+          {
+            "cut": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support": "shared_F000",
+      "edge_order": [
+        "mesh_bottom",
+        "mesh_top",
+        "closure_left",
+        "closure_right"
+      ],
+      "partitions": [
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "diameter": 0.011791930287449426,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "diameter": 0.011791930287449426,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "diameter": 0.0008596383912491563,
+          "relative_gap": 0.9270994340795841,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "diameter": 0.0008596383912491563,
+          "relative_gap": 0.9270994340795841,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "diameter": 0.011791929955827228,
+          "relative_gap": 2.812280859603523e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "diameter": 0.011791929955827228,
+          "relative_gap": 2.812280859603523e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "diameter": 0.01179192959760111,
+          "relative_gap": 5.850172947159229e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "diameter": 0.0008596383912491563,
+          "relative_gap": 0.9270994340795841,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "diameter": 0.0008596383912491563,
+          "relative_gap": 0.9270994340795841,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "diameter": 0.011791930287449426,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "diameter": 0.0008596383912491563,
+          "relative_gap": 0.9270994340795841,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              2,
+              3
+            ],
+            [
+              1
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "diameter": 0.011791930287449426,
+          "relative_gap": 0.0,
+          "qualifies": true
+        }
+      ],
+      "pareto_cuts": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "bounds": {
+        "minimum": 0.3,
+        "maximum_reoptimized": 0.5666666666666667,
+        "minimum_fixed_witness_worst_cost": 0.7,
+        "commitment_gap": 0.1333333333333333,
+        "maximizing_weights": [
+          0.21666666666666667,
+          0.21666666666666667,
+          0.21666666666666667,
+          0.35
+        ],
+        "witness_regions": [
+          {
+            "cut": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          },
+          {
+            "cut": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          },
+          {
+            "cut": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "alph15-7929-2024",
+      "support": "fine_F100",
+      "edge_order": [
+        "mesh_bottom",
+        "mesh_top",
+        "closure_left",
+        "closure_right"
+      ],
+      "partitions": [
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "diameter": 0.02196983493488074,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "diameter": 0.021969834910426537,
+          "relative_gap": 1.113080850370462e-09,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "diameter": 0.021969834910426537,
+          "relative_gap": 1.113080850370462e-09,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "diameter": 0.021969834910426537,
+          "relative_gap": 1.113080850370462e-09,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "diameter": 0.02196983471356787,
+          "relative_gap": 1.0073488101447588e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "diameter": 0.021969834689113184,
+          "relative_gap": 1.118659090251216e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "diameter": 0.0017910862329488652,
+          "relative_gap": 0.9184752075626558,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "diameter": 0.0017910862329488652,
+          "relative_gap": 0.9184752075626558,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "diameter": 0.02196983471356787,
+          "relative_gap": 1.0073488101447588e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "diameter": 0.0017910862329488652,
+          "relative_gap": 0.9184752075626558,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "diameter": 0.0017910862329488652,
+          "relative_gap": 0.9184752075626558,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              2,
+              3
+            ],
+            [
+              1
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "diameter": 0.0017910862329488652,
+          "relative_gap": 0.9184752075626558,
+          "qualifies": false
+        }
+      ],
+      "pareto_cuts": [
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "bounds": {
+        "minimum": 0.3,
+        "maximum_reoptimized": 0.5666666666666667,
+        "minimum_fixed_witness_worst_cost": 0.7,
+        "commitment_gap": 0.1333333333333333,
+        "maximizing_weights": [
+          0.21666666666666667,
+          0.21666666666666667,
+          0.35,
+          0.21666666666666667
+        ],
+        "witness_regions": [
+          {
+            "cut": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          },
+          {
+            "cut": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          },
+          {
+            "cut": [
+              0,
+              1,
+              1,
+              0
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "alph15-7929-2024",
+      "support": "shared_F000",
+      "edge_order": [
+        "mesh_bottom",
+        "mesh_top",
+        "closure_left",
+        "closure_right"
+      ],
+      "partitions": [
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "diameter": 0.012853025314532359,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "diameter": 0.012853025314532359,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "diameter": 0.0009796901807383083,
+          "relative_gap": 0.9237774643117979,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "diameter": 0.0009796901807383083,
+          "relative_gap": 0.9237774643117979,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "diameter": 0.01285302506593702,
+          "relative_gap": 1.9341387157907904e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "diameter": 0.01285302506593702,
+          "relative_gap": 1.9341387157907904e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "diameter": 0.012853024729092093,
+          "relative_gap": 4.5548830052348593e-08,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "cut": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "diameter": 0.0009796901807383083,
+          "relative_gap": 0.9237774643117979,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "cut": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "diameter": 0.0009796901807383083,
+          "relative_gap": 0.9237774643117979,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "diameter": 0.012853025314532359,
+          "relative_gap": 0.0,
+          "qualifies": true
+        },
+        {
+          "partition": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "cut": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "diameter": 0.0009796901807383083,
+          "relative_gap": 0.9237774643117979,
+          "qualifies": false
+        },
+        {
+          "partition": [
+            [
+              0,
+              2,
+              3
+            ],
+            [
+              1
+            ]
+          ],
+          "cut": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "diameter": 0.012853025314532359,
+          "relative_gap": 0.0,
+          "qualifies": true
+        }
+      ],
+      "pareto_cuts": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "bounds": {
+        "minimum": 0.3,
+        "maximum_reoptimized": 0.5666666666666667,
+        "minimum_fixed_witness_worst_cost": 0.7,
+        "commitment_gap": 0.1333333333333333,
+        "maximizing_weights": [
+          0.21666666666666667,
+          0.21666666666666667,
+          0.21666666666666667,
+          0.35
+        ],
+        "witness_regions": [
+          {
+            "cut": [
+              0,
+              0,
+              1,
+              1
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          },
+          {
+            "cut": [
+              0,
+              1,
+              0,
+              1
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          },
+          {
+            "cut": [
+              1,
+              0,
+              0,
+              1
+            ],
+            "optimal_somewhere": true,
+            "worst_regret": 0.19999999999999998
+          }
+        ]
+      }
+    }
+  ]
+}

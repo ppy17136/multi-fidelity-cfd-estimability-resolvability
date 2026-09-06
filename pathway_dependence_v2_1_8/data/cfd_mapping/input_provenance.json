@@ -1,0 +1,19 @@
+{
+  "builder": "build_v16_portable_mapping_audit.py",
+  "source_index": "185_protocol179_cfd_source_cache_index.csv",
+  "source_index_sha256": "231716ae1bb3095ebdc109bae10395c872600c12bf27d38aa5400ad64a1a95d9",
+  "dns_manifest": "109_dns_metric_input_manifest.csv",
+  "dns_manifest_sha256": "34a61d9c3d699a32a1e5acd07f9dc70e947974461754c82d2a0b14ea2aecbb97",
+  "vector_cache_count": 8,
+  "vector_cache_sha256": {
+    "alph05-10071-2024__fine_F100.npz": "cc9d3daf424206949d0975b6a7fd44daa34a2c9f16d52767a85ac244a4d0edaa",
+    "alph05-10071-2024__shared_F000.npz": "18eb34322eb9904ad2b734f240713559e72a4989ed2fe8b67b05aaa2cb72dcd1",
+    "alph15-10929-3036__fine_F100.npz": "c7a2a02d9c69c483936976f4ff7c69746c8efe16621d76de4c0b042d0b64da0a",
+    "alph15-10929-3036__shared_F000.npz": "d076b7653e77d96e58129570196a7b4daab16fcc8f82024e1321ee8ed11a5703",
+    "alph15-13929-2024__fine_F100.npz": "3fd15da0810aa2b57f3d85cc015b703496d6c05e6ae2e2884a35b4d60fab2559",
+    "alph15-13929-2024__shared_F000.npz": "429facb0c30b0382264deb0b666cd00bc33f7e15cf1f81b7eee9638279c39ff0",
+    "alph15-7929-2024__fine_F100.npz": "cede1152c090d01467aa8058fdc8926c1bd61aba8945f4a22ebc6988cc6fdea1",
+    "alph15-7929-2024__shared_F000.npz": "f051005cebba1a1e72a6a1a90ce02da7377d1fe015b8a307cb60109d58d2f223"
+  },
+  "note": "Raw CFD fields were used to generate the released weighted-vector caches. The released float64 weighted vectors are sufficient to reproduce all finite-set metrics in the manuscript."
+}

@@ -1,0 +1,9 @@
+case_id,support,relative_diameter_gap_at_budget_2,minimum_cost_epsilon_0e+00,minimum_cost_epsilon_1e-12,minimum_cost_epsilon_1e-10,minimum_cost_epsilon_1e-09,minimum_cost_epsilon_1e-08,minimum_cost_epsilon_1e-07
+alph05-10071-2024,fine_F100,3.6887861366948206e-10,4.0,4.0,4.0,2.0,2.0,2.0
+alph05-10071-2024,shared_F000,1.2600559944542719e-09,4.0,4.0,4.0,4.0,2.0,2.0
+alph15-10929-3036,fine_F100,1.1085895683965614e-08,4.0,4.0,4.0,4.0,4.0,2.0
+alph15-10929-3036,shared_F000,0.0,2.0,2.0,2.0,2.0,2.0,2.0
+alph15-13929-2024,fine_F100,0.0,2.0,2.0,2.0,2.0,2.0,2.0
+alph15-13929-2024,shared_F000,0.0,2.0,2.0,2.0,2.0,2.0,2.0
+alph15-7929-2024,fine_F100,1.113076428647911e-09,4.0,4.0,4.0,4.0,2.0,2.0
+alph15-7929-2024,shared_F000,0.0,2.0,2.0,2.0,2.0,2.0,2.0

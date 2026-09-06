@@ -1,0 +1,365 @@
+{
+  "status": "declared_edge_cost_sensitivity",
+  "normalization": "Each four-edge graph has total edge weight one.",
+  "cost_models": {
+    "balanced": {
+      "mesh": 0.25,
+      "closure": 0.25
+    },
+    "mesh_dominant": {
+      "mesh": 0.4,
+      "closure": 0.1
+    },
+    "closure_dominant": {
+      "mesh": 0.1,
+      "closure": 0.4
+    }
+  },
+  "epsilon_values": [
+    0.0,
+    1e-10,
+    1e-09,
+    1e-08,
+    1e-07
+  ],
+  "audit_count": 8,
+  "results": [
+    {
+      "case_id": "alph05-10071-2024",
+      "support": "fine_F100",
+      "summaries": [
+        {
+          "cost_model": "balanced",
+          "minimum_cost_exact_diameter": 1.0,
+          "minimum_cost_independent_signal": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          }
+        },
+        {
+          "cost_model": "mesh_dominant",
+          "minimum_cost_exact_diameter": 1.0,
+          "minimum_cost_independent_signal": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 0.5,
+            "1e-08": 0.2,
+            "1e-07": 0.2
+          }
+        },
+        {
+          "cost_model": "closure_dominant",
+          "minimum_cost_exact_diameter": 1.0,
+          "minimum_cost_independent_signal": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "alph05-10071-2024",
+      "support": "shared_F000",
+      "summaries": [
+        {
+          "cost_model": "balanced",
+          "minimum_cost_exact_diameter": 1.0,
+          "minimum_cost_independent_signal": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          }
+        },
+        {
+          "cost_model": "mesh_dominant",
+          "minimum_cost_exact_diameter": 1.0,
+          "minimum_cost_independent_signal": 0.8,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 0.5,
+            "1e-07": 0.2
+          }
+        },
+        {
+          "cost_model": "closure_dominant",
+          "minimum_cost_exact_diameter": 1.0,
+          "minimum_cost_independent_signal": 0.2,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-10929-3036",
+      "support": "fine_F100",
+      "summaries": [
+        {
+          "cost_model": "balanced",
+          "minimum_cost_exact_diameter": 1.0,
+          "minimum_cost_independent_signal": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 1.0,
+            "1e-07": 0.5
+          }
+        },
+        {
+          "cost_model": "mesh_dominant",
+          "minimum_cost_exact_diameter": 1.0,
+          "minimum_cost_independent_signal": 0.8,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 1.0,
+            "1e-07": 0.2
+          }
+        },
+        {
+          "cost_model": "closure_dominant",
+          "minimum_cost_exact_diameter": 1.0,
+          "minimum_cost_independent_signal": 0.2,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 1.0,
+            "1e-07": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-10929-3036",
+      "support": "shared_F000",
+      "summaries": [
+        {
+          "cost_model": "balanced",
+          "minimum_cost_exact_diameter": 0.5,
+          "minimum_cost_independent_signal": 0.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          }
+        },
+        {
+          "cost_model": "mesh_dominant",
+          "minimum_cost_exact_diameter": 0.5,
+          "minimum_cost_independent_signal": 0.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.2,
+            "1e-08": 0.2,
+            "1e-07": 0.2
+          }
+        },
+        {
+          "cost_model": "closure_dominant",
+          "minimum_cost_exact_diameter": 0.5,
+          "minimum_cost_independent_signal": 0.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support": "fine_F100",
+      "summaries": [
+        {
+          "cost_model": "balanced",
+          "minimum_cost_exact_diameter": 0.5,
+          "minimum_cost_independent_signal": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          }
+        },
+        {
+          "cost_model": "mesh_dominant",
+          "minimum_cost_exact_diameter": 0.2,
+          "minimum_cost_independent_signal": 0.8,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.2,
+            "1e-10": 0.2,
+            "1e-09": 0.2,
+            "1e-08": 0.2,
+            "1e-07": 0.2
+          }
+        },
+        {
+          "cost_model": "closure_dominant",
+          "minimum_cost_exact_diameter": 0.8,
+          "minimum_cost_independent_signal": 0.2,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.8,
+            "1e-10": 0.8,
+            "1e-09": 0.8,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support": "shared_F000",
+      "summaries": [
+        {
+          "cost_model": "balanced",
+          "minimum_cost_exact_diameter": 0.5,
+          "minimum_cost_independent_signal": 0.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          }
+        },
+        {
+          "cost_model": "mesh_dominant",
+          "minimum_cost_exact_diameter": 0.5,
+          "minimum_cost_independent_signal": 0.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.2
+          }
+        },
+        {
+          "cost_model": "closure_dominant",
+          "minimum_cost_exact_diameter": 0.5,
+          "minimum_cost_independent_signal": 0.0,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-7929-2024",
+      "support": "fine_F100",
+      "summaries": [
+        {
+          "cost_model": "balanced",
+          "minimum_cost_exact_diameter": 1.0,
+          "minimum_cost_independent_signal": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          }
+        },
+        {
+          "cost_model": "mesh_dominant",
+          "minimum_cost_exact_diameter": 1.0,
+          "minimum_cost_independent_signal": 0.8,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 0.5,
+            "1e-07": 0.2
+          }
+        },
+        {
+          "cost_model": "closure_dominant",
+          "minimum_cost_exact_diameter": 1.0,
+          "minimum_cost_independent_signal": 0.2,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 1.0,
+            "1e-10": 1.0,
+            "1e-09": 1.0,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "alph15-7929-2024",
+      "support": "shared_F000",
+      "summaries": [
+        {
+          "cost_model": "balanced",
+          "minimum_cost_exact_diameter": 0.5,
+          "minimum_cost_independent_signal": 0.5,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          }
+        },
+        {
+          "cost_model": "mesh_dominant",
+          "minimum_cost_exact_diameter": 0.5,
+          "minimum_cost_independent_signal": 0.8,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.2
+          }
+        },
+        {
+          "cost_model": "closure_dominant",
+          "minimum_cost_exact_diameter": 0.5,
+          "minimum_cost_independent_signal": 0.2,
+          "minimum_diameter_cost_by_epsilon": {
+            "0e+00": 0.5,
+            "1e-10": 0.5,
+            "1e-09": 0.5,
+            "1e-08": 0.5,
+            "1e-07": 0.5
+          }
+        }
+      ]
+    }
+  ],
+  "claim_boundary": "The three cost models are sensitivity probes. Their weights are not empirically identified probabilities or physical errors."
+}

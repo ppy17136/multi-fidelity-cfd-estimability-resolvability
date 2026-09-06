@@ -1,59 +1,35 @@
-# From predictive accuracy to decision-ready multi-fidelity simulation
+# Minimum-relaxation certificates for pathway dependence in multifidelity uncertainty quantification
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21670992.svg)](https://doi.org/10.5281/zenodo.21670992)
+## Current release: v2.1.8
 
-This repository contains the reproducibility materials for:
+This repository contains versioned reproducibility materials. The current paper and verification entry point are in `pathway_dependence_v2_1_8/`.
 
-> *From predictive accuracy to decision-ready multi-fidelity simulation: Minimum-cost contrast-support repair and dependence-aware decisions*
-
-## Central contribution
-
-The method treats scientific attribution as a sequential support-and-resolution problem rather than as predictive validation alone:
-
-1. verify that each declared contrast is estimable from the acquired design;
-2. repair missing support using exact finite-pool minimum-cost enumeration or an explicitly approximate greedy solver;
-3. propagate contrast-aligned numerical uncertainty under a declared dependence construction; and
-4. acquire the next computation until the claim is resolved above the minimum, resolved below the minimum, or retained as indeterminate.
-
-Release `v1.3.0` corrects the closed-loop comparison by removing a duplicate policy alias and assigning all seven distinct policies the same action-indexed random scenario within each truth-replicate pair. It also retains the exhaustive complete-lattice dependence audit: four inventory-marked complete periodic-hill geometries on two supports, giving eight audits. Because the coherent set is nested in the independently recombined set, non-increasing robustness ratio is structural; the empirical findings are the 10.83--15.71-fold exact finite-set diameter expansion and seven paired mapping-robustness classification reversals at the frozen `R = 3` rule.
-
-## Latest reproducibility package
-
-The latest self-contained package is in `v20_method_upgrade/`.
-
-```bash
-python -m pip install -r v20_method_upgrade/requirements.txt
-cd v20_method_upgrade
+```sh
+cd pathway_dependence_v2_1_8
+python -m pip install -r requirements.txt
 python run_all.py
 ```
 
-A clean Linux extraction runs 17 automated tests, reconstructs the original four-audit result, and independently rebuilds all eight complete-lattice audits from released float64 weighted-vector caches. The maximum absolute difference from expected output is approximately `2.66e-14`.
+The verifier checks byte integrity, runs 66 automated tests, reconstructs eight CFD audits, enumerates 128 diffusion-chain partitions, and performs 24 independent diffusion-solver checks. It operates in an external copy without modifying the released inputs. Full generation of all 1,024 diffusion solves is a separate command documented in the package README.
 
-## Reproducibility boundary
+The common-partition 37/42 outputs supply the main CFD results. Optional 28/29/33/35 robust-union analyses are kept separately under `auxiliary/robust_union/` and checked with `python run_all.py --include-robust-union`. They are different uncertainty constructions and are not substituted for the main results.
 
-The released vectors reproduce the finite-set mapping-robustness classifications exactly. They do not independently rebuild omitted raw OpenFOAM cache eligibility, rerun the underlying OpenFOAM simulations, or represent total CFD uncertainty. The exact minimum-cost certificate applies only to Gate-1 repair over the declared finite candidate pool; greedy repair and total cost to a terminal decision are not globally certified.
+## Exact accompanying archive
 
-## Repository map
+The journal attachment is preserved byte-for-byte at [`release_archives/pathway_coupling_certificates_v2.1.8_20260906.zip`](release_archives/pathway_coupling_certificates_v2.1.8_20260906.zip).
 
-- `v20_method_upgrade/`: current V20 protocols, code, corrected paired-policy outputs, tests, eight float64 audit caches, expected outputs, figures, and hashes.
-- `v16_method_upgrade/`: preceding complete-lattice release retained for provenance.
-- `v9_method_upgrade/`: earlier method-upgrade release retained for provenance.
-- `theory/`, `protocols/`, `code/`, `data/`, `figures/`, and `provenance/`: earlier ordered two-gate materials.
-- `THIRD_PARTY_DATA_NOTICE.md`: data ownership and redistribution boundaries.
+SHA-256: `f76f5249508cc36d2bde64a053bf6b98811c9f56e19ce331f8278d8b83d50d51`
 
-## Data boundaries
+The nested archive's statements about an unassigned version DOI record its pre-publication build state. This release page and repository-level citation metadata identify the subsequent public archive. Its scientific files and internal manifest are unchanged.
 
-This archive contains authored code, protocols, compact derived CFD audit data, figures, hashes, and completion evidence. It does not contain downloaded articles, third-party DNS payloads, raw processor directories, or full CFD time histories.
+## Citation and provenance
 
-## Citation and DOI
+Use the specific Zenodo DOI assigned to release v2.1.8 for this study's code and certificates. The [concept DOI](https://doi.org/10.5281/zenodo.21670992) identifies the historical version series. The earlier [v1.3.0 DOI](https://doi.org/10.5281/zenodo.21767134) identifies the source CFD mapping data and does not identify the new graph-certificate package.
 
-Repository: https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability
+Earlier directories (`v20_method_upgrade`, `v16_method_upgrade`, `v9_method_upgrade`, and the original top-level code/data material) retain historical results. They are not the current verification entry point. The repository-wide historical manifest predates this release; use `PUBLIC_RELEASE_SHA256.csv` and the current package's `SHA256SUMS.csv` for this release.
 
-- Concept DOI for all versions: https://doi.org/10.5281/zenodo.21670992
-- Each GitHub release is archived by Zenodo under a distinct immutable version DOI.
+## Scope and licences
 
-## Licences
+Graph constraints and weights are declared sensitivity models, not probabilities or physical error estimates. The CFD vectors support finite mapping audits; they do not rerun raw OpenFOAM cases, reconstruct omitted raw-cache eligibility, quantify total CFD uncertainty, or establish physical validation. Numerical solver witnesses are tolerance-qualified, distinct from symbolic proofs.
 
-- Source code: MIT (`LICENSE-CODE`).
-- Authored data, figures, and documentation: CC BY 4.0 (`LICENSE-DATA`).
-- Third-party data are not redistributed.
+Code: MIT. Authored data, figures, and documentation: CC BY 4.0. Downloaded papers and third-party raw datasets are not redistributed in the current package.

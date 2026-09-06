@@ -1,0 +1,440 @@
+{
+  "status": "released_float64_near_tie_audit",
+  "method": "Complete Gram enumeration followed by direct-difference math.fsum recalculation of the leading 12 pairs per budget.",
+  "claim_boundary": "No accuracy is inferred beyond the released float64 caches.",
+  "all_strict_signs_confirmed": false,
+  "results": [
+    {
+      "case_id": "alph05-10071-2024",
+      "support": "fine_F100",
+      "vector_dimension": 80624,
+      "budget_two_diameter_direct_fsum": 0.039943465479975265,
+      "full_diameter_direct_fsum": 0.03994346549470955,
+      "absolute_gap": 1.473428323794934e-11,
+      "relative_gap": 3.6887843995160797e-10,
+      "full_diameter_ulp": 6.938893903907228e-18,
+      "gap_in_full_diameter_ulps": 2123434.0,
+      "strictly_larger_at_budget_four": true,
+      "budget_two_certificate": {
+        "diameter_direct_fsum": 0.039943465479975265,
+        "diameter_gram": 0.039943465479975244,
+        "gram_minus_direct": -2.0816681711721685e-17,
+        "left_member": 4,
+        "right_member": 81,
+        "left_choice": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "right_choice": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "left_cost": 2,
+        "right_cost": 2
+      },
+      "full_certificate": {
+        "diameter_direct_fsum": 0.03994346549470955,
+        "diameter_gram": 0.039943465494709535,
+        "gram_minus_direct": -1.3877787807814457e-17,
+        "left_member": 52,
+        "right_member": 67,
+        "left_choice": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "right_choice": [
+          1,
+          0,
+          0,
+          3
+        ],
+        "left_cost": 4,
+        "right_cost": 4
+      }
+    },
+    {
+      "case_id": "alph05-10071-2024",
+      "support": "shared_F000",
+      "vector_dimension": 20628,
+      "budget_two_diameter_direct_fsum": 0.021789782605382176,
+      "full_diameter_direct_fsum": 0.021789782632838522,
+      "absolute_gap": 2.745634622436377e-11,
+      "relative_gap": 1.260055994454272e-09,
+      "full_diameter_ulp": 3.469446951953614e-18,
+      "gap_in_full_diameter_ulps": 7913753.0,
+      "strictly_larger_at_budget_four": true,
+      "budget_two_certificate": {
+        "diameter_direct_fsum": 0.021789782605382176,
+        "diameter_gram": 0.02178978260538218,
+        "gram_minus_direct": 3.469446951953614e-18,
+        "left_member": 16,
+        "right_member": 69,
+        "left_choice": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "right_choice": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "left_cost": 2,
+        "right_cost": 2
+      },
+      "full_certificate": {
+        "diameter_direct_fsum": 0.021789782632838522,
+        "diameter_gram": 0.021789782632838525,
+        "gram_minus_direct": 3.469446951953614e-18,
+        "left_member": 28,
+        "right_member": 193,
+        "left_choice": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "right_choice": [
+          3,
+          0,
+          0,
+          1
+        ],
+        "left_cost": 4,
+        "right_cost": 4
+      }
+    },
+    {
+      "case_id": "alph15-10929-3036",
+      "support": "fine_F100",
+      "vector_dimension": 175316,
+      "budget_two_diameter_direct_fsum": 0.01092437072778639,
+      "full_diameter_direct_fsum": 0.010924370848892832,
+      "absolute_gap": 1.2110644258267467e-10,
+      "relative_gap": 1.1085896319141218e-08,
+      "full_diameter_ulp": 1.734723475976807e-18,
+      "gap_in_full_diameter_ulps": 69813111.0,
+      "strictly_larger_at_budget_four": true,
+      "budget_two_certificate": {
+        "diameter_direct_fsum": 0.01092437072778639,
+        "diameter_gram": 0.010924370727786391,
+        "gram_minus_direct": 1.734723475976807e-18,
+        "left_member": 4,
+        "right_member": 81,
+        "left_choice": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "right_choice": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "left_cost": 2,
+        "right_cost": 2
+      },
+      "full_certificate": {
+        "diameter_direct_fsum": 0.010924370848892832,
+        "diameter_gram": 0.010924370848892827,
+        "gram_minus_direct": -5.204170427930421e-18,
+        "left_member": 52,
+        "right_member": 67,
+        "left_choice": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "right_choice": [
+          1,
+          0,
+          0,
+          3
+        ],
+        "left_cost": 4,
+        "right_cost": 4
+      }
+    },
+    {
+      "case_id": "alph15-10929-3036",
+      "support": "shared_F000",
+      "vector_dimension": 44340,
+      "budget_two_diameter_direct_fsum": 0.00399759106468902,
+      "full_diameter_direct_fsum": 0.00399759106468902,
+      "absolute_gap": 0.0,
+      "relative_gap": 0.0,
+      "full_diameter_ulp": 8.673617379884035e-19,
+      "gap_in_full_diameter_ulps": 0.0,
+      "strictly_larger_at_budget_four": false,
+      "budget_two_certificate": {
+        "diameter_direct_fsum": 0.00399759106468902,
+        "diameter_gram": 0.0039975910646890146,
+        "gram_minus_direct": -5.204170427930421e-18,
+        "left_member": 3,
+        "right_member": 252,
+        "left_choice": [
+          0,
+          0,
+          0,
+          3
+        ],
+        "right_choice": [
+          3,
+          3,
+          3,
+          0
+        ],
+        "left_cost": 2,
+        "right_cost": 2
+      },
+      "full_certificate": {
+        "diameter_direct_fsum": 0.00399759106468902,
+        "diameter_gram": 0.0039975910646890146,
+        "gram_minus_direct": -5.204170427930421e-18,
+        "left_member": 3,
+        "right_member": 252,
+        "left_choice": [
+          0,
+          0,
+          0,
+          3
+        ],
+        "right_choice": [
+          3,
+          3,
+          3,
+          0
+        ],
+        "left_cost": 2,
+        "right_cost": 2
+      }
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support": "fine_F100",
+      "vector_dimension": 110736,
+      "budget_two_diameter_direct_fsum": 0.023336763524458043,
+      "full_diameter_direct_fsum": 0.023336763524458043,
+      "absolute_gap": 0.0,
+      "relative_gap": 0.0,
+      "full_diameter_ulp": 3.469446951953614e-18,
+      "gap_in_full_diameter_ulps": 0.0,
+      "strictly_larger_at_budget_four": false,
+      "budget_two_certificate": {
+        "diameter_direct_fsum": 0.023336763524458043,
+        "diameter_gram": 0.023336763524458043,
+        "gram_minus_direct": 0.0,
+        "left_member": 5,
+        "right_member": 80,
+        "left_choice": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "right_choice": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "left_cost": 2,
+        "right_cost": 2
+      },
+      "full_certificate": {
+        "diameter_direct_fsum": 0.023336763524458043,
+        "diameter_gram": 0.023336763524458043,
+        "gram_minus_direct": 0.0,
+        "left_member": 7,
+        "right_member": 112,
+        "left_choice": [
+          0,
+          0,
+          1,
+          3
+        ],
+        "right_choice": [
+          1,
+          3,
+          0,
+          0
+        ],
+        "left_cost": 3,
+        "right_cost": 3
+      }
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support": "shared_F000",
+      "vector_dimension": 28236,
+      "budget_two_diameter_direct_fsum": 0.011791930287449386,
+      "full_diameter_direct_fsum": 0.011791930287449386,
+      "absolute_gap": 0.0,
+      "relative_gap": 0.0,
+      "full_diameter_ulp": 1.734723475976807e-18,
+      "gap_in_full_diameter_ulps": 0.0,
+      "strictly_larger_at_budget_four": false,
+      "budget_two_certificate": {
+        "diameter_direct_fsum": 0.011791930287449386,
+        "diameter_gram": 0.011791930287449386,
+        "gram_minus_direct": 0.0,
+        "left_member": 16,
+        "right_member": 69,
+        "left_choice": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "right_choice": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "left_cost": 2,
+        "right_cost": 2
+      },
+      "full_certificate": {
+        "diameter_direct_fsum": 0.011791930287449386,
+        "diameter_gram": 0.011791930287449386,
+        "gram_minus_direct": 0.0,
+        "left_member": 16,
+        "right_member": 205,
+        "left_choice": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "right_choice": [
+          3,
+          0,
+          3,
+          1
+        ],
+        "left_cost": 2,
+        "right_cost": 3
+      }
+    },
+    {
+      "case_id": "alph15-7929-2024",
+      "support": "fine_F100",
+      "vector_dimension": 62592,
+      "budget_two_diameter_direct_fsum": 0.021969834910426558,
+      "full_diameter_direct_fsum": 0.02196983493488068,
+      "absolute_gap": 2.4454122754535845e-11,
+      "relative_gap": 1.1130772182412238e-09,
+      "full_diameter_ulp": 3.469446951953614e-18,
+      "gap_in_full_diameter_ulps": 7048421.0,
+      "strictly_larger_at_budget_four": true,
+      "budget_two_certificate": {
+        "diameter_direct_fsum": 0.021969834910426558,
+        "diameter_gram": 0.021969834910426565,
+        "gram_minus_direct": 6.938893903907228e-18,
+        "left_member": 21,
+        "right_member": 64,
+        "left_choice": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "right_choice": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "left_cost": 2,
+        "right_cost": 2
+      },
+      "full_certificate": {
+        "diameter_direct_fsum": 0.02196983493488068,
+        "diameter_gram": 0.02196983493488067,
+        "gram_minus_direct": -1.0408340855860843e-17,
+        "left_member": 52,
+        "right_member": 67,
+        "left_choice": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "right_choice": [
+          1,
+          0,
+          0,
+          3
+        ],
+        "left_cost": 4,
+        "right_cost": 4
+      }
+    },
+    {
+      "case_id": "alph15-7929-2024",
+      "support": "shared_F000",
+      "vector_dimension": 15984,
+      "budget_two_diameter_direct_fsum": 0.012853025314532342,
+      "full_diameter_direct_fsum": 0.012853025314532342,
+      "absolute_gap": 0.0,
+      "relative_gap": 0.0,
+      "full_diameter_ulp": 1.734723475976807e-18,
+      "gap_in_full_diameter_ulps": 0.0,
+      "strictly_larger_at_budget_four": false,
+      "budget_two_certificate": {
+        "diameter_direct_fsum": 0.012853025314532342,
+        "diameter_gram": 0.012853025314532337,
+        "gram_minus_direct": -5.204170427930421e-18,
+        "left_member": 16,
+        "right_member": 69,
+        "left_choice": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "right_choice": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "left_cost": 2,
+        "right_cost": 2
+      },
+      "full_certificate": {
+        "diameter_direct_fsum": 0.012853025314532342,
+        "diameter_gram": 0.012853025314532337,
+        "gram_minus_direct": -5.204170427930421e-18,
+        "left_member": 16,
+        "right_member": 205,
+        "left_choice": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "right_choice": [
+          3,
+          0,
+          3,
+          1
+        ],
+        "left_cost": 2,
+        "right_cost": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+case_id,support,independent_members,minimum_blocks,compressed_members,compression_factor,one_exact_certificate,greedy_exact_for_all_diameter_directions
+alph05-10071-2024,fine_F100,256,2,16,16,"F000+F110 | F100+F010",true
+alph05-10071-2024,shared_F000,256,2,16,16,"F000+F110 | F100+F010",true
+alph15-10929-3036,fine_F100,256,2,16,16,"F000+F110 | F100+F010",true
+alph15-10929-3036,shared_F000,256,2,16,16,"F000+F100+F010 | F110",true
+alph15-13929-2024,fine_F100,256,2,16,16,"F000+F100 | F010+F110",true
+alph15-13929-2024,shared_F000,256,2,16,16,"F000+F010+F110 | F100",true
+alph15-7929-2024,fine_F100,256,2,16,16,"F000+F110 | F100+F010",true
+alph15-7929-2024,shared_F000,256,2,16,16,"F000+F010+F110 | F100",true

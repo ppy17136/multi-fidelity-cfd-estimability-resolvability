@@ -1,0 +1,77 @@
+{
+  "title": "Minimum-relaxation certificates for pathway dependence in multifidelity uncertainty quantification: reproducibility package",
+  "upload_type": "software",
+  "version": "2.1.8",
+  "publication_date": "2026-09-06",
+  "description": "Reproducibility materials for Minimum-relaxation certificates for pathway dependence in multifidelity uncertainty quantification. The v2.1.8 package contains graph-certificate algorithms, checked numerical witnesses, eight CFD mapping-vector audits, and a stochastic diffusion benchmark. The one-command verification runs 48 core tests, eight theory-extension tests, six reconstruction-policy tests, and four release-routing tests. Common-partition manuscript results and optional robust-union analyses are separately identified. The CFD inputs support finite mapping audits, not raw OpenFOAM reruns, total CFD uncertainty, or physical validation. Graph edge costs are declared sensitivity weights, not probabilities. Code is MIT licensed; authored data, figures and documentation are CC BY 4.0. Earlier repository directories are retained as historical materials. The exact submission ZIP is included under release_archives; its internal metadata records the pre-publication build state.",
+  "creators": [
+    {
+      "name": "Ma, Jia Jun",
+      "affiliation": "Liaoning Petrochemical University",
+      "orcid": "0009-0000-4754-9891"
+    },
+    {
+      "name": "Lü, Bai Lin",
+      "affiliation": "Liaoning Petrochemical University",
+      "orcid": "0000-0002-8922-8399"
+    },
+    {
+      "name": "Li, Tian Xiang",
+      "affiliation": "Liaoning Petrochemical University",
+      "orcid": "0009-0006-4431-9613"
+    },
+    {
+      "name": "Ren, Xiao",
+      "affiliation": "Shanghai Dongluo Precise Machine Industrial Co., Ltd.",
+      "orcid": "0009-0000-4591-3098"
+    },
+    {
+      "name": "Sun, Xu Dong",
+      "affiliation": "Fuxin Wanda Foundry (Group) Co., Ltd.",
+      "orcid": "0009-0005-8157-3787"
+    },
+    {
+      "name": "Shang, Jia Bao",
+      "affiliation": "Liaoning Petrochemical University",
+      "orcid": "0009-0005-5621-0634"
+    },
+    {
+      "name": "Zhao, Chao",
+      "affiliation": "Liaoning Petrochemical University",
+      "orcid": "0009-0004-6623-9871"
+    },
+    {
+      "name": "Liu, Zhi Zhuo",
+      "affiliation": "Liaoning Petrochemical University",
+      "orcid": "0009-0004-4526-3207"
+    },
+    {
+      "name": "Wei, Zi Jian",
+      "affiliation": "Liaoning Petrochemical University",
+      "orcid": "0009-0003-4932-5703"
+    },
+    {
+      "name": "Su, Jia Chen",
+      "affiliation": "Liaoning Petrochemical University"
+    },
+    {
+      "name": "Yan, Wen Yi",
+      "affiliation": "Liaoning Petrochemical University"
+    }
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "multifidelity uncertainty quantification",
+    "dependence uncertainty",
+    "graph certificates",
+    "decision robustness"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21767134",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    }
+  ]
+}

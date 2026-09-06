@@ -1,0 +1,203 @@
+{
+  "passed": true,
+  "checks": 24,
+  "rows": [
+    {
+      "pathway": 0,
+      "sample": 0,
+      "level": 0,
+      "n": 8,
+      "max_absolute_qoi_difference": 6.245004513516506e-17,
+      "relative_residual": 7.855740445617953e-14
+    },
+    {
+      "pathway": 0,
+      "sample": 0,
+      "level": 2,
+      "n": 16,
+      "max_absolute_qoi_difference": 7.632783294297951e-17,
+      "relative_residual": 5.95102560631473e-13
+    },
+    {
+      "pathway": 0,
+      "sample": 0,
+      "level": 7,
+      "n": 64,
+      "max_absolute_qoi_difference": 3.469446951953614e-16,
+      "relative_residual": 1.140900748641894e-12
+    },
+    {
+      "pathway": 0,
+      "sample": 31,
+      "level": 0,
+      "n": 8,
+      "max_absolute_qoi_difference": 3.5388358909926865e-16,
+      "relative_residual": 6.511482195369167e-13
+    },
+    {
+      "pathway": 0,
+      "sample": 31,
+      "level": 2,
+      "n": 16,
+      "max_absolute_qoi_difference": 9.506284648352903e-16,
+      "relative_residual": 5.523115244661397e-13
+    },
+    {
+      "pathway": 0,
+      "sample": 31,
+      "level": 7,
+      "n": 64,
+      "max_absolute_qoi_difference": 3.7470027081099033e-16,
+      "relative_residual": 1.0628424432224855e-12
+    },
+    {
+      "pathway": 1,
+      "sample": 0,
+      "level": 0,
+      "n": 8,
+      "max_absolute_qoi_difference": 1.8735013540549517e-16,
+      "relative_residual": 2.0477004958553255e-13
+    },
+    {
+      "pathway": 1,
+      "sample": 0,
+      "level": 2,
+      "n": 16,
+      "max_absolute_qoi_difference": 4.649058915617843e-16,
+      "relative_residual": 9.129595268535584e-13
+    },
+    {
+      "pathway": 1,
+      "sample": 0,
+      "level": 7,
+      "n": 64,
+      "max_absolute_qoi_difference": 5.828670879282072e-16,
+      "relative_residual": 1.0756246526072649e-12
+    },
+    {
+      "pathway": 1,
+      "sample": 31,
+      "level": 0,
+      "n": 8,
+      "max_absolute_qoi_difference": 3.885780586188048e-16,
+      "relative_residual": 1.7664092082682574e-13
+    },
+    {
+      "pathway": 1,
+      "sample": 31,
+      "level": 2,
+      "n": 16,
+      "max_absolute_qoi_difference": 5.412337245047638e-16,
+      "relative_residual": 9.918511398505703e-13
+    },
+    {
+      "pathway": 1,
+      "sample": 31,
+      "level": 7,
+      "n": 64,
+      "max_absolute_qoi_difference": 3.2612801348363973e-16,
+      "relative_residual": 1.044641658901198e-12
+    },
+    {
+      "pathway": 2,
+      "sample": 0,
+      "level": 0,
+      "n": 8,
+      "max_absolute_qoi_difference": 9.71445146547012e-17,
+      "relative_residual": 2.033289189560649e-13
+    },
+    {
+      "pathway": 2,
+      "sample": 0,
+      "level": 2,
+      "n": 16,
+      "max_absolute_qoi_difference": 1.2281842209915794e-15,
+      "relative_residual": 7.437691468022688e-13
+    },
+    {
+      "pathway": 2,
+      "sample": 0,
+      "level": 7,
+      "n": 64,
+      "max_absolute_qoi_difference": 4.85722573273506e-16,
+      "relative_residual": 1.0103091938630231e-12
+    },
+    {
+      "pathway": 2,
+      "sample": 31,
+      "level": 0,
+      "n": 8,
+      "max_absolute_qoi_difference": 1.1796119636642288e-16,
+      "relative_residual": 3.5298727765444186e-13
+    },
+    {
+      "pathway": 2,
+      "sample": 31,
+      "level": 2,
+      "n": 16,
+      "max_absolute_qoi_difference": 3.95516952522712e-16,
+      "relative_residual": 8.512196073406352e-13
+    },
+    {
+      "pathway": 2,
+      "sample": 31,
+      "level": 7,
+      "n": 64,
+      "max_absolute_qoi_difference": 2.1510571102112408e-16,
+      "relative_residual": 1.0338453495424605e-12
+    },
+    {
+      "pathway": 3,
+      "sample": 0,
+      "level": 0,
+      "n": 8,
+      "max_absolute_qoi_difference": 5.412337245047638e-16,
+      "relative_residual": 2.4042938433168537e-13
+    },
+    {
+      "pathway": 3,
+      "sample": 0,
+      "level": 2,
+      "n": 16,
+      "max_absolute_qoi_difference": 2.5673907444456745e-16,
+      "relative_residual": 3.911661603115318e-13
+    },
+    {
+      "pathway": 3,
+      "sample": 0,
+      "level": 7,
+      "n": 64,
+      "max_absolute_qoi_difference": 3.885780586188048e-16,
+      "relative_residual": 1.0540210363529648e-12
+    },
+    {
+      "pathway": 3,
+      "sample": 31,
+      "level": 0,
+      "n": 8,
+      "max_absolute_qoi_difference": 4.2327252813834093e-16,
+      "relative_residual": 4.985310619421952e-13
+    },
+    {
+      "pathway": 3,
+      "sample": 31,
+      "level": 2,
+      "n": 16,
+      "max_absolute_qoi_difference": 2.636779683484747e-16,
+      "relative_residual": 8.643798393495954e-13
+    },
+    {
+      "pathway": 3,
+      "sample": 31,
+      "level": 7,
+      "n": 64,
+      "max_absolute_qoi_difference": 1.3877787807814457e-16,
+      "relative_residual": 1.0276054404387295e-12
+    }
+  ],
+  "maximum_absolute_qoi_difference": 1.2281842209915794e-15,
+  "maximum_relative_residual": 1.140900748641894e-12,
+  "elapsed_s": 0.8821434000019508,
+  "script_sha256": "e4c1a0bda41056fb36abc63e03af498c7cd837b74fbfc98f9fb9e258c8ac16e3",
+  "scope": "Independent implementation and linear solver; same mathematical discretization; not physical validation"
+}

@@ -1,0 +1,102 @@
+{
+  "definition": "rho_D(epsilon) is the minimum graph-relaxation budget c for which D(U_c) >= (1-epsilon) D(U_ind).",
+  "epsilons": [
+    0.0,
+    1e-12,
+    1e-10,
+    1e-09,
+    1e-08,
+    1e-07
+  ],
+  "rows": [
+    {
+      "case_id": "alph05-10071-2024",
+      "support": "fine_F100",
+      "relative_diameter_gap_at_budget_2": 3.6887861366948206e-10,
+      "minimum_cost_epsilon_0e+00": 4.0,
+      "minimum_cost_epsilon_1e-12": 4.0,
+      "minimum_cost_epsilon_1e-10": 4.0,
+      "minimum_cost_epsilon_1e-09": 2.0,
+      "minimum_cost_epsilon_1e-08": 2.0,
+      "minimum_cost_epsilon_1e-07": 2.0
+    },
+    {
+      "case_id": "alph05-10071-2024",
+      "support": "shared_F000",
+      "relative_diameter_gap_at_budget_2": 1.2600559944542719e-09,
+      "minimum_cost_epsilon_0e+00": 4.0,
+      "minimum_cost_epsilon_1e-12": 4.0,
+      "minimum_cost_epsilon_1e-10": 4.0,
+      "minimum_cost_epsilon_1e-09": 4.0,
+      "minimum_cost_epsilon_1e-08": 2.0,
+      "minimum_cost_epsilon_1e-07": 2.0
+    },
+    {
+      "case_id": "alph15-10929-3036",
+      "support": "fine_F100",
+      "relative_diameter_gap_at_budget_2": 1.1085895683965614e-08,
+      "minimum_cost_epsilon_0e+00": 4.0,
+      "minimum_cost_epsilon_1e-12": 4.0,
+      "minimum_cost_epsilon_1e-10": 4.0,
+      "minimum_cost_epsilon_1e-09": 4.0,
+      "minimum_cost_epsilon_1e-08": 4.0,
+      "minimum_cost_epsilon_1e-07": 2.0
+    },
+    {
+      "case_id": "alph15-10929-3036",
+      "support": "shared_F000",
+      "relative_diameter_gap_at_budget_2": 0.0,
+      "minimum_cost_epsilon_0e+00": 2.0,
+      "minimum_cost_epsilon_1e-12": 2.0,
+      "minimum_cost_epsilon_1e-10": 2.0,
+      "minimum_cost_epsilon_1e-09": 2.0,
+      "minimum_cost_epsilon_1e-08": 2.0,
+      "minimum_cost_epsilon_1e-07": 2.0
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support": "fine_F100",
+      "relative_diameter_gap_at_budget_2": 0.0,
+      "minimum_cost_epsilon_0e+00": 2.0,
+      "minimum_cost_epsilon_1e-12": 2.0,
+      "minimum_cost_epsilon_1e-10": 2.0,
+      "minimum_cost_epsilon_1e-09": 2.0,
+      "minimum_cost_epsilon_1e-08": 2.0,
+      "minimum_cost_epsilon_1e-07": 2.0
+    },
+    {
+      "case_id": "alph15-13929-2024",
+      "support": "shared_F000",
+      "relative_diameter_gap_at_budget_2": 0.0,
+      "minimum_cost_epsilon_0e+00": 2.0,
+      "minimum_cost_epsilon_1e-12": 2.0,
+      "minimum_cost_epsilon_1e-10": 2.0,
+      "minimum_cost_epsilon_1e-09": 2.0,
+      "minimum_cost_epsilon_1e-08": 2.0,
+      "minimum_cost_epsilon_1e-07": 2.0
+    },
+    {
+      "case_id": "alph15-7929-2024",
+      "support": "fine_F100",
+      "relative_diameter_gap_at_budget_2": 1.113076428647911e-09,
+      "minimum_cost_epsilon_0e+00": 4.0,
+      "minimum_cost_epsilon_1e-12": 4.0,
+      "minimum_cost_epsilon_1e-10": 4.0,
+      "minimum_cost_epsilon_1e-09": 4.0,
+      "minimum_cost_epsilon_1e-08": 2.0,
+      "minimum_cost_epsilon_1e-07": 2.0
+    },
+    {
+      "case_id": "alph15-7929-2024",
+      "support": "shared_F000",
+      "relative_diameter_gap_at_budget_2": 0.0,
+      "minimum_cost_epsilon_0e+00": 2.0,
+      "minimum_cost_epsilon_1e-12": 2.0,
+      "minimum_cost_epsilon_1e-10": 2.0,
+      "minimum_cost_epsilon_1e-09": 2.0,
+      "minimum_cost_epsilon_1e-08": 2.0,
+      "minimum_cost_epsilon_1e-07": 2.0
+    }
+  ],
+  "interpretation": "Exact attainment and practically certified near-attainment are reported separately; no epsilon is selected post hoc as universal."
+}

@@ -1,0 +1,9 @@
+{
+  "solves": 1024,
+  "wall_s": 2.204769199997827,
+  "max_relative_residual": 1.5526441756695816e-13,
+  "telescoping_relative_error": 2.6777446626417786e-17,
+  "raw_qoi_sha256": "9b65b37d518d451afdf50abdb6b4ca4e0ba70e2234b92333f10fb48b2bc24e22",
+  "cellwise_sha256": "af868a322b4da2e63610835c949c09bc50b189d20fd748ab551c637e96ce963e",
+  "data_type": "computed stochastic diffusion benchmark; not measured data"
+}
