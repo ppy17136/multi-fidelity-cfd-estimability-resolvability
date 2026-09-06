@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: Cite the Zenodo version DOI assigned to GitHub release v2.1.8. The concept
-  DOI covers all historical versions, not this exact snapshot.
+message: 'Please cite the version-specific Zenodo DOI for this v2.1.8 release. Code:
+  MIT; authored data, figures and documentation: CC BY 4.0.'
 title: 'Minimum-relaxation certificates for pathway dependence in multifidelity uncertainty
   quantification: reproducibility package'
 version: 2.1.8
@@ -45,3 +45,4 @@ keywords:
 - provenance
 - decision robustness
 url: https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability/releases/tag/v2.1.8
+doi: 10.5281/zenodo.22540664

@@ -2,6 +2,8 @@
 
 ## Current release: v2.1.8
 
+Public version DOI: [10.5281/zenodo.22540664](https://doi.org/10.5281/zenodo.22540664).
+
 This repository contains versioned reproducibility materials. The current paper and verification entry point are in `pathway_dependence_v2_1_8/`.
 
 ```sh
@@ -24,9 +26,9 @@ The nested archive's statements about an unassigned version DOI record its pre-p
 
 ## Citation and provenance
 
-Use the specific Zenodo DOI assigned to release v2.1.8 for this study's code and certificates. The [concept DOI](https://doi.org/10.5281/zenodo.21670992) identifies the historical version series. The earlier [v1.3.0 DOI](https://doi.org/10.5281/zenodo.21767134) identifies the source CFD mapping data and does not identify the new graph-certificate package.
+Use [10.5281/zenodo.22540664](https://doi.org/10.5281/zenodo.22540664) for this study's code and certificates. The [concept DOI](https://doi.org/10.5281/zenodo.21670992) identifies the historical version series. The earlier [v1.3.0 DOI](https://doi.org/10.5281/zenodo.21767134) identifies the source CFD mapping data and does not identify the new graph-certificate package.
 
-Earlier directories (`v20_method_upgrade`, `v16_method_upgrade`, `v9_method_upgrade`, and the original top-level code/data material) retain historical results. They are not the current verification entry point. The repository-wide historical manifest predates this release; use `PUBLIC_RELEASE_SHA256.csv` and the current package's `SHA256SUMS.csv` for this release.
+Earlier directories (`v20_method_upgrade`, `v16_method_upgrade`, `v9_method_upgrade`, and the original top-level code/data material) retain historical results. They are not the current verification entry point. The repository-wide historical manifest predates this release; use `PUBLIC_RELEASE_SHA256.csv` and the current package's `SHA256SUMS.csv` for this release. `PUBLIC_RELEASE_SHA256.csv` describes the immutable tagged deposit; `CURRENT_CHECKOUT_SHA256.csv` covers the current checkout after adding the assigned DOI to these citation documents.
 
 ## Scope and licences
 
