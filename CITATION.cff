@@ -3,6 +3,7 @@ message: "Please cite the versioned release. Code: MIT; authored data, figures, 
 url: "https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability/releases/tag/v2.1.9"
 title: "Minimum-relaxation certificates for pathway dependence in multifidelity uncertainty quantification: reproducibility package"
 version: 2.1.9
+doi: "10.5281/zenodo.22555851"
 authors:
   - family-names: Ma
     given-names: Jia Jun

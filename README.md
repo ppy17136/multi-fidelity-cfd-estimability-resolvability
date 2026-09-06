@@ -2,6 +2,8 @@
 
 ## Current release: v2.1.9
 
+Public version DOI: [10.5281/zenodo.22555851](https://doi.org/10.5281/zenodo.22555851).
+
 The current verification entry point is `pathway_dependence_v2_1_9/`.
 Use the [versioned release](https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability/releases/tag/v2.1.9) to identify this correction.
 
