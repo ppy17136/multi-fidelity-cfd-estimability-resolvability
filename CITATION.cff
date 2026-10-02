@@ -1,9 +1,10 @@
 cff-version: 1.2.0
-message: "Please cite the versioned release. Code: MIT; authored data, figures, and documentation: CC BY 4.0 (see LICENSE-CODE and LICENSE-DATA)."
-url: "https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability/releases/tag/v2.1.9"
-title: "Minimum-relaxation certificates for pathway dependence in multifidelity uncertainty quantification: reproducibility package"
-version: 2.1.9
-doi: "10.5281/zenodo.22555851"
+message: "Please cite the version-specific Zenodo identifier for the verification records used."
+title: "Auditing dependence assumptions in multifidelity CFD: verification records"
+version: 3.1.0
+doi: "10.5281/zenodo.23112322"
+date-released: 2026-10-02
+type: software
 authors:
   - family-names: Ma
     given-names: Jia Jun
@@ -37,10 +38,10 @@ authors:
   - family-names: Yan
     given-names: Wen Yi
 repository-code: "https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability"
+license: MIT
 keywords:
-  - uncertainty quantification
   - multifidelity simulation
+  - computational fluid dynamics
   - dependence uncertainty
-  - graph algorithms
-  - provenance
-  - decision robustness
+  - risk bounds
+  - numerical verification

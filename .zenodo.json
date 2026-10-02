@@ -1,9 +1,16 @@
 {
-  "title": "Minimum-relaxation certificates for pathway dependence in multifidelity uncertainty quantification: reproducibility package",
+  "title": "Auditing dependence assumptions in multifidelity CFD: verification records",
   "upload_type": "software",
-  "version": "2.1.9",
-  "publication_date": "2026-09-07",
-  "description": "Reproducibility materials for Minimum-relaxation certificates for pathway dependence in multifidelity uncertainty quantification. Version 2.1.9 corrects stored-input scalar crossing checks, two-label forcing capacities, and initially indeterminate decision states. The independent diffusion verifier supports deeply nested Windows directories. The one-command verification runs 61 core/weight tests, eight theory tests, six comparison-policy tests, and four routing tests; it reconstructs eight CFD mapping-vector audits, 128 diffusion-chain partitions, and 24 independent solver checks. Original scientific arrays, figures and timing records are retained unchanged. CFD results concern finite mapping audits rather than raw OpenFOAM reruns, total CFD uncertainty, or physical validation. Graph edge costs are declared sensitivity weights, not probabilities. Code is MIT licensed; authored data, figures and documentation are CC BY 4.0. Earlier directories and releases are historical. The exact accompanying ZIP is under release_archives.",
+  "version": "3.1.0",
+  "license": "MIT",
+  "description": "The v3.1.0 release asset contains seven verification archives and a unified saved-record verification entry point. The exact aggregate asset is archived at version DOI 10.5281/zenodo.23112322. The repository source snapshot is not the aggregate asset. Code is MIT; authored numerical data and documentation are CC BY 4.0. Probabilities are conditional numerical-pathway diagnostics, not physical failure probabilities. No manuscript text, private reviews or restricted physical-experiment data are included in the release asset.",
+  "keywords": [
+    "multifidelity CFD",
+    "dependence uncertainty",
+    "fixed-marginal bounds",
+    "graph certificates",
+    "numerical verification"
+  ],
   "creators": [
     {
       "name": "Ma, Jia Jun",
@@ -57,21 +64,6 @@
     {
       "name": "Yan, Wen Yi",
       "affiliation": "Liaoning Petrochemical University"
-    }
-  ],
-  "access_right": "open",
-  "license": "mit",
-  "keywords": [
-    "multifidelity uncertainty quantification",
-    "dependence uncertainty",
-    "graph certificates",
-    "decision robustness"
-  ],
-  "related_identifiers": [
-    {
-      "identifier": "10.5281/zenodo.21767134",
-      "relation": "isDerivedFrom",
-      "scheme": "doi"
     }
   ]
 }

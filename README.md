@@ -1,40 +1,67 @@
-# Minimum-relaxation certificates for pathway dependence in multifidelity uncertainty quantification
+# Auditing dependence assumptions in multifidelity CFD
 
-## Current release: v2.1.9
+## Current verification collection: v3.1.0
 
-Public version DOI: [10.5281/zenodo.22555851](https://doi.org/10.5281/zenodo.22555851).
+Version DOI: <https://doi.org/10.5281/zenodo.23112322>.
+All-version concept DOI: <https://doi.org/10.5281/zenodo.21670992>.
 
-The current verification entry point is `pathway_dependence_v2_1_9/`.
-Use the [versioned release](https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability/releases/tag/v2.1.9) to identify this correction.
+The current verification entry point is the downloadable
+`MCS_Verification_Records_v3.1.0.zip` asset in the
+[v3.1.0 release](https://github.com/ppy17136/multi-fidelity-cfd-estimability-resolvability/releases/tag/v3.1.0),
+also archived at the version DOI. Download and extract that asset into a
+fresh directory before running:
 
-```sh
-cd pathway_dependence_v2_1_9
-python -m pip install -r requirements.txt
-python run_all.py
+```text
+python verify_all.py
 ```
 
-Version 2.1.9 adds exact stored-input guards for scalar crossing witnesses, exact integer-capacity two-label cuts, and an explicit zero-cost state for initially indeterminate scalar cases. The independent diffusion verifier also supports deeply nested Windows work directories. See `RELEASE_V2.1.9.md` for the correction scope.
+The automatically generated GitHub source ZIP is a repository snapshot;
+it is not the seven-archive verification collection. Earlier source
+directories and releases are retained for provenance, not presented as
+the current verification entry point.
 
-The verifier checks byte integrity, runs 79 automated tests, reconstructs eight CFD audits, enumerates 128 diffusion-chain partitions, and performs 24 independent diffusion-solver checks. Tests and reconstruction execute in a separate copy without modifying the released inputs. Full generation of the 1,024 diffusion solves is documented separately in the package README.
+The collection contains seven archives and a unified verification index:
 
-The common-partition 37/42 outputs supply the manuscript CFD results. Optional 28/29/33/35 robust-union analyses remain in `auxiliary/robust_union/` and are checked with `python run_all.py --include-robust-union`. These constructions are not interchangeable.
+- Exact rational same-input conditional-risk comparisons.
+- Manufactured Poisson numerical-input stability checks.
+- Retrospective four-cell certificates.
+- Matched native velocity diagnostics and certificates.
+- Fine-grid diagnostics, including failed screens.
+- Original six-cell records and continuation checks.
+- A small exact-arithmetic certificate-hierarchy check.
 
-## Exact accompanying archive
+The outer SHA-256 manifest covers every payload. The aggregate command
+runs the seven saved-record suites in separate fresh temporary directories.
+Read the included `README.md` and `Verification_Index_MCS.txt` for dependencies,
+record-to-claim mappings, and individual reconstruction boundaries. Python
+3.11 or newer, NumPy, and SciPy with `scipy.optimize.milp` support are required
+for the complete collection. Numerical-library threads are limited to one.
 
-The accompanying code ZIP is preserved at [`release_archives/pathway_coupling_certificates_v2.1.9_20260907.zip`](release_archives/pathway_coupling_certificates_v2.1.9_20260907.zip).
+## Scope and provenance
 
-SHA-256: `9cd8a8478e744a1adbdc21dd11e34e209565ff62fc4867d08c7fe82a79699d9b`
+The records accompany *Auditing dependence assumptions in multifidelity CFD:
+Sharp fixed-marginal bounds and minimum-cost identity relaxation*.
+They reconstruct conditional numerical-pathway diagnostics, not physical
+failure frequencies or certified total-CFD output errors. Identity-release
+weights are declared relation weights, not measured CFD acquisition costs.
+The workflow does not rerun raw OpenFOAM cases or rebuild omitted raw-cache
+eligibility. Eight same-input diagnostic combinations concern one geometry,
+not eight independent physical experiments. The manufactured follow-up is
+prior-result-informed, not blind validation.
 
-The package manifest covers every payload. Its scientific input arrays and figures are unchanged from version 2.1.8; historical timing records are not a new timing benchmark of this correction.
+Six archives retain their separately verified bytes. The input-stability
+archive carries a documented distribution-only protocol revision and
+corresponding verifier metadata; scientific inputs, generating code, and
+numerical results are unchanged. Historical titles and run metadata are
+retained with explicit reconstruction boundaries.
 
-## Citation and provenance
+Earlier version 3.0.1 remains at <https://doi.org/10.5281/zenodo.22866833>;
+version 2.1.9 remains at <https://doi.org/10.5281/zenodo.22555851>.
+Those immutable records are not overwritten.
 
-The preceding [v2.1.8 DOI](https://doi.org/10.5281/zenodo.22540664) identifies the earlier release, not this correction. The [concept DOI](https://doi.org/10.5281/zenodo.21670992) identifies the version series. The earlier [v1.3.0 DOI](https://doi.org/10.5281/zenodo.21767134) identifies the source CFD mapping data.
+## Licences and exclusions
 
-Earlier directories, releases and source records are retained for provenance. They are not the current verification entry point. `PUBLIC_RELEASE_SHA256.csv` describes the tagged deposit; `CURRENT_CHECKOUT_SHA256.csv` covers the corresponding checkout, excluding the manifest files themselves. Package-specific verification uses `pathway_dependence_v2_1_9/SHA256SUMS.csv`.
-
-## Scope and licences
-
-Graph constraints and weights are declared sensitivity models, not calibrated probabilities or physical error estimates. CFD vectors support finite mapping audits; they do not rerun raw OpenFOAM cases, reconstruct omitted raw-cache eligibility, quantify total CFD uncertainty, or establish physical validation. Floating-point MILP and forest outputs remain distinct from exact-arithmetic optimality proofs.
-
-Code: MIT. Authored data, figures and documentation: CC BY 4.0. Downloaded papers and third-party raw datasets are not redistributed in the current package.
+Code: MIT. Authored numerical data and documentation: CC BY 4.0.
+The current release contains no manuscript text, submission correspondence,
+private reviews, restricted physical-experiment data, third-party articles,
+DNS payloads, or complete solver cases.
