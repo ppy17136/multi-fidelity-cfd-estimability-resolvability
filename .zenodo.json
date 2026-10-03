@@ -3,7 +3,7 @@
   "upload_type": "software",
   "version": "3.1.0",
   "license": "MIT",
-  "description": "The v3.1.0 release asset contains seven verification archives and a unified saved-record verification entry point. The exact aggregate asset is archived at version DOI 10.5281/zenodo.23112322. The repository source snapshot is not the aggregate asset. Code is MIT; authored numerical data and documentation are CC BY 4.0. Probabilities are conditional numerical-pathway diagnostics, not physical failure probabilities. No manuscript text, private reviews or restricted physical-experiment data are included in the release asset.",
+  "description": "The v3.1.0 release asset contains seven verification archives and a unified saved-record verification entry point. The exact aggregate asset is archived at version DOI 10.5281/zenodo.23112322. The repository source snapshot is not the aggregate asset. Code is MIT; authored numerical data and documentation are CC BY 4.0. Probabilities are conditional numerical-pathway diagnostics, not physical failure probabilities. No manuscript text, private reviews or restricted physical-experiment data are included in the release asset. Creator metadata was corrected on 2026-10-03. Released files and their checksums are unchanged; creator lists embedded in the deposited files reflect the pre-correction build metadata.",
   "keywords": [
     "multifidelity CFD",
     "dependence uncertainty",
@@ -28,16 +28,6 @@
       "orcid": "0009-0006-4431-9613"
     },
     {
-      "name": "Ren, Xiao",
-      "affiliation": "Shanghai Dongluo Precise Machine Industrial Co., Ltd.",
-      "orcid": "0009-0000-4591-3098"
-    },
-    {
-      "name": "Sun, Xu Dong",
-      "affiliation": "Fuxin Wanda Foundry (Group) Co., Ltd.",
-      "orcid": "0009-0005-8157-3787"
-    },
-    {
       "name": "Shang, Jia Bao",
       "affiliation": "Liaoning Petrochemical University",
       "orcid": "0009-0005-5621-0634"
@@ -46,24 +36,6 @@
       "name": "Zhao, Chao",
       "affiliation": "Liaoning Petrochemical University",
       "orcid": "0009-0004-6623-9871"
-    },
-    {
-      "name": "Liu, Zhi Zhuo",
-      "affiliation": "Liaoning Petrochemical University",
-      "orcid": "0009-0004-4526-3207"
-    },
-    {
-      "name": "Wei, Zi Jian",
-      "affiliation": "Liaoning Petrochemical University",
-      "orcid": "0009-0003-4932-5703"
-    },
-    {
-      "name": "Su, Jia Chen",
-      "affiliation": "Liaoning Petrochemical University"
-    },
-    {
-      "name": "Yan, Wen Yi",
-      "affiliation": "Liaoning Petrochemical University"
     }
   ]
 }

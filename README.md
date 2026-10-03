@@ -59,6 +59,13 @@ Earlier version 3.0.1 remains at <https://doi.org/10.5281/zenodo.22866833>;
 version 2.1.9 remains at <https://doi.org/10.5281/zenodo.22555851>.
 Those immutable records are not overwritten.
 
+## Creator metadata
+
+Current creators: Jia Jun Ma, Bai Lin Lü, Tian Xiang Li, Jia Bao Shang,
+and Chao Zhao. Creator metadata was corrected on 2026-10-03. Released
+files and their checksums are unchanged; creator lists embedded in the
+deposited files reflect the pre-correction build metadata.
+
 ## Licences and exclusions
 
 Code: MIT. Authored numerical data and documentation: CC BY 4.0.
